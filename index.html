@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html charger</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <h1>HTML CHARGER</h1>
+
+    <div class="btn-cont">
+      <button>Elodie</button>
+      <button>Jackie</button>
+      <button>Charlie</button>
+      <button>Carcinha</button>
+    </div>
+
+    <p>
+      Coloque seu html completo aqui, mas no lugar do texto do post escreva
+      "TEXTO" em maiúsculo.
+    </p>
+    <textarea id="html" name="html" cols="30" rows="10"></textarea>
+
+    <p>
+      Coloque o texto do post aqui, as falas ficarão negritadas e da cor
+      escolhida se escritas entre — travessões —.
+    </p>
+    <textarea id="text" name="post" cols="30" rows="10"></textarea>
+
+    <p>cor da fala</p>
+    <select name="select" id="selectColor">
+      <option value="ellie">Elodie</option>
+      <option value="jackie">Jackie</option>
+      <option value="charlie">Charlie</option>
+      <option value="carça">Carcinha</option>
+    </select>
+
+    <div class="buttons">
+      <button id="button" onclick="getHTMLReady()" type="submit">
+        PEGAR HTML PRONTO
+      </button>
+      <!-- <button id="copyText" onclick="copyToClipboard()">
+        <span class="material-symbols-outlined"> content_copy </span>
+      </button> -->
+    </div>
+    <div class="code-block">
+      <code id="postText"></code>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

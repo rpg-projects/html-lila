@@ -1,0 +1,49 @@
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+textarea {
+  width: 320px;
+  display: block;
+  margin: auto;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  padding: 0.4rem 1rem;
+  display: block;
+  margin: 0.5rem auto;
+}
+
+.btn-cont {
+  margin: auto;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.code-block {
+  width: 340px;
+  text-align: justify;
+  margin: 1rem auto;
+}
+
+p {
+  width: 310px;
+  margin: auto;
+  text-align: center;
+}
+
+.buttons {
+  width: 340px;
+  display: flex;
+  margin: 0.5rem auto;
+}
+
+select {
+  display: block;
+  margin: auto;
+  padding: 0.5rem 0.8rem;
+}
