@@ -254,5 +254,5 @@ function copyToClipboard() {
   navigator.clipboard.writeText(copyText);
 
   // Alert the copied text
-  alert("Copied the text: " + copyText);
+  alert("Texto copiado");
 }
