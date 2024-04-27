@@ -195,19 +195,19 @@ const getCharHTML = () => {
   else if (char == "carcinha") return { html: carcinhaHTML, color: "#872657" };
 };
 
-function replaceHtmlSymbols(text) {
-  const noSymbolsText = [];
+// function replaceHtmlSymbols(text) {
+//   const noSymbolsText = [];
 
-  for (let i = 0; i < text.length; i++) {
-    if (text[i] == "<") {
-      noSymbolsText.push("&lt;");
-    } else if (text[i] == ">") {
-      noSymbolsText.push("&gt;");
-    } else noSymbolsText.push(text[i]);
-  }
+//   for (let i = 0; i < text.length; i++) {
+//     if (text[i] == "<") {
+//       noSymbolsText.push("&lt;");
+//     } else if (text[i] == ">") {
+//       noSymbolsText.push("&gt;");
+//     } else noSymbolsText.push(text[i]);
+//   }
 
-  return noSymbolsText.join("");
-}
+//   return noSymbolsText.join("");
+// }
 
 function insertLinesAndColor(text, color) {
   let isLineStart = true;
@@ -215,10 +215,10 @@ function insertLinesAndColor(text, color) {
 
   for (let i = 0; i < text.length; i++) {
     if (text[i] == "—" && isLineStart) {
-      newText.push(`—&lt;b style="color: ${color}"&gt;`);
+      newText.push(`—<b style="color: ${color}">`);
       isLineStart = false;
     } else if (text[i] == "—" && isLineStart == false) {
-      newText.push("&lt;/b&gt;—");
+      newText.push("</b>—");
       isLineStart = true;
     } else newText.push(text[i]);
   }
@@ -229,7 +229,7 @@ function insertLinesAndColor(text, color) {
 const getHTMLReady = () => {
   let { html, color } = getCharHTML();
 
-  html = replaceHtmlSymbols(html);
+  //html = replaceHtmlSymbols(html);
   let [part1, part2] = html.split("TEXTO");
 
   const text = document.getElementById("text").value;
