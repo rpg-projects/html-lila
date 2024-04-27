@@ -1,4 +1,4 @@
-const button = document.getElementById("button");
+const button = document.getElementById("get-html-button");
 
 function replaceHtmlSymbols(text) {
   const noSymbolsText = [];
