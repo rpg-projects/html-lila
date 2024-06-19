@@ -186,6 +186,194 @@ const jackieHTML = `<center>
 </center>
 `;
 
+const oliviaHTML = `<center>
+<div
+  style="
+    width: 650px;
+    margin: 14px;
+    background-color: #E88351;
+    color: #fff;
+    font-family: 'century gothic';
+    font-size: 10px;
+  "
+>
+  <p>
+   OLIVIA WAZOWSKI &nbsp;─&nbsp; FILHA DE HEBE &nbsp;─&nbsp; PRIMEIRO VERÃO
+    &nbsp;─&nbsp; 16 ANOS
+  </p>
+  <div
+    style="
+      background-color: #F6D0BD;
+      text-align: justify;
+      border: #d5732b 3pt solid;
+      padding: 10px;
+      line-height: 14px;
+    "
+  >
+    <div style="float: left">
+      <img
+        src="https://media.discordapp.net/attachments/1069376420062699540/1252766644175110275/ezgif.com-crop_1.gif?ex=6673695b&is=667217db&hm=959a2766bf94eb33f7c6f469db0ca190b7aa5d7e3bd6d4931bd086b998330622&=&width=266&height=266"
+        style="
+          width: 110px;
+          margin-right: 5px;
+          padding: 3px;
+          border: #d5732b 3pt solid;
+        "
+      />
+    </div>
+
+    <span style="font-family: tahoma; font-size: 10pt; color: black">
+      TEXTO
+    </span>
+  </div>
+
+  <p style="text-transform: uppercase">
+    Let the sun illuminate the words that you could not find
+  </p>
+</div>
+</center>`;
+
+const aspenHTML = `<center>
+<div
+  style="
+    width: 650px;
+    margin: 14px;
+    background-color: #587BA2;
+    color: #fff;
+    font-family: 'century gothic';
+    font-size: 10px;
+  "
+>
+  <p>
+   ASPEN HEWITT &nbsp;─&nbsp; FILHA DE DESPINA &nbsp;─&nbsp; PRIMEIRO VERÃO
+    &nbsp;─&nbsp; 16 ANOS
+  </p>
+  <div
+    style="
+      background-color: #CDE0F5;
+      text-align: justify;
+      border: #3F5B7A 3pt solid;
+      padding: 10px;
+      line-height: 14px;
+    "
+  >
+    <div style="float: left">
+      <img
+        src="https://cdn.discordapp.com/attachments/1069376420062699540/1252770179415412827/ezgif.com-crop.webp?ex=66736ca6&is=66721b26&hm=2d3ec5958f36410e74bb55f772936c79c54466d3ce6575b7af6053636f06ee1c&"
+        style="
+          width: 110px;
+          margin-right: 5px;
+          padding: 3px;
+          border: #3F5B7A 3pt solid;
+        "
+      />
+    </div>
+
+    <span style="font-family: tahoma; font-size: 10pt; color: black">
+      TEXTO
+    </span>
+  </div>
+
+  <p style="text-transform: uppercase">
+    Careful creature made friends with time
+  </p>
+</div>
+</center>`;
+
+const hughieHTML = `<center>
+<div
+  style="
+    width: 650px;
+    margin: 14px;
+    background-color: #4777B2;
+    color: #fff;
+    font-family: 'century gothic';
+    font-size: 10px;
+  "
+>
+  <p>
+   HUGHIE LOCKE &nbsp;─&nbsp; FILHO DE ASTREIA &nbsp;─&nbsp; PRIMEIRO VERÃO
+    &nbsp;─&nbsp; 17 ANOS
+  </p>
+  <div
+    style="
+      background-color: #C7E0FE;
+      text-align: justify;
+      border: #3F5B7A 3pt solid;
+      padding: 10px;
+      line-height: 14px;
+    "
+  >
+    <div style="float: left">
+      <img
+        src="https://media.discordapp.net/attachments/1069376420062699540/1252772988965621770/tumblr_2d69366e1c222caa8405bb8d79876f69_f38ddd6e_500-ezgif.com-crop.gif?ex=66736f43&is=66721dc3&hm=3a9ad9fcb544eaccee355a196827f16cfcb39960b98c88e0865cff6e3c842022&=&width=351&height=351"
+        style="
+          width: 110px;
+          margin-right: 5px;
+          padding: 3px;
+          border: #3F5B7A 3pt solid;
+        "
+      />
+    </div>
+
+    <span style="font-family: tahoma; font-size: 10pt; color: black">
+      TEXTO
+    </span>
+  </div>
+
+  <p style="text-transform: uppercase">
+    I have seen you standing in the smoky haze
+  </p>
+</div>
+</center>`;
+
+const kinsleyHTML = `<center>
+<div
+  style="
+    width: 650px;
+    margin: 14px;
+    background-color: #548399;
+    color: #fff;
+    font-family: 'century gothic';
+    font-size: 10px;
+  "
+>
+  <p>
+   KINSLEY KANE &nbsp;─&nbsp; GEEK & LOSER &nbsp;─&nbsp; GHOSTBUSTERS
+    &nbsp;─&nbsp; 16 ANOS
+  </p>
+  <div
+    style="
+      background-color: #C0E2F3;
+      text-align: justify;
+      border: #3F5B7A 3pt solid;
+      padding: 10px;
+      line-height: 14px;
+    "
+  >
+    <div style="float: left">
+      <img
+        src="https://media.discordapp.net/attachments/1069376420062699540/1252775304469151807/26b799d63cc7262844fc0e5b92752a13-ezgif.com-crop.gif?ex=6673716c&is=66721fec&hm=c4ef1236d927e3dce6106f0633e52c7461867e265eec19ae7c665fff6c8f224f&=&width=515&height=515"
+        style="
+          width: 110px;
+          margin-right: 5px;
+          padding: 3px;
+          border: #3F5B7A 3pt solid;
+        "
+      />
+    </div>
+
+    <span style="font-family: tahoma; font-size: 10pt; color: black">
+      TEXTO
+    </span>
+  </div>
+
+  <p style="text-transform: uppercase">
+    It's been a while, but I'm finding my faith
+  </p>
+</div>
+</center>`;
+
 const getCharHTML = () => {
   const char = document.getElementById("selectChar").value;
 
@@ -193,6 +381,10 @@ const getCharHTML = () => {
   else if (char == "charlie") return { html: charlieHTML, color: "#f0a23a" };
   else if (char == "jackie") return { html: jackieHTML, color: "#d5732b" };
   else if (char == "carcinha") return { html: carcinhaHTML, color: "#872657" };
+  else if (char == "olivia") return { html: oliviaHTML, color: "#d5732b" };
+  else if (char == "aspen") return { html: aspenHTML, color: "#3F5B7A" };
+  else if (char == "hughie") return { html: hughieHTML, color: "#3F5B7A" };
+  else if (char == "kinsley") return { html: kinsleyHTML, color: "#3F5B7A" };
 };
 
 function insertLinesAndColor(text, color) {
