@@ -330,53 +330,13 @@ const hughieHTML = `<center>
 </center>
 `;
 
-const kinsleyHTML = `<center>
-<div
-  style="
-    width: 650px;
-    margin: 14px;
-    background-color: #548399;
-    color: #fff;
-    font-family: 'century gothic';
-    font-size: 10px;
-  "
->
-  <p>
-    HUGHIE LOCKE &nbsp;─&nbsp; FILHO DE ASTREIA &nbsp;─&nbsp; PRIMEIRO VERÃO
-    &nbsp;─&nbsp; 17 ANOS
-  </p>
-  <div
-    style="
-      background-color: #C0E2F3;
-      text-align: justify;
-      border: #3F5B7A 3pt solid;
-      padding: 10px;
-      line-height: 14px;
-    "
-  >
-    <div style="float: left">
-      <img
-        src="//64.media.tumblr.com/c36116a4b74ca1c0d74939ba9b334f0b/a004ff2e3f2c14cd-ba/s500x750/44fcedbed647cc0c547f6690b897019ec8892bf8.gif"
-        style="
-          width: 110px;
-          margin-right: 5px;
-          padding: 3px;
-          border: #3F5B7A 3pt solid;
-        "
-      />
-    </div>
-
-    <span style="font-family: tahoma; font-size: 10pt; color: black">
-      TEXTO
-    </span>
-  </div>
-
-  <p style="text-transform: uppercase">
-    It's been a while, but I'm finding my faith
-  </p>
+const kinsleyHTML = `
+<small> Kinsley Kane  escreveu: </small><center><div style="width:650px;margin:14px;background-color:#548399;color:#fff;font-family:'century gothic';font-size:10px;">  <p>   KINSLEY KANE &nbsp;─&nbsp; GEEK &amp; LOSER &nbsp;─&nbsp; GHOSTBUSTERS    &nbsp;─&nbsp; 16 ANOS  </p>
+  <div style="background-color:#C0E2F3;text-align:justify;border:#3F5B7A 3pt solid;padding:10px;line-height:14px;">    <div style="float:left;">      <img src="//64.media.tumblr.com/c36116a4b74ca1c0d74939ba9b334f0b/a004ff2e3f2c14cd-ba/s500x750/44fcedbed647cc0c547f6690b897019ec8892bf8.gif" style="width:110px;margin-right:5px;padding:3px;border:#3F5B7A 3pt solid;" alt="44fcedbed647cc0c547f6690b897019ec8892bf8.gif"></div>
+    <span style="font-family:tahoma;font-size:10pt;color:#000000;">  TEXTO  </span>  </div>
+  <p style="text-transform:uppercase;">    It's been a while, but I'm finding my faith  </p>
 </div>
-</center>
-`;
+</center>`
 
 const getCharHTML = () => {
   const char = document.getElementById("selectChar").value;
@@ -385,9 +345,9 @@ const getCharHTML = () => {
   else if (char == "charlie") return { html: charlieHTML, color: "#f0a23a" };
   else if (char == "jackie") return { html: jackieHTML, color: "#d5732b" };
   else if (char == "carcinha") return { html: carcinhaHTML, color: "#872657" };
-  else if (char == "olivia") return { html: oliviaHTML, color: "#d5732b" };
-  else if (char == "aspen") return { html: aspenHTML, color: "#779ecb" };
-  else if (char == "hughie") return { html: hughieHTML, color: "#FF9966" };
+  else if (char == "olivia") return { html: oliviaHTML, color: "#FF9966" };
+  else if (char == "aspen") return { html: aspenHTML, color: "#779ECB" };
+  else if (char == "hughie") return { html: hughieHTML, color: "#7DA7DB" };
   else if (char == "kinsley") return { html: kinsleyHTML, color: "#7DA7DB" };
 };
 
