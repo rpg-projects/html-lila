@@ -260,7 +260,7 @@ const aspenHTML =  `<center>
   >
     <div style="float: left">
       <img
-        src="src="//64.media.tumblr.com/9a4d7e1a1a938ca98c71cebbc1d3fb5e/db6c41c7b267291e-59/s500x750/016a81c3187e52dbd7665195a1543b7be3fc5bfe.gif"
+        src="https://64.media.tumblr.com/9a4d7e1a1a938ca98c71cebbc1d3fb5e/db6c41c7b267291e-59/s500x750/016a81c3187e52dbd7665195a1543b7be3fc5bfe.gif"
         style="
           width: 110px;
           margin-right: 5px;
@@ -331,7 +331,7 @@ const hughieHTML = `<center>
 `;
 
 const kinsleyHTML = `
-<small> Kinsley Kane  escreveu: </small><center><div style="width:650px;margin:14px;background-color:#548399;color:#fff;font-family:'century gothic';font-size:10px;">  <p>   KINSLEY KANE &nbsp;─&nbsp; GEEK &amp; LOSER &nbsp;─&nbsp; GHOSTBUSTERS    &nbsp;─&nbsp; 16 ANOS  </p>
+<center><div style="width:650px;margin:14px;background-color:#548399;color:#fff;font-family:'century gothic';font-size:10px;">  <p>   KINSLEY KANE &nbsp;─&nbsp; GEEK &amp; LOSER &nbsp;─&nbsp; GHOSTBUSTERS    &nbsp;─&nbsp; 16 ANOS  </p>
   <div style="background-color:#C0E2F3;text-align:justify;border:#3F5B7A 3pt solid;padding:10px;line-height:14px;">    <div style="float:left;">      <img src="//64.media.tumblr.com/c36116a4b74ca1c0d74939ba9b334f0b/a004ff2e3f2c14cd-ba/s500x750/44fcedbed647cc0c547f6690b897019ec8892bf8.gif" style="width:110px;margin-right:5px;padding:3px;border:#3F5B7A 3pt solid;" alt="44fcedbed647cc0c547f6690b897019ec8892bf8.gif"></div>
     <span style="font-family:tahoma;font-size:10pt;color:#000000;">  TEXTO  </span>  </div>
   <p style="text-transform:uppercase;">    It's been a while, but I'm finding my faith  </p>
@@ -356,10 +356,10 @@ function insertLinesAndColor(text, color) {
   const newText = [];
 
   for (let i = 0; i < text.length; i++) {
-    if (text[i] == "-" && isLineStart) {
+    if (text[i] == "~" && isLineStart) {
       newText.push(`—<b style="color: ${color}">`);
       isLineStart = false;
-    } else if (text[i] == "-" && isLineStart == false) {
+    } else if (text[i] == "~" && isLineStart == false) {
       newText.push("</b>—");
       isLineStart = true;
     } else newText.push(text[i]);
