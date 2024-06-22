@@ -186,33 +186,197 @@ const jackieHTML = `<center>
 </center>
 `;
 
-const oliviaHTML = `<center><div style="width:650px;margin:14px;background-color:#C2664B;color:#fff;font-family:'century gothic';font-size:10px;">  <p>   OLIVIA WAZOWSKI ─ FILHA DE HEBE ─ PRIMEIRO VERÃO ─ 16 ANOS  </p>
-  <div style="background-color:#fff5f0;text-align:justify;border:#FF9966 3pt solid;padding:10px;line-height:14px;">    <div style="float:left;">      <img src="//64.media.tumblr.com/717ff23123cec91083a8574e209b71cc/a004ff2e3f2c14cd-4e/s250x400/b4803e48d35a6843701f87d9c581d83c1e8d1284.gif" style="width:110px;margin-right:5px;padding:3px;border:#FF9966 3pt solid;" alt="b4803e48d35a6843701f87d9c581d83c1e8d1284.gif"></div>
-<span style="font-family:tahoma;font-size:10pt;color:#000000;">                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.                 <br></span></div>
-  <p style="text-transform:uppercase;">Let the sun illuminate the words that you could not find</p>
-</div>
-</center>`
+const oliviaHTML = `<center>
+<div
+  style="
+    width: 650px;
+    margin: 14px;
+    background-color: #C2664B;
+    color: #fff;
+    font-family: 'century gothic';
+    font-size: 10px;
+  "
+>
+  <p>
+    OLIVIA WAZOWSKI &nbsp;─&nbsp; FILHA DE HEBE &nbsp;─&nbsp; PRIMEIRO VERÃO
+    &nbsp;─&nbsp; 17 ANOS
+  </p>
+  <div
+    style="
+      background-color: #fff5f0;
+      text-align: justify;
+      border: #FF9966 3pt solid;
+      padding: 10px;
+      line-height: 14px;
+    "
+  >
+    <div style="float: left">
+      <img
+        src="//64.media.tumblr.com/717ff23123cec91083a8574e209b71cc/a004ff2e3f2c14cd-4e/s250x400/b4803e48d35a6843701f87d9c581d83c1e8d1284.gif"
+        style="
+          width: 110px;
+          margin-right: 5px;
+          padding: 3px;
+          border: #FF9966 3pt solid;
+        "
+      />
+    </div>
 
-const aspenHTML = `<center><div style="width:650px;margin:14px;background-color:#536f8e;color:#fff;font-family:'century gothic';font-size:10px;">  <p>   ASPEN HEWITT ─ FILHA DE DESPINA ─ PRIMEIRO VERÃO ─ 16 ANOS  </p>
-  <div style="background-color:#e4ecf5;text-align:justify;border:#779ECB 3pt solid;padding:10px;line-height:14px;">    <div style="float:left;">      <img src="//64.media.tumblr.com/9a4d7e1a1a938ca98c71cebbc1d3fb5e/db6c41c7b267291e-59/s500x750/016a81c3187e52dbd7665195a1543b7be3fc5bfe.gif" style="width:110px;margin-right:5px;padding:3px;border:#779ECB 3pt solid;" alt="016a81c3187e52dbd7665195a1543b7be3fc5bfe.gif"></div>
-<span style="font-family:tahoma;font-size:10pt;color:#000000;">                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.                 <br></span></div>
-  <p style="text-transform:uppercase;">    Careful creature made friends with time  </p>
-</div>
-</center>`
+    <span style="font-family: tahoma; font-size: 10pt; color: black">
+      TEXTO
+    </span>
+  </div>
 
-const hughieHTML = `<center><div style="width:650px;margin:14px;background-color:#456FA3;color:#fff;font-family:'century gothic';font-size:10px;">  <p>   HUGHIE LOCKE ─ FILHO DE ASTRÉIA ─ PRIMEIRO VERÃO ─ 17 ANOS  </p>
-  <div style="background-color:#e5edf8;text-align:justify;border:#7DA7DB 3pt solid;padding:10px;line-height:14px;">    <div style="float:left;">      <img src="//64.media.tumblr.com/f408f7a1de6baa2a55bcfa5bae2f390b/a004ff2e3f2c14cd-26/s400x600/d3ed51def9332fce6ff9dbdae34d81f4bb56612b.gifv" style="width:110px;margin-right:5px;padding:3px;border:#7DA7DB 3pt solid;" alt="d3ed51def9332fce6ff9dbdae34d81f4bb56612b.gifv"></div>
-<span style="font-family:tahoma;font-size:10pt;color:#000000;">                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.                 <br></span></div>
-  <p style="text-transform:uppercase;">I have seen you standing in the smoky haze</p>
+  <p style="text-transform: uppercase">
+    Let the sun illuminate the words that you could not find
+  </p>
 </div>
-</center>`
+</center>
+`;
 
-const kinsleyHTML = `<center><div style="width:650px;margin:14px;background-color:#548399;color:#fff;font-family:'century gothic';font-size:10px;">  <p>   KINSLEY KANE &nbsp;─&nbsp; GEEK &amp; LOSER &nbsp;─&nbsp; GHOSTBUSTERS    &nbsp;─&nbsp; 16 ANOS  </p>
-  <div style="background-color:#C0E2F3;text-align:justify;border:#3F5B7A 3pt solid;padding:10px;line-height:14px;">    <div style="float:left;">      <img src="//64.media.tumblr.com/c36116a4b74ca1c0d74939ba9b334f0b/a004ff2e3f2c14cd-ba/s500x750/44fcedbed647cc0c547f6690b897019ec8892bf8.gif" style="width:110px;margin-right:5px;padding:3px;border:#3F5B7A 3pt solid;" alt="44fcedbed647cc0c547f6690b897019ec8892bf8.gif"></div>
-    <span style="font-family:tahoma;font-size:10pt;color:#000000;">      Estava totalmente imersa na música dela, quase como se esquecesse do resto do mundo, quase como se ela me levasse para algum outro. Mas quando ela parou bruscamente, tive certeza absoluta que tinha me visto. Era a única explicação. Arregalei os olhos e dei três passos para trás antes de tropeçar em alguma coisa e cair dentro de um buraco aberto para um caixão. Dei um grito tão alto que deve ter ecoado pelo cemitério inteiro ao cair. Com certeza, se ela não tivesse me visto, agora eu tinha sido notada. Por sorte - se é que você pode dizer que houve qualquer tipo de sorte ali - eu tinha caído na terra fofa. E o pior que aconteceu comigo era só que agora estava toda suja de terra, e claro, envergonhada. Parte de mim não queria nem sair dali de dentro, literalmente me enfiando num buraco de tanta vergonha.    </span>  </div>
-  <p style="text-transform:uppercase;">    It's been a while, but I'm finding my faith  </p>
+const aspenHTML =  `<center>
+<div
+  style="
+    width: 650px;
+    margin: 14px;
+    background-color: #536f8e;
+    color: #fff;
+    font-family: 'century gothic';
+    font-size: 10px;
+  "
+>
+  <p>
+    ASPEN HEWITT &nbsp;─&nbsp; FILHA DE DESPINA &nbsp;─&nbsp; PRIMEIRO VERÃO
+    &nbsp;─&nbsp; 17 ANOS
+  </p>
+  <div
+    style="
+      background-color: #e4ecf5;
+      text-align: justify;
+      border: #779ECB 3pt solid;
+      padding: 10px;
+      line-height: 14px;
+    "
+  >
+    <div style="float: left">
+      <img
+        src="src="//64.media.tumblr.com/9a4d7e1a1a938ca98c71cebbc1d3fb5e/db6c41c7b267291e-59/s500x750/016a81c3187e52dbd7665195a1543b7be3fc5bfe.gif"
+        style="
+          width: 110px;
+          margin-right: 5px;
+          padding: 3px;
+          border: #779ECB 3pt solid;
+        "
+      />
+    </div>
+
+    <span style="font-family: tahoma; font-size: 10pt; color: black">
+      TEXTO
+    </span>
+  </div>
+
+  <p style="text-transform: uppercase">
+    Careful creature made friends with time
+  </p>
 </div>
-</center>`
+</center>
+`;
+
+const hughieHTML = `<center>
+<div
+  style="
+    width: 650px;
+    margin: 14px;
+    background-color: #456FA3;
+    color: #fff;
+    font-family: 'century gothic';
+    font-size: 10px;
+  "
+>
+  <p>
+    HUGHIE LOCKE &nbsp;─&nbsp; FILHO DE ASTREIA &nbsp;─&nbsp; PRIMEIRO VERÃO
+    &nbsp;─&nbsp; 17 ANOS
+  </p>
+  <div
+    style="
+      background-color: #e5edf8;
+      text-align: justify;
+      border: #7DA7DB 3pt solid;
+      padding: 10px;
+      line-height: 14px;
+    "
+  >
+    <div style="float: left">
+      <img
+        src="//64.media.tumblr.com/f408f7a1de6baa2a55bcfa5bae2f390b/a004ff2e3f2c14cd-26/s400x600/d3ed51def9332fce6ff9dbdae34d81f4bb56612b.gifv"
+        style="
+          width: 110px;
+          margin-right: 5px;
+          padding: 3px;
+          border: #7DA7DB 3pt solid;
+        "
+      />
+    </div>
+
+    <span style="font-family: tahoma; font-size: 10pt; color: black">
+      TEXTO
+    </span>
+  </div>
+
+  <p style="text-transform: uppercase">
+    I have seen you standing in the smoky haze
+  </p>
+</div>
+</center>
+`;
+
+const kinsleyHTML = `<center>
+<div
+  style="
+    width: 650px;
+    margin: 14px;
+    background-color: #548399;
+    color: #fff;
+    font-family: 'century gothic';
+    font-size: 10px;
+  "
+>
+  <p>
+    HUGHIE LOCKE &nbsp;─&nbsp; FILHO DE ASTREIA &nbsp;─&nbsp; PRIMEIRO VERÃO
+    &nbsp;─&nbsp; 17 ANOS
+  </p>
+  <div
+    style="
+      background-color: #C0E2F3;
+      text-align: justify;
+      border: #3F5B7A 3pt solid;
+      padding: 10px;
+      line-height: 14px;
+    "
+  >
+    <div style="float: left">
+      <img
+        src="//64.media.tumblr.com/c36116a4b74ca1c0d74939ba9b334f0b/a004ff2e3f2c14cd-ba/s500x750/44fcedbed647cc0c547f6690b897019ec8892bf8.gif"
+        style="
+          width: 110px;
+          margin-right: 5px;
+          padding: 3px;
+          border: #3F5B7A 3pt solid;
+        "
+      />
+    </div>
+
+    <span style="font-family: tahoma; font-size: 10pt; color: black">
+      TEXTO
+    </span>
+  </div>
+
+  <p style="text-transform: uppercase">
+    It's been a while, but I'm finding my faith
+  </p>
+</div>
+</center>
+`;
 
 const getCharHTML = () => {
   const char = document.getElementById("selectChar").value;
