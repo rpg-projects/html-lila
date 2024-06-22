@@ -386,9 +386,9 @@ const getCharHTML = () => {
   else if (char == "jackie") return { html: jackieHTML, color: "#d5732b" };
   else if (char == "carcinha") return { html: carcinhaHTML, color: "#872657" };
   else if (char == "olivia") return { html: oliviaHTML, color: "#d5732b" };
-  else if (char == "aspen") return { html: aspenHTML, color: "#3F5B7A" };
-  else if (char == "hughie") return { html: hughieHTML, color: "#3F5B7A" };
-  else if (char == "kinsley") return { html: kinsleyHTML, color: "#3F5B7A" };
+  else if (char == "aspen") return { html: aspenHTML, color: "#779ecb" };
+  else if (char == "hughie") return { html: hughieHTML, color: "#FF9966" };
+  else if (char == "kinsley") return { html: kinsleyHTML, color: "#7DA7DB" };
 };
 
 function insertLinesAndColor(text, color) {
@@ -396,10 +396,10 @@ function insertLinesAndColor(text, color) {
   const newText = [];
 
   for (let i = 0; i < text.length; i++) {
-    if (text[i] == "—" && isLineStart) {
+    if (text[i] == "-" && isLineStart) {
       newText.push(`—<b style="color: ${color}">`);
       isLineStart = false;
-    } else if (text[i] == "—" && isLineStart == false) {
+    } else if (text[i] == "-" && isLineStart == false) {
       newText.push("</b>—");
       isLineStart = true;
     } else newText.push(text[i]);
