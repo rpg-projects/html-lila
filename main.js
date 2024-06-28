@@ -356,14 +356,10 @@ function insertLinesAndColor(text, color) {
   const newText = [];
 
   for (let i = 0; i < text.length; i++) {
-    if (text[i] == "-" && text[i+1] == "-" && isLineStart) {
-      newText[i] = ''
-      newText[i+1] = ''
+    if (text[i] == "~" && isLineStart) {
       newText.push(`—<b style="color: ${color}">`);
       isLineStart = false;
-    } else if (text[i] == "-" && text[i+1] == "-" && isLineStart == false) {
-      newText[i] = ''
-      newText[i+1] = ''
+    } else if (text[i] == "~" && isLineStart == false) {
       newText.push("</b>—");
       isLineStart = true;
     } else newText.push(text[i]);
