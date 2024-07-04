@@ -10,7 +10,7 @@ const charlieHTML = `<center>
   "
 >
   <p>
-    CHARLIE BARLOWE &nbsp;─&nbsp; FILHO DE APOLO &nbsp;─&nbsp; TERCEIRO VERÃO
+    CHARLIE BARLOWE &nbsp;─&nbsp; FILHO DE APOLO &nbsp;─&nbsp; QUARTO VERÃO
     &nbsp;─&nbsp; 18 ANOS
   </p>
   <div
@@ -57,8 +57,8 @@ const elodieHTML = `<center>
   "
 >
   <p>
-    GREGUSKA ELODIE REITH &nbsp;─&nbsp; FILHA DE ATENA &nbsp;─&nbsp; SEGUNDO
-    VERÃO &nbsp;─&nbsp; 15 ANOS
+    GREGUSKA ELODIE REITH &nbsp;─&nbsp; FILHA DE ATENA &nbsp;─&nbsp; TERCEIRO
+    VERÃO &nbsp;─&nbsp; 16 ANOS
   </p>
   <div
     style="
@@ -103,7 +103,7 @@ const carcinhaHTML = `<center>
 >
   <p>
     CARÇOELE ELLE CONSUELA SUZANA MITCHELL &nbsp;─&nbsp; FILHA DE DIONÍSIO
-    &nbsp;─&nbsp; SEGUNDO VERÃO &nbsp;─&nbsp; 15 ANOS
+    &nbsp;─&nbsp; TERCEIRO VERÃO &nbsp;─&nbsp; 16 ANOS
   </p>
   <div
     style="
@@ -150,7 +150,7 @@ const jackieHTML = `<center>
   "
 >
   <p>
-    JACKIE BURDIEK &nbsp;─&nbsp; FILHA DE HERMES &nbsp;─&nbsp; SEGUNDO VERÃO
+    JACKIE BURDIEK &nbsp;─&nbsp; FILHA DE HERMES &nbsp;─&nbsp; TERCEIRO VERÃO
     &nbsp;─&nbsp; 17 ANOS
   </p>
   <div
@@ -199,7 +199,7 @@ const oliviaHTML = `<center>
 >
   <p>
     OLIVIA WAZOWSKI &nbsp;─&nbsp; FILHA DE HEBE &nbsp;─&nbsp; PRIMEIRO VERÃO
-    &nbsp;─&nbsp; 15 ANOS
+    &nbsp;─&nbsp; 16 ANOS
   </p>
   <div
     style="
@@ -295,7 +295,7 @@ const hughieHTML = `<center>
 >
   <p>
     HUGHIE LOCKE &nbsp;─&nbsp; FILHO DE ASTREIA &nbsp;─&nbsp; PRIMEIRO VERÃO
-    &nbsp;─&nbsp; 16 ANOS
+    &nbsp;─&nbsp; 17 ANOS
   </p>
   <div
     style="
@@ -338,8 +338,7 @@ const kinsleyHTML = `
 </div>
 </center>`
 
-const getCharHTML = () => {
-  const char = document.getElementById("selectChar").value;
+const getCharHTML = (char) => {
 
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
   else if (char == "charlie") return { html: charlieHTML, color: "#f0a23a" };
@@ -351,16 +350,18 @@ const getCharHTML = () => {
   else if (char == "kinsley") return { html: kinsleyHTML, color: "#7DA7DB" };
 };
 
-function insertLinesAndColor(text, color) {
+function getTextReady(char, color) {
+  const text = document.getElementById("text").value;
+
   let isLineStart = true;
   const newText = [];
 
   for (let i = 0; i < text.length; i++) {
     if (text[i] == "~" && isLineStart) {
-      newText.push(`—<b style="color: ${color}">`);
+      char === "aspen" ? newText.push(`<b style="color: ${color}">`) : newText.push(`—<b style="color: ${color}">`);
       isLineStart = false;
     } else if (text[i] == "~" && isLineStart == false) {
-      newText.push("</b>—");
+      char === "aspen" ? newText.push("</b>") : newText.push("</b>—");
       isLineStart = true;
     } else newText.push(text[i]);
   }
@@ -369,14 +370,15 @@ function insertLinesAndColor(text, color) {
 }
 
 const getHTMLReady = () => {
-  let { html, color } = getCharHTML();
+  const char = document.getElementById("selectChar").value;
+
+  let { html, color } = getCharHTML(char);
 
   let [part1, part2] = html.split("TEXTO");
 
-  const text = document.getElementById("text").value;
-  const newText = insertLinesAndColor(text, color);
+  const text = getTextReady(char, color);
 
-  completeHtml = `${part1}${newText}${part2}`;
+  completeHtml = `${part1}${text}${part2}`;
 
   navigator.clipboard.writeText(completeHtml);
   return completeHtml;
