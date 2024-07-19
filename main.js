@@ -331,12 +331,7 @@ const hughieHTML = `<center>
 `;
 
 const kinsleyHTML = `
-<center><div style="width:650px;margin:14px;background-color:#548399;color:#fff;font-family:'century gothic';font-size:10px;">  <p>   KINSLEY KANE &nbsp;─&nbsp; GEEK &amp; LOSER &nbsp;─&nbsp; GHOSTBUSTERS    &nbsp;─&nbsp; 16 ANOS  </p>
-  <div style="background-color:#C0E2F3;text-align:justify;border:#3F5B7A 3pt solid;padding:10px;line-height:14px;">    <div style="float:left;">      <img src="//64.media.tumblr.com/c36116a4b74ca1c0d74939ba9b334f0b/a004ff2e3f2c14cd-ba/s500x750/44fcedbed647cc0c547f6690b897019ec8892bf8.gif" style="width:110px;margin-right:5px;padding:3px;border:#3F5B7A 3pt solid;" alt="44fcedbed647cc0c547f6690b897019ec8892bf8.gif"></div>
-    <span style="font-family:tahoma;font-size:10pt;color:#000000;">  TEXTO  </span>  </div>
-  <p style="text-transform:uppercase;">    It's been a while, but I'm finding my faith  </p>
-</div>
-</center>`
+<center><div style="width:650px;margin:14px;background-color:#99424a;color:#fff;font-family:'century gothic';font-size:10px;">  <p>   KINSLEY PALMER&nbsp; ─&nbsp; FILHA DE CIRCE&nbsp; ─&nbsp; PRIMEIRA CONTA&nbsp; ─&nbsp; 15 ANOS  </p>  <div style="background-color:#fff1f2;text-align:justify;border:#FF6E7B 3pt solid;padding:10px;line-height:14px;">    <div style="float:left;">      <img src="//64.media.tumblr.com/c36116a4b74ca1c0d74939ba9b334f0b/a004ff2e3f2c14cd-ba/s500x750/44fcedbed647cc0c547f6690b897019ec8892bf8.gif" style="width:105px;margin-right:5px;padding:3px;border:#FF6E7B 3pt solid;" alt="44fcedbed647cc0c547f6690b897019ec8892bf8.gif"></div>    <span style="font-family:tahoma;font-size:10pt;color:#000000;">  TEXTO  </span>  </div>  <p style="text-transform:uppercase;">Your head in the curtains, your heart like the fourth of July</p></div></center>`
 
 const getCharHTML = (char) => {
 
@@ -347,7 +342,7 @@ const getCharHTML = (char) => {
   else if (char == "olivia") return { html: oliviaHTML, color: "#FF9966" };
   else if (char == "aspen") return { html: aspenHTML, color: "#779ECB" };
   else if (char == "hughie") return { html: hughieHTML, color: "#7DA7DB" };
-  else if (char == "kinsley") return { html: kinsleyHTML, color: "#7DA7DB" };
+  else if (char == "kinsley") return { html: kinsleyHTML, color: "#FF6E7B" };
 };
 
 function getTextReady(char, color) {
