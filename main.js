@@ -260,7 +260,7 @@ const aspenHTML =  `<center>
   >
     <div style="float: left">
       <img
-        src="https://64.media.tumblr.com/9a4d7e1a1a938ca98c71cebbc1d3fb5e/db6c41c7b267291e-59/s500x750/016a81c3187e52dbd76651108a1543b7be3fc5bfe.gif"
+        src="//64.media.tumblr.com/9a4d7e1a1a938ca98c71cebbc1d3fb5e/db6c41c7b267291e-59/s500x750/016a81c3187e52dbd7665195a1543b7be3fc5bfe.gif"
         style="
           width: 108px;
           margin-right: 8px;
