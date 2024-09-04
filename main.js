@@ -26,14 +26,14 @@ const charlieHTML = `<center>
       <img
         src="https://64.media.tumblr.com/7a2f61cb6298a1dd71d54cbe03862035/67819a73e0192ed5-c9/s400x600/2151dd08f56c0e92e23ddf54356fc27e34f07050.gifv"
         style="
-          width: 108px;
-          margin-right: 8px;
+          width: 102px;
+          margin-right: 6px;
           padding: 3px;
           border: #f0a23a 3pt solid;
         "
       />
     </div>
-    <span style="font-family: tahoma; font-size: 10pt; color: black">
+    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">
       TEXTO
     </span>
   </div>
@@ -73,14 +73,14 @@ const elodieHTML = `<center>
       <img
         src="https://64.media.tumblr.com/ca5d29841fbdb3460380d7e049b03c6e/885d52890a29ee4d-35/s250x400/4fb355b7de0a408ce96180e5aff8c893f11c281b.gifv"
         style="
-          width: 108px;
-          margin-right: 8px;
+          width: 102px;
+          margin-right: 6px;
           padding: 3px;
           border: #9ab973 3pt solid;
         "
       />
     </div>
-    <span style="font-family: tahoma; font-size: 10pt; color: black">
+    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">
       TEXTO
     </span>
   </div>
@@ -118,14 +118,14 @@ const carcinhaHTML = `<center>
       <img
         src="https://64.media.tumblr.com/aaf721f9d3e71985223aacd3a13b4b0a/1b20922c5c763baf-c5/s400x600/208700e72630491f2fc0a77bab8f879c869f2265.gifv"
         style="
-          width: 108px;
-          margin-right: 8px;
+          width: 102px;
+          margin-right: 6px;
           padding: 3px;
           border: #872657 3pt solid;
         "
       />
     </div>
-    <span style="font-family: tahoma; font-size: 10pt; color: black">
+    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">
       TEXTO
     </span>
   </div>
@@ -166,15 +166,15 @@ const jackieHTML = `<center>
       <img
         src="https://64.media.tumblr.com/ee3b4700d8cd0d178d0b4e70b740a394/1b20922c5c763baf-c9/s250x400/455b9c1a34447a8d10a6f515830339e72b23987a.gifv"
         style="
-          width: 108px;
-          margin-right: 8px;
+          width: 102px;
+          margin-right: 6px;
           padding: 3px;
           border: #d5732b 3pt solid;
         "
       />
     </div>
 
-    <span style="font-family: tahoma; font-size: 10pt; color: black">
+    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">
       TEXTO
     </span>
   </div>
@@ -214,15 +214,15 @@ const oliviaHTML = `<center>
       <img
         src="//64.media.tumblr.com/717ff23123cec91083a8574e209b71cc/a004ff2e3f2c14cd-4e/s250x400/b4803e48d35a6843701f87d9c581d83c1e8d1284.gif"
         style="
-          width: 108px;
-          margin-right: 8px;
+          width: 102px;
+          margin-right: 6px;
           padding: 3px;
           border: #FF9966 3pt solid;
         "
       />
     </div>
 
-    <span style="font-family: tahoma; font-size: 10pt; color: black">
+    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">
       TEXTO
     </span>
   </div>
@@ -262,15 +262,15 @@ const aspenHTML =  `<center>
       <img
         src="//64.media.tumblr.com/9a4d7e1a1a938ca98c71cebbc1d3fb5e/db6c41c7b267291e-59/s500x750/016a81c3187e52dbd7665195a1543b7be3fc5bfe.gif"
         style="
-          width: 108px;
-          margin-right: 8px;
+          width: 102px;
+          margin-right: 6px;
           padding: 3px;
           border: #779ECB 3pt solid;
         "
       />
     </div>
 
-    <span style="font-family: tahoma; font-size: 10pt; color: black">
+    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">
       TEXTO
     </span>
   </div>
@@ -310,15 +310,15 @@ const hughieHTML = `<center>
       <img
         src="//64.media.tumblr.com/f408f7a1de6baa2a55bcfa5bae2f390b/a004ff2e3f2c14cd-26/s400x600/d3ed51def9332fce6ff9dbdae34d81f4bb56612b.gifv"
         style="
-          width: 108px;
-          margin-right: 8px;
+          width: 102px;
+          margin-right: 6px;
           padding: 3px;
           border: #7DA7DB 3pt solid;
         "
       />
     </div>
 
-    <span style="font-family: tahoma; font-size: 10pt; color: black">
+    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">
       TEXTO
     </span>
   </div>
