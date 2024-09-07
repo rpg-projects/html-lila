@@ -294,8 +294,8 @@ const hughieHTML = `<center>
   "
 >
   <p>
-    HUGHIE LOCKE &nbsp;─&nbsp; FILHO DE ASTREIA &nbsp;─&nbsp; PRIMEIRO VERÃO
-    &nbsp;─&nbsp; 17 ANOS
+    HUGHIE LOCKE &nbsp;─&nbsp; FILHO DE ASTREIA &nbsp;─&nbsp; SEGUNDO VERÃO
+    &nbsp;─&nbsp; 18 ANOS
   </p>
   <div
     style="
@@ -324,7 +324,7 @@ const hughieHTML = `<center>
   </div>
 
   <p style="text-transform: uppercase">
-    I have seen you standing in the smoky haze
+    Crying zeros and i'm hearing 111
   </p>
 </div>
 </center>
@@ -332,6 +332,23 @@ const hughieHTML = `<center>
 
 const kinsleyHTML = `
 <center><div style="width:650px;margin:14px;background-color:#99424a;color:#fff;font-family:'century gothic';font-size:10px;">  <p>   KINSLEY PALMER&nbsp; ─&nbsp; FILHA DE CIRCE&nbsp; ─&nbsp; PRIMEIRA CONTA&nbsp; ─&nbsp; 15 ANOS  </p>  <div style="background-color:#fff1f2;text-align:justify;border:#FF6E7B 3pt solid;padding:10px;line-height:14px;">    <div style="float:left;">      <img src="//64.media.tumblr.com/c36116a4b74ca1c0d74939ba9b334f0b/a004ff2e3f2c14cd-ba/s500x750/44fcedbed647cc0c547f6690b897019ec8892bf8.gif" style="width:108px;margin-right:8px;padding:3px;border:#FF6E7B 3pt solid;" alt="44fcedbed647cc0c547f6690b897019ec8892bf8.gif"></div>    <span style="font-family:tahoma;font-size:10pt;color:#000000;">  TEXTO  </span>  </div>  <p style="text-transform:uppercase;">Your head in the curtains, your heart like the fourth of July</p></div></center>`
+
+const matthewHTML = `<center><div style="width:650px; margin: 14px; background-color: #3b0707; color: #fff; font-family: 'century gothic'; font-size: 10px;">  
+  <p> MATTHEW GRAYBACK&nbsp; ─&nbsp; FILHO DE HEFESTO&nbsp; ─&nbsp; PRIMEIRO VERÃO&nbsp; ─&nbsp;  16 ANOS </p>
+  <div style="background-color: #e1d5d5; text-align: justify; border: #4F0E0E 3pt solid; padding: 10px; line-height: 14px;"><div style="float: left"><img src="https://64.media.tumblr.com/e3325bbc531888c9a37e73bf80622e29/c562120c97effd1c-e4/s500x750/44ad647a39291ab28a6068c89d9535998d6a0030.webp" style="width: 102px; margin-right: 6px; padding: 3px; border: #4F0E0E 3pt solid;"></div>
+    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">      TEXTO    </span>  </div>
+  <p>ONCE UPON A DIFFERENT LIFE, WE RODE OUR BIKES INTO THE SKY</p>
+</div>
+</center>`
+
+const skylarHTML = `
+<center><div style="    width: 650px;    margin: 14px;    background-color: #590e34;    color: #fff;    font-family: 'century gothic';    font-size: 10px;  ">  <p>    SKYLAR DILAURENTIS&nbsp; ─&nbsp; FILHO DE DIONÍSIO&nbsp; ─&nbsp; PRIMEIRO VERÃO&nbsp; ─&nbsp;  15 ANOS  </p>
+  <div style="      background-color: #e3cad6;      text-align: justify;      border: #872657 3pt solid;      padding: 10px;      line-height: 14px;    ">    <div style="float: left">      <img src="https://64.media.tumblr.com/fa0ed8e4c21d40503d36a2b6d6e776b2/3c937a31625d5dbf-60/s250x400/a625d8964e4fb40e798ef94af3f624c675f6b124.gifv" style="          width: 102px;          margin-right: 6px;          padding: 3px;          border: #872657 3pt solid;        ">    </div>
+    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">      TEXTO    </span>  </div>
+  <p>HE TOOK THE MIDNIGHT TRAIN GOING ANYWHERE</p>
+</div>
+</center>
+`
 
 const getCharHTML = (char) => {
 
@@ -343,6 +360,8 @@ const getCharHTML = (char) => {
   else if (char == "aspen") return { html: aspenHTML, color: "#779ECB" };
   else if (char == "hughie") return { html: hughieHTML, color: "#7DA7DB" };
   else if (char == "kinsley") return { html: kinsleyHTML, color: "#FF6E7B" };
+  else if (char == "matthew") return { html: matthewHTML, color: "#4F0E0E" };
+  else if (char == "skylar") return { html: matthewHTML, color: "#872657" };
 };
 
 function getTextReady(char, color) {
