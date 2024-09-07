@@ -361,7 +361,7 @@ const getCharHTML = (char) => {
   else if (char == "hughie") return { html: hughieHTML, color: "#7DA7DB" };
   else if (char == "kinsley") return { html: kinsleyHTML, color: "#FF6E7B" };
   else if (char == "matthew") return { html: matthewHTML, color: "#4F0E0E" };
-  else if (char == "skylar") return { html: matthewHTML, color: "#872657" };
+  else if (char == "skylar") return { html: skylarHTML, color: "#872657" };
 };
 
 function getTextReady(char, color) {
