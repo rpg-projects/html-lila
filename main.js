@@ -10,8 +10,8 @@ const charlieHTML = `<center>
   "
 >
   <p>
-    CHARLIE BARLOWE &nbsp;─&nbsp; FILHO DE APOLO &nbsp;─&nbsp; QUARTO VERÃO
-    &nbsp;─&nbsp; 18 ANOS
+    CHARLIE BARLOWE &nbsp;─&nbsp; FILHO DE APOLO &nbsp;─&nbsp; QUINTO VERÃO
+    &nbsp;─&nbsp; 19 ANOS
   </p>
   <div
     style="
@@ -57,8 +57,8 @@ const elodieHTML = `<center>
   "
 >
   <p>
-    GREGUSKA ELODIE REITH &nbsp;─&nbsp; FILHA DE ATENA &nbsp;─&nbsp; TERCEIRO
-    VERÃO &nbsp;─&nbsp; 16 ANOS
+    GREGUSKA ELODIE REITH &nbsp;─&nbsp; FILHA DE ATENA &nbsp;─&nbsp; QUARTO
+    VERÃO &nbsp;─&nbsp; 17 ANOS
   </p>
   <div
     style="
@@ -103,7 +103,7 @@ const carcinhaHTML = `<center>
 >
   <p>
     CARÇOELE ELLE CONSUELA SUZANA MITCHELL &nbsp;─&nbsp; FILHA DE DIONÍSIO
-    &nbsp;─&nbsp; TERCEIRO VERÃO &nbsp;─&nbsp; 16 ANOS
+    &nbsp;─&nbsp; QUARTO VERÃO &nbsp;─&nbsp; 17 ANOS
   </p>
   <div
     style="
@@ -150,8 +150,8 @@ const jackieHTML = `<center>
   "
 >
   <p>
-    JACKIE BURDIEK &nbsp;─&nbsp; FILHA DE HERMES &nbsp;─&nbsp; TERCEIRO VERÃO
-    &nbsp;─&nbsp; 17 ANOS
+    JACKIE BURDIEK &nbsp;─&nbsp; FILHA DE HERMES &nbsp;─&nbsp; QUARTO VERÃO
+    &nbsp;─&nbsp; 18 ANOS
   </p>
   <div
     style="
@@ -198,8 +198,8 @@ const oliviaHTML = `<center>
   "
 >
   <p>
-    OLIVIA WAZOWSKI &nbsp;─&nbsp; FILHA DE HEBE &nbsp;─&nbsp; PRIMEIRO VERÃO
-    &nbsp;─&nbsp; 16 ANOS
+    OLIVIA WAZOWSKI &nbsp;─&nbsp; FILHA DE HEBE &nbsp;─&nbsp; SEGUNDO VERÃO
+    &nbsp;─&nbsp; 17 ANOS
   </p>
   <div
     style="
@@ -246,8 +246,8 @@ const aspenHTML =  `<center>
   "
 >
   <p>
-    ASPEN HEWITT &nbsp;─&nbsp; FILHA DE DESPINA &nbsp;─&nbsp; PRIMEIRO VERÃO
-    &nbsp;─&nbsp; 16 ANOS
+    ASPEN HEWITT &nbsp;─&nbsp; FILHA DE DESPINA &nbsp;─&nbsp; SEGUNDO VERÃO
+    &nbsp;─&nbsp; 17 ANOS
   </p>
   <div
     style="
@@ -308,7 +308,7 @@ const hughieHTML = `<center>
   >
     <div style="float: left">
       <img
-        src="//64.media.tumblr.com/f408f7a1de6baa2a55bcfa5bae2f390b/a004ff2e3f2c14cd-26/s400x600/d3ed51def9332fce6ff9dbdae34d81f4bb56612b.gifv"
+        src="https://i.pinimg.com/originals/eb/92/e8/eb92e89dada002f3ea4c3e13b9a32229.gif"
         style="
           width: 102px;
           margin-right: 6px;
