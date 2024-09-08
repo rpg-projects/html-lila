@@ -331,7 +331,10 @@ const hughieHTML = `<center>
 `;
 
 const kinsleyHTML = `
-<center><div style="width:650px;margin:14px;background-color:#99424a;color:#fff;font-family:'century gothic';font-size:10px;">  <p>   KINSLEY PALMER&nbsp; ─&nbsp; FILHA DE CIRCE&nbsp; ─&nbsp; PRIMEIRA CONTA&nbsp; ─&nbsp; 15 ANOS  </p>  <div style="background-color:#fff1f2;text-align:justify;border:#FF6E7B 3pt solid;padding:10px;line-height:14px;">    <div style="float:left;">      <img src="//64.media.tumblr.com/c36116a4b74ca1c0d74939ba9b334f0b/a004ff2e3f2c14cd-ba/s500x750/44fcedbed647cc0c547f6690b897019ec8892bf8.gif" style="width:108px;margin-right:8px;padding:3px;border:#FF6E7B 3pt solid;" alt="44fcedbed647cc0c547f6690b897019ec8892bf8.gif"></div>    <span style="font-family:tahoma;font-size:10pt;color:#000000;">  TEXTO  </span>  </div>  <p style="text-transform:uppercase;">Your head in the curtains, your heart like the fourth of July</p></div></center>`
+<center><div style="width:650px;margin:14px;background-color:#99424a;color:#fff;font-family:'century gothic';font-size:10px;">  <p>   KINSLEY PALMER&nbsp; ─&nbsp; FILHA DE CIRCE&nbsp; ─&nbsp; PRIMEIRA CONTA&nbsp; ─&nbsp; 15 ANOS  </p>  
+<div style="background-color:#fff1f2;text-align:justify;border:#FF6E7B 3pt solid;padding:10px;line-height:14px;">    
+<div style="float:left;">      <img src="//64.media.tumblr.com/c36116a4b74ca1c0d74939ba9b334f0b/a004ff2e3f2c14cd-ba/s500x750/44fcedbed647cc0c547f6690b897019ec8892bf8.gif" style="width:102px;margin-right:6px;padding:3px;border:#FF6E7B 3pt solid;" alt="44fcedbed647cc0c547f6690b897019ec8892bf8.gif"></div>    
+<span style="width:630px;font-family:tahoma;font-size:10pt;color:#000000;">  TEXTO  </span>  </div>  <p style="text-transform:uppercase;">Your head in the curtains, your heart like the fourth of July</p></div></center>`
 
 const matthewHTML = `<center><div style="width:650px; margin: 14px; background-color: #3b0707; color: #fff; font-family: 'century gothic'; font-size: 10px;">  
   <p> MATTHEW GRAYBACK&nbsp; ─&nbsp; FILHO DE HEFESTO&nbsp; ─&nbsp; PRIMEIRO VERÃO&nbsp; ─&nbsp;  16 ANOS </p>
