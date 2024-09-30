@@ -234,7 +234,7 @@ const oliviaHTML = `<center>
 </center>
 `;
 
-const aspenHTML =  `<center>
+const aspenHTML = `<center>
 <div
   style="
     width: 650px;
@@ -333,8 +333,8 @@ const hughieHTML = `<center>
 const kinsleyHTML = `
 <center><div style="width:650px;margin:14px;background-color:#99424a;color:#fff;font-family:'century gothic';font-size:10px;">  <p>   KINSLEY PALMER&nbsp; ─&nbsp; FILHA DE CIRCE&nbsp; ─&nbsp; PRIMEIRA CONTA&nbsp; ─&nbsp; 15 ANOS  </p>  
 <div style="background-color:#fff1f2;text-align:justify;border:#FF6E7B 3pt solid;padding:10px;line-height:14px;">    
-<div style="float:left;">      <img src="//64.media.tumblr.com/c36116a4b74ca1c0d74939ba9b334f0b/a004ff2e3f2c14cd-ba/s500x750/44fcedbed647cc0c547f6690b897019ec8892bf8.gif" style="width:103px;margin-right:6px;padding:3px;border:#FF6E7B 3pt solid;" alt="44fcedbed647cc0c547f6690b897019ec8892bf8.gif"></div>    
-<span style="width:630px;font-family:tahoma;font-size:10pt;color:#000000;">  TEXTO  </span>  </div>  <p style="text-transform:uppercase;">Your head in the curtains, your heart like the fourth of July</p></div></center>`
+<div style="float:left;">      <img src="//64.media.tumblr.com/c36116a4b74ca1c0d74939ba9b334f0b/a004ff2e3f2c14cd-ba/s500x750/44fcedbed647cc0c547f6690b897019ec8892bf8.gif" style="width:90px; margin-right:6px; padding:3px; border:#FF6E7B 3pt solid;" alt="44fcedbed647cc0c547f6690b897019ec8892bf8.gif"></div>    
+<span style="width:630px;font-family:tahoma;font-size:10pt;color:#000000;">  TEXTO  </span>  </div>  <p style="text-transform:uppercase;">Your head in the curtains, your heart like the fourth of July</p></div></center>`;
 
 const matthewHTML = `<center><div style="width:650px; margin: 14px; background-color: #3b0707; color: #fff; font-family: 'century gothic'; font-size: 10px;">  
   <p> MATTHEW GRAYBACK&nbsp; ─&nbsp; FILHO DE HEFESTO&nbsp; ─&nbsp; PRIMEIRO VERÃO&nbsp; ─&nbsp;  16 ANOS </p>
@@ -342,7 +342,7 @@ const matthewHTML = `<center><div style="width:650px; margin: 14px; background-c
     <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">      TEXTO    </span>  </div>
   <p>ONCE UPON A DIFFERENT LIFE, WE RODE OUR BIKES INTO THE SKY</p>
 </div>
-</center>`
+</center>`;
 
 const skylarHTML = `
 <center><div style="    width: 650px;    margin: 14px;    background-color: #590e34;    color: #fff;    font-family: 'century gothic';    font-size: 10px;  ">  <p>    SKYLAR DILAURENTIS&nbsp; ─&nbsp; FILHO DE DIONÍSIO&nbsp; ─&nbsp; PRIMEIRO VERÃO&nbsp; ─&nbsp;  15 ANOS  </p>
@@ -351,7 +351,7 @@ const skylarHTML = `
   <p>HE TOOK THE MIDNIGHT TRAIN GOING ANYWHERE</p>
 </div>
 </center>
-`
+`;
 
 const milesHTML = `
 <center><div style="    width: 650px;    margin: 14px;    background-color: #7389ab;    color: #fff;    font-family: 'century gothic';    font-size: 10px;  ">  <p>    MILES CAPPELLI&nbsp; ─&nbsp; FILHO DE SELENE&nbsp; ─&nbsp; PRIMEIRO VERÃO&nbsp; ─&nbsp;  16 ANOS  </p>
@@ -360,10 +360,9 @@ const milesHTML = `
   <p>YOUR FAITH WAS STRONG, BUT YOU NEEDED PROOF</p>
 </div>
 </center>
-`
+`;
 
 const getCharHTML = (char) => {
-
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
   else if (char == "charlie") return { html: charlieHTML, color: "#f0a23a" };
   else if (char == "jackie") return { html: jackieHTML, color: "#d5732b" };
@@ -384,11 +383,13 @@ function getTextReady(char, color) {
   const newText = [];
 
   for (let i = 0; i < text.length; i++) {
-    if (text[i] == "~" && isLineStart) {
-      char === "aspen" ? newText.push(`<b style="color: ${color}">`) : newText.push(`—<b style="color: ${color}">`);
+    if ((text[i] == "~" || text[i] == "—") && isLineStart) {
+      char === "aspen"
+        ? newText.push(`<b style="color: ${color}">&quot;`)
+        : newText.push(`—<b style="color: ${color}">`);
       isLineStart = false;
-    } else if (text[i] == "~" && isLineStart == false) {
-      char === "aspen" ? newText.push("</b>") : newText.push("</b>—");
+    } else if ((text[i] == "~" || text[i] == "—") && isLineStart == false) {
+      char === "aspen" ? newText.push(`&quot;</b>`) : newText.push("</b>—");
       isLineStart = true;
     } else newText.push(text[i]);
   }
