@@ -71,7 +71,7 @@ const elodieHTML = `<center>
   >
     <div style="float: left">
       <img
-        src="https://64.media.tumblr.com/8d16c1b3ba1910ef3e8ac980a4a7a015/3054562d6cb62d19-8f/s400x600/0b53a3bb5a32006b53fdd82c1435d8bcc264abcc.webp"
+        src="https://64.media.tumblr.com/fd7b744481a43f17598fe59e55f0c481/2c01de24ba214f29-e1/s400x600/cf1f70a1bfaf49e32b1ad3fa64a3b30c51f4a619.gifv"
         style="
           width: 90px;
           margin-right: 6px;
