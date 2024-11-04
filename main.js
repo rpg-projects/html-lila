@@ -372,10 +372,10 @@ const nicHTML = `
 `;
 
 const brodyHTML = `
-<center><div style="    width: 650px;    margin: 14px;    background-color: #7389ab;    color: #fff;    font-family: 'century gothic';    font-size: 10px;  ">  <p>    MILES CAPPELLI&nbsp; ─&nbsp; FILHO DE SELENE&nbsp; ─&nbsp; PRIMEIRO VERÃO&nbsp; ─&nbsp;  16 ANOS  </p>
-  <div style="      background-color: #ebeff6;      text-align: justify;      border: #A6B2C5 3pt solid;      padding: 10px;      line-height: 14px;    ">    <div style="float: left">      <img src="https://64.media.tumblr.com/e34efc3bea3a1b3a775563e0b639ce1a/3d539abcc8626995-d4/s250x400/a555ffbf3ba74d3f0201b168603ac202741f7af8.gifv" style="          width: 90px;          margin-right: 6px;          padding: 3px;          border: #A6B2C5 3pt solid;        ">    </div>
+<center><div style="    width: 650px;    margin: 14px;    background-color: #a2812a;    color: #fff;    font-family: 'century gothic';    font-size: 10px;  ">  <p>    BRODY KENNEDY&nbsp; ─&nbsp; FILHO DE NIKÉ&nbsp; ─&nbsp; PRIMEIRO VERÃO&nbsp; ─&nbsp;  16 ANOS  </p>
+  <div style="      background-color: #f5ecd7;      text-align: justify;      border: #CBA135 3pt solid;      padding: 10px;      line-height: 14px;    ">    <div style="float: left">      <img src="https://44.media.tumblr.com/cb4cea958d352066f357baccd15c6848/b0bbe04cda6d3bca-db/s400x600_f1/150a07c3f1ef648e66046a76c2c7458c63faf68c.gifv" style="          width: 90px;          margin-right: 6px;          padding: 3px;          border: #CBA135 3pt solid;        ">    </div>
     <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">      TEXTO    </span>  </div>
-  <p>YOUR FAITH WAS STRONG, BUT YOU NEEDED PROOF</p>
+  <p>I'M ON A HIGHWAY TO HELL</p>
 </div>
 </center>
 `;
