@@ -362,6 +362,24 @@ const milesHTML = `
 </center>
 `;
 
+const nicHTML = `
+<center><div style="    width: 650px;    margin: 14px;    background-color: #c66961;    color: #fff;    font-family: 'century gothic';    font-size: 10px;  ">  <p>    NICOLE CAMPBELL&nbsp; ─&nbsp; FILHA DE PSIQUÊ&nbsp; ─&nbsp; PRIMEIRO VERÃO&nbsp; ─&nbsp;  15 ANOS  </p>
+  <div style="      background-color: #fee6e4;      text-align: justify;      border: #F88379 3pt solid;      padding: 10px;      line-height: 14px;    ">    <div style="float: left">      <img src="https://64.media.tumblr.com/ea60f08f671a11de9b682630965827e6/ab2af79a3be46b78-61/s250x400/b400ca39b7486e3af0a8ae143ada25dffa87b764.webp" style="          width: 90px;          margin-right: 6px;          padding: 3px;          border: #F88379 3pt solid;        ">    </div>
+    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">      TEXTO    </span>  </div>
+  <p>I USED TO FLOAT, NOW I JUST FALL DOWN</p>
+</div>
+</center>
+`;
+
+const brodyHTML = `
+<center><div style="    width: 650px;    margin: 14px;    background-color: #7389ab;    color: #fff;    font-family: 'century gothic';    font-size: 10px;  ">  <p>    MILES CAPPELLI&nbsp; ─&nbsp; FILHO DE SELENE&nbsp; ─&nbsp; PRIMEIRO VERÃO&nbsp; ─&nbsp;  16 ANOS  </p>
+  <div style="      background-color: #ebeff6;      text-align: justify;      border: #A6B2C5 3pt solid;      padding: 10px;      line-height: 14px;    ">    <div style="float: left">      <img src="https://64.media.tumblr.com/e34efc3bea3a1b3a775563e0b639ce1a/3d539abcc8626995-d4/s250x400/a555ffbf3ba74d3f0201b168603ac202741f7af8.gifv" style="          width: 90px;          margin-right: 6px;          padding: 3px;          border: #A6B2C5 3pt solid;        ">    </div>
+    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">      TEXTO    </span>  </div>
+  <p>YOUR FAITH WAS STRONG, BUT YOU NEEDED PROOF</p>
+</div>
+</center>
+`;
+
 const getCharHTML = (char) => {
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
   else if (char == "charlie") return { html: charlieHTML, color: "#f0a23a" };
@@ -374,6 +392,8 @@ const getCharHTML = (char) => {
   else if (char == "matthew") return { html: matthewHTML, color: "#4F0E0E" };
   else if (char == "skylar") return { html: skylarHTML, color: "#872657" };
   else if (char == "miles") return { html: milesHTML, color: "#A6B2C5" };
+  else if (char == "nic") return { html: nicHTML, color: "#F88379" };
+  else if (char == "brody") return { html: brodyHTML, color: "#CBA135" };
 };
 
 function getTextReady(char, color) {
