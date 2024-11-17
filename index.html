@@ -24,23 +24,45 @@
       escolhida se escritas entre — travessões —. -->
     </p>
     <textarea id="text" name="post" cols="30" rows="10"></textarea>
+    <div class="radioSelection">
+      <label>
+        <input type="radio" name="option" value="twh" class="radioInp" />
+        twh
+      </label>
+      <label>
+        <input type="radio" name="option" value="gau" class="radioInp" />
+        gau
+      </label>
+    </div>
 
-    <p>char</p>
-    <select name="select" id="selectChar">
-      <option value="elodie">Elodie</option>
-      <option value="jackie">Jackie</option>
-      <option value="charlie">Charlie</option>
-      <option value="carcinha">Carcinha</option>
-      <option value="olivia">Olivia</option>
-      <option value="aspen">Aspen</option>
-      <option value="hughie">Hughie</option>
-      <option value="kinsley">Kinsley</option>
-      <option value="matthew">Matthew</option>
-      <option value="skylar">Skylar</option>
-      <option value="miles">Miles</option>
-      <option value="nic">Nicole</option>
-      <option value="brody">Brody</option>
-    </select>
+    <div class="selectContainer">
+      <div class="select">
+        <label>twh</label>
+        <select name="select" id="selectCharTwh">
+          <option value="elodie">Elodie</option>
+          <option value="jackie">Jackie</option>
+          <option value="charlie">Charlie</option>
+          <option value="carcinha">Carcinha</option>
+          <option value="olivia">Olivia</option>
+          <option value="aspen">Aspen</option>
+          <option value="hughie">Hughie</option>
+          <option value="kinsley">Kinsley</option>
+          <option value="matthew">Matthew</option>
+          <option value="skylar">Skylar</option>
+          <option value="miles">Miles</option>
+          <option value="nic">Nicole</option>
+          <option value="brody">Brody</option>
+        </select>
+      </div>
+      <div class="select">
+        <label for="">gau</label>
+        <select name="select" id="selectCharGau">
+          <option value="emily">Emily</option>
+          <option value="bradley">Bradley</option>
+          <option value="maddox">Maddox</option>
+        </select>
+      </div>
+    </div>
 
     <div class="buttons">
       <button id="get-html-button" onclick="getHTMLReady()" type="submit">
