@@ -440,20 +440,7 @@ export const emilyHTML = `<center style="font-family: Tahoma">
         />
       </div>
       <p style="text-align: justify; line-height: 16px">
-        &nbsp;Sendo salva-vidas, já tinha visto um monte de gente quase se
-        afogando exatamente daquele jeito! Quase, porque ele sempre salvava a
-        galera a tempo! ───<b style="color: #1d6989"
-          >&nbsp;Mais ou menos, Ha-ha! Eu tava num reality show, tá ligada? O
-          prêmio era um papel numa novela da TV Apolo,&nbsp;Néctar com Aroma de
-          Hera, e eu ganhei! Daê faço algumas cenas correndo na praia, e tals...
-          o personagem se chama "salva-vidas sem camisa".&nbsp;</b
-        >─── Contou tudo para&nbsp;Evelyn, quando ela perguntou sobre a sua
-        carreira de ator, que não passava de uma pontinha! Seu foco era muito
-        maior no surf e na música. ───&nbsp;<b style="color: #1d6989"
-          >Chad! Mas pode chamar de Gigachad também, pô, que é meu apelido! É
-          por causa do meu tamanho, tá ligada? Ha-ha!&nbsp;</b
-        >─── Falava, do alto de seus 2,03m de altura, como se não
-        fosse&nbsp;óbvio.&nbsp;
+        &nbsp; TEXTO
       </p>
     </div>
   </div>
@@ -506,4 +493,153 @@ export const emilyHTML = `<center style="font-family: Tahoma">
     </p>
   </div>
 </center>
+`;
+
+export const htmlBrad = `<center style="font-family: 'Tahoma'; overflow: hidden">
+  <div
+    class="rounded"
+    style="
+      margin-top: 40px;
+      width: 650px;
+      background-color: #f7e6de;
+      border: solid 2px #b63f08;
+    "
+  >
+    <!-- título -->
+    <div
+      id="this"
+      style="
+        position: relative;
+        width: 650px;
+        height: 80px;
+        background-color: #b63f08;
+        background: url('https://64.media.tumblr.com/5b50ae8207e428491ec2494605b9a38b/d74f728e5cf3d2be-4b/s540x810/4ce3b2864a36941c0fe0286db33d13410830aac2.jpg');
+        background-position: cover;
+        padding: 10px;
+        width: auto;
+        box-sizing: border-box;
+      "
+    >
+      <div
+        style="
+          border: 1px solid white;
+          height: 99%;
+          width: auto;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          overflow: visible;
+          padding-left: 15px;
+        "
+      >
+        <h1
+          style="
+            color: white;
+            text-align: ce;
+            font-size: 32px;
+            font-family: 'Tahoma';
+            margin-top: 0px;
+            margin-bottom: 0px;
+            letter-spacing: 2px;
+          "
+        >
+          BRAD MULROY
+        </h1>
+        <p
+          style="
+            color: white;
+            text-align: ce;
+            margin-top: -5px;
+            letter-spacing: 1px;
+          "
+        >
+          PRIMEIRA CONTA ⇤ NIKÉ ⇥ 15 ANOS
+        </p>
+      </div>
+    </div>
+    <!-- texto -->
+    <div style="padding: 2% 3%">
+      <div style="float: left">
+        <img
+          src="https://44.media.tumblr.com/28007a9ff771d213c4f5ff193bc395dd/3f71876b8f505fdb-18/s540x810_f1/a5969fd51a56936b9f975cfaa3c804d6d7db32ca.gifv"
+          style="
+            width: 90px;
+            margin-right: 6px;
+            margin-top: 4px;
+            border: #b63f08 4pt solid;
+          "
+        />
+      </div>
+      <p
+        style="
+          text-align: justify;
+          line-height: 16px;
+          font-family: 'Tahoma';
+          color: black;
+        "
+      >
+        &nbsp; TEXTO
+      </p>
+    </div>
+  </div>
+  <!-- footer -->
+  <div
+    style="
+      height: 30px;
+      width: 650px;
+      background-color: #b63f08;
+      margin-bottom: 40px;
+      padding-right: 10px;
+      border: solid 2px #b63f08;
+    "
+  >
+    <div
+      style="
+        width: 40px;
+        border: 1px solid white;
+        height: 20px;
+        float: left;
+        margin-left: 10px;
+        margin-top: 3px;
+      "
+    >
+      <p
+        style="
+          font-size: 10px;
+          color: white;
+          letter-spacing: 1px;
+          vertical-align: middle;
+        "
+      >
+        HP 20
+      </p>
+    </div>
+    <p
+      style="
+        color: white;
+        font-size: 10px;
+        float: right;
+        clear: both;
+        margin-top: -20px;
+        text-transform: uppercase;
+      "
+    >
+      High off her love, drunk from her hate
+    </p>
+  </div>
+</center>
+
+<!-- <div
+  id="this"
+  style="
+    margin-top: 40px;
+    width: 650px;
+    height: 100px;
+    background-color: #b63f08;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), #b63f08),
+      url('https://64.media.tumblr.com/5b50ae8207e428491ec2494605b9a38b/d74f728e5cf3d2be-4b/s540x810/4ce3b2864a36941c0fe0286db33d13410830aac2.jpg');
+    padding: 10px;
+    box-sizing: border-box;
+  "
+></div> -->
 `;
