@@ -644,6 +644,141 @@ const bradHTML = `<center style="font-family: 'Tahoma'; overflow: hidden">
 ></div> -->
 `;
 
+const elodie2HTML = `<center style="font-family: Tahoma">
+  <div
+    style="
+      margin-top: 40px;
+      width: 650px;
+      background-color: #f5f8f1;
+      border: solid 2px #9ab973;
+    "
+  >
+    <!-- titulo   -->
+    <div style="padding: 10px; background-color: rgba(154, 185, 115, 0.9)">
+      <div
+        style="
+          position: relative;
+          width: auto;
+          height: 78px;
+          background: url('https://64.media.tumblr.com/ebd8e886f4896006228359f266757562/348c1b0b166d7e11-e8/s1280x1920/b6f24cd8f978c2662f473b6ce5965986195ee9ba.jpg');
+          background-size: cover;
+          background-position: center;
+          overflow: hidden;
+        "
+      >
+        <!-- Overlay for shading -->
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(
+              154,
+              185,
+              115,
+              0.7
+            ); /* Adjust transparency as needed */
+            pointer-events: none;
+          "
+        >
+          <div
+            style="
+              border: 1px solid #ffffff;
+              height: 99%;
+              width: auto;
+              padding-left: 15px;
+            "
+          >
+            <h1
+              style="
+                color: #ffffff;
+                font-size: 36px;
+                font-family: 'century gothic';
+                font-weight: 100;
+                margin-top: 10px;
+                margin-bottom: 0px;
+                letter-spacing: 2px;
+              "
+            >
+              ELODIE REITH
+            </h1>
+            <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
+              QUINTA CONTA ⇤ ATENA ⇥ 18 ANOS
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- texto -->
+    <div style="padding: 2% 3%">
+      <div style="float: left">
+        <img
+          src="https://64.media.tumblr.com/fd7b744481a43f17598fe59e55f0c481/2c01de24ba214f29-e1/s400x600/cf1f70a1bfaf49e32b1ad3fa64a3b30c51f4a619.gifv"
+          style="
+            width: 90px;
+            margin-right: 6px;
+            margin-top: 4px;
+            border: #9ab973 4pt solid;
+          "
+          alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+        />
+      </div>
+      <p style="text-align: justify; line-height: 16px">&nbsp; TEXTO</p>
+    </div>
+  </div>
+  <!-- footer -->
+
+  <div
+    style="
+      height: 30px;
+      width: 650px;
+      background-color: #9ab973;
+      margin-bottom: 40px;
+      padding-right: 10px;
+      border: solid 2px #9ab973;
+    "
+  >
+    <div style="float: left">
+      <div
+        style="
+          width: 60px;
+          border: 1px solid #ffffff;
+          height: 20px;
+          float: left;
+          margin-left: 10px;
+          margin-top: 3px;
+        "
+      >
+        <p
+          style="
+            font-size: 10px;
+            color: #ffffff;
+            letter-spacing: 1px;
+            vertical-align: middle;
+          "
+        >
+          HP 20/20
+        </p>
+      </div>
+    </div>
+
+    <p
+      style="
+        color: #ffffff;
+        font-size: 10px;
+        float: right;
+        clear: both;
+        margin-top: -20px;
+      "
+    >
+      FEEL MY WAY THROUGH THE DARKNESS, GUIDED BY A BEATING HEART
+    </p>
+  </div>
+</center>
+`;
+
 const getCharHTML = (char) => {
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
   else if (char == "charlie") return { html: charlieHTML, color: "#f0a23a" };
@@ -660,6 +795,7 @@ const getCharHTML = (char) => {
   else if (char == "brody") return { html: brodyHTML, color: "#CBA135" };
   else if (char == "emily") return { html: emilyHTML, color: "#1d6989" };
   else if (char == "brad") return { html: bradHTML, color: "#b63f08" };
+  else if (char == "elodie2") return { html: elodie2HTML, color: "#9ab973" };
 };
 
 function getTextReady(char, color) {
@@ -691,8 +827,23 @@ function getTextReady(char, color) {
 
 const getHTMLReady = () => {
   const char = document.getElementById("selectChar").value;
+  const char2 = document.getElementById("selectChar2").value;
 
-  let { html, color } = getCharHTML(char);
+  if (char !== "none" && char2 !== "none") {
+    alert("Inválido");
+
+    document.getElementById("selectChar").value = "none";
+    document.getElementById("selectChar2").value = "none";
+  }
+
+  let { html, color } = { html: "", color: "" };
+
+  if (char !== "none") {
+    ({ html, color } = getCharHTML(char));
+  }
+  if (char2 !== "none") {
+    ({ html, color } = getCharHTML(char2));
+  }
 
   let [part1, part2] = html.split("TEXTO");
 

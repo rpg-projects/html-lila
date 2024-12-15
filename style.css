@@ -4,8 +4,8 @@ h1 {
 }
 
 textarea {
-  width: 650px;
-  height: 400px;
+  width: 80%;
+  min-height: 400px;
   display: block;
   margin: auto;
   margin-bottom: 0.5rem;
@@ -13,7 +13,7 @@ textarea {
   font-size: 12px;
 }
 
-.selectContainer {
+.select-container {
   display: flex;
   width: 16rem;
   margin: auto;
@@ -21,7 +21,8 @@ textarea {
   align-items: center;
 }
 
-.select {
+.select,
+.select2 {
   width: 8rem;
   text-align: center;
 }
