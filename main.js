@@ -659,7 +659,7 @@ const elodie2HTML = `<center style="font-family: Tahoma">
         style="
           position: relative;
           width: auto;
-          height: 78px;
+          height: 80px;
           background: url('https://64.media.tumblr.com/ebd8e886f4896006228359f266757562/348c1b0b166d7e11-e8/s1280x1920/b6f24cd8f978c2662f473b6ce5965986195ee9ba.jpg');
           background-size: cover;
           background-position: center;
@@ -686,7 +686,7 @@ const elodie2HTML = `<center style="font-family: Tahoma">
           <div
             style="
               border: 1px solid #ffffff;
-              height: 99%;
+              height: 100%;
               width: auto;
               padding-left: 15px;
             "
@@ -759,7 +759,7 @@ const elodie2HTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 20/20
+          HP 60/60
         </p>
       </div>
     </div>
