@@ -779,6 +779,141 @@ const elodie2HTML = `<center style="font-family: Tahoma">
 </center>
 `;
 
+const nic2HTML = `<center style="font-family: Tahoma">
+  <div
+    style="
+      margin-top: 40px;
+      width: 650px;
+      background-color: #f5f8f1;
+      border: solid 2px #f88379;
+    "
+  >
+    <!-- titulo   -->
+    <div style="padding: 10px; background-color: rgba(248, 131, 121, 0.9)">
+      <div
+        style="
+          position: relative;
+          width: auto;
+          height: 80px;
+          background: url('https://64.media.tumblr.com/d4b62b0abffd89f8a74d9d7dfe37164a/02a905c655ec05ee-5f/s640x960/07244ddb02827e64306daa4cd9088cdfb9b0d579.jpg');
+          background-size: auto;
+          background-position: center;
+          overflow: hidden;
+        "
+      >
+        <!-- Overlay for shading -->
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(
+              248,
+              131,
+              121,
+              0.6
+            ); /* Adjust transparency as needed */
+            pointer-events: none;
+          "
+        >
+          <div
+            style="
+              border: 1px solid #ffffff;
+              height: 100%;
+              width: auto;
+              padding-left: 15px;
+            "
+          >
+            <h1
+              style="
+                color: #ffffff;
+                font-size: 36px;
+                font-family: 'century gothic';
+                font-weight: 100;
+                margin-top: 10px;
+                margin-bottom: 0px;
+                letter-spacing: 2px;
+              "
+            >
+              NICOLE CAMPBELL
+            </h1>
+            <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
+              PRIMEIRA CONTA ⇤ FILHA DE PSIQUÊ ⇥ 15 ANOS
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- texto -->
+    <div style="padding: 2% 3%">
+      <div style="float: left">
+        <img
+          src="https://64.media.tumblr.com/ea60f08f671a11de9b682630965827e6/ab2af79a3be46b78-61/s250x400/b400ca39b7486e3af0a8ae143ada25dffa87b764.webp"
+          style="
+            width: 90px;
+            margin-right: 6px;
+            margin-top: 4px;
+            border: #f88379 4pt solid;
+          "
+          alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+        />
+      </div>
+      <p style="text-align: justify; line-height: 16px">&nbsp; TEXTO</p>
+    </div>
+  </div>
+  <!-- footer -->
+
+  <div
+    style="
+      height: 30px;
+      width: 650px;
+      background-color: #f88379;
+      margin-bottom: 40px;
+      padding-right: 10px;
+      border: solid 2px #f88379;
+    "
+  >
+    <div style="float: left">
+      <div
+        style="
+          width: 60px;
+          border: 1px solid #ffffff;
+          height: 20px;
+          float: left;
+          margin-left: 10px;
+          margin-top: 3px;
+        "
+      >
+        <p
+          style="
+            font-size: 10px;
+            color: #ffffff;
+            letter-spacing: 1px;
+            vertical-align: middle;
+          "
+        >
+          HP 18/18
+        </p>
+      </div>
+    </div>
+
+    <p
+      style="
+        color: #ffffff;
+        font-size: 10px;
+        float: right;
+        clear: both;
+        margin-top: -20px;
+      "
+    >
+      I USED TO FLOAT, NOW I JUST FALL DOWN
+    </p>
+  </div>
+</center>
+`;
+
 const getCharHTML = (char) => {
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
   else if (char == "charlie") return { html: charlieHTML, color: "#f0a23a" };
@@ -796,6 +931,7 @@ const getCharHTML = (char) => {
   else if (char == "emily") return { html: emilyHTML, color: "#1d6989" };
   else if (char == "brad") return { html: bradHTML, color: "#b63f08" };
   else if (char == "elodie2") return { html: elodie2HTML, color: "#9ab973" };
+  else if (char == "nic2") return { html: elodie2HTML, color: "#f88379" };
 };
 
 function getTextReady(char, color) {
