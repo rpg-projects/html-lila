@@ -931,7 +931,7 @@ const getCharHTML = (char) => {
   else if (char == "emily") return { html: emilyHTML, color: "#1d6989" };
   else if (char == "brad") return { html: bradHTML, color: "#b63f08" };
   else if (char == "elodie2") return { html: elodie2HTML, color: "#9ab973" };
-  else if (char == "nic2") return { html: elodie2HTML, color: "#f88379" };
+  else if (char == "nic2") return { html: nic2HTML, color: "#f88379" };
 };
 
 function getTextReady(char, color) {
