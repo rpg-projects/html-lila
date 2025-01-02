@@ -650,7 +650,7 @@ const elodie2HTML = `<center style="font-family: Tahoma">
       margin-top: 40px;
       width: 650px;
       background-color: #f5f8f1;
-      border: solid 2px #9ab973;
+      border: solid 4px #9ab973;
     "
   >
     <!-- titulo   -->
@@ -660,7 +660,7 @@ const elodie2HTML = `<center style="font-family: Tahoma">
           position: relative;
           width: auto;
           height: 80px;
-          background: url('https://64.media.tumblr.com/ebd8e886f4896006228359f266757562/348c1b0b166d7e11-e8/s1280x1920/b6f24cd8f978c2662f473b6ce5965986195ee9ba.jpg');
+          background: url('https://64.media.tumblr.com/6822b262f83b21bd902e0767bdd83628/91919b6b502c6b9a-c2/s640x960/176b0b5b14dd381bf52e9c7e4e752119187fa511.jpg');
           background-size: cover;
           background-position: center;
           overflow: hidden;
@@ -785,7 +785,7 @@ const nic2HTML = `<center style="font-family: Tahoma">
       margin-top: 40px;
       width: 650px;
       background-color: #f5f8f1;
-      border: solid 2px #f88379;
+      border: solid 4px #f88379;
     "
   >
     <!-- titulo   -->
@@ -914,6 +914,142 @@ const nic2HTML = `<center style="font-family: Tahoma">
 </center>
 `;
 
+const BlakeHTML = `<center style="font-family: Tahoma">
+  <div
+    style="
+      margin-top: 40px;
+      width: 650px;
+      background-color: #f5f8f1;
+      border: solid 4px #c2a373;
+    "
+  >
+    <!-- titulo   -->
+    <div style="padding: 10px; background-color: rgba(194, 163, 115, 0.9)">
+      <div
+        style="
+          position: relative;
+          width: auto;
+          height: 80px;
+          background: url('https://64.media.tumblr.com/c4ec35ff6e84998d4dc8db393bbbc6e6/ef650eecb9be7895-e3/s640x960/cd3c3d4d12e764871eed1a2b0e2d46c94665968a.jpg');
+          background-size: auto;
+          background-position: center;
+          overflow: hidden;
+        "
+      >
+        <!-- Overlay for shading -->
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(
+              194,
+              163,
+              115,
+              0.6
+            ); /* Adjust transparency as needed */
+            pointer-events: none;
+          "
+        >
+          <div
+            style="
+              border: 1px solid #ffffff;
+              height: 100%;
+              width: auto;
+              padding-left: 15px;
+            "
+          >
+            <h1
+              style="
+                color: #ffffff;
+                font-size: 36px;
+                font-family: 'century gothic';
+                font-weight: 100;
+                margin-top: 10px;
+                margin-bottom: 0px;
+                letter-spacing: 2px;
+              "
+            >
+              BLAKE WALTON
+            </h1>
+            <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
+              PRIMEIRA CONTA ⇤ HÉRACLES ⇥ 16 ANOS
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- texto -->
+    <div style="padding: 2% 3%">
+      <div style="float: left">
+        <img
+          src="https://64.media.tumblr.com/5caac45e0cc8f35dcee52c8b3b030e22/4cddd512574552bc-25/s250x400/b75a315be5cfd545405b4cb1ed7208f31d12aade.webp"
+          style="
+            width: 90px;
+            margin-right: 6px;
+            margin-top: 4px;
+            border: #c2a373 4pt solid;
+          "
+          alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+        />
+      </div>
+      <p style="text-align: justify; line-height: 16px">&nbsp; TEXTO</p>
+    </div>
+  </div>
+  <!-- footer -->
+
+  <div
+    style="
+      height: 30px;
+      width: 650px;
+      background-color: #c2a373;
+      margin-bottom: 40px;
+      padding-right: 10px;
+      border: solid 2px #c2a373;
+    "
+  >
+    <div style="float: left">
+      <div
+        style="
+          width: 60px;
+          border: 1px solid #ffffff;
+          height: 20px;
+          float: left;
+          margin-left: 10px;
+          margin-top: 3px;
+        "
+      >
+        <p
+          style="
+            font-size: 10px;
+            color: #ffffff;
+            letter-spacing: 1px;
+            vertical-align: middle;
+          "
+        >
+          HP 18/18
+        </p>
+      </div>
+    </div>
+
+    <p
+      style="
+        color: #ffffff;
+        font-size: 10px;
+        float: right;
+        clear: both;
+        margin-top: -20px;
+        text-transform: uppercase;
+      "
+    >
+      If the subways flood and the bridges break
+    </p>
+  </div>
+</center>
+`;
+
 const getCharHTML = (char) => {
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
   else if (char == "charlie") return { html: charlieHTML, color: "#f0a23a" };
@@ -932,6 +1068,7 @@ const getCharHTML = (char) => {
   else if (char == "brad") return { html: bradHTML, color: "#b63f08" };
   else if (char == "elodie2") return { html: elodie2HTML, color: "#9ab973" };
   else if (char == "nic2") return { html: nic2HTML, color: "#f88379" };
+  else if (char == "blake") return { html: BlakeHTML, color: "#996515" };
 };
 
 function getTextReady(char, color) {
