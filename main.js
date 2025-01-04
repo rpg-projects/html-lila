@@ -1029,7 +1029,7 @@ const BlakeHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 18/18
+          HP 29/29
         </p>
       </div>
     </div>
@@ -1045,6 +1045,142 @@ const BlakeHTML = `<center style="font-family: Tahoma">
       "
     >
       If the subways flood and the bridges break
+    </p>
+  </div>
+</center>
+`;
+
+const aspen2HTML = `<center style="font-family: Tahoma">
+  <div
+    style="
+      margin-top: 40px;
+      width: 650px;
+      background-color: #f5f8f1;
+      border: solid 4px #5384bc;
+    "
+  >
+    <!-- titulo   -->
+    <div style="padding: 10px; background-color: rgba(83, 132, 188, 0.9)">
+      <div
+        style="
+          position: relative;
+          width: auto;
+          height: 80px;
+          background: url('https://64.media.tumblr.com/b64298f5b68137c06381a5d1c14f0033/22136a2df23d4ecb-5a/s640x960/3d1bf1c236d3aa96062b26a29f7d2b25dcfc87a8.jpg');
+          background-size: auto;
+          background-position: center;
+          overflow: hidden;
+        "
+      >
+        <!-- Overlay for shading -->
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(
+              83,
+              132,
+              188,
+              0.6
+            ); /* Adjust transparency as needed */
+            pointer-events: none;
+          "
+        >
+          <div
+            style="
+              border: 1px solid #ffffff;
+              height: 100%;
+              width: auto;
+              padding-left: 15px;
+            "
+          >
+            <h1
+              style="
+                color: #ffffff;
+                font-size: 36px;
+                font-family: 'century gothic';
+                font-weight: 100;
+                margin-top: 10px;
+                margin-bottom: 0px;
+                letter-spacing: 2px;
+              "
+            >
+              ASPEN HEWITT
+            </h1>
+            <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
+              QUARTA CONTA ⇤ DESPINA ⇥ 19 ANOS
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- texto -->
+    <div style="padding: 2% 3%">
+      <div style="float: left">
+        <img
+          src="//64.media.tumblr.com/9a4d7e1a1a938ca98c71cebbc1d3fb5e/db6c41c7b267291e-59/s500x750/016a81c3187e52dbd7665195a1543b7be3fc5bfe.gif"
+          style="
+            width: 90px;
+            margin-right: 6px;
+            margin-top: 4px;
+            border: #5384bc 4pt solid;
+          "
+          alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+        />
+      </div>
+      <p style="text-align: justify; line-height: 16px">&nbsp; TEXTO</p>
+    </div>
+  </div>
+  <!-- footer -->
+
+  <div
+    style="
+      height: 30px;
+      width: 650px;
+      background-color: #5384bc;
+      margin-bottom: 40px;
+      padding-right: 10px;
+      border: solid 2px #5384bc;
+    "
+  >
+    <div style="float: left">
+      <div
+        style="
+          width: 60px;
+          border: 1px solid #ffffff;
+          height: 20px;
+          float: left;
+          margin-left: 10px;
+          margin-top: 3px;
+        "
+      >
+        <p
+          style="
+            font-size: 10px;
+            color: #ffffff;
+            letter-spacing: 1px;
+            vertical-align: middle;
+          "
+        >
+          HP 54/54
+        </p>
+      </div>
+    </div>
+
+    <p
+      style="
+        color: #ffffff;
+        font-size: 10px;
+        float: right;
+        clear: both;
+        margin-top: -20px;
+        text-transform: uppercase;
+      "
+    >
+      Careful creature made friends with time
     </p>
   </div>
 </center>
@@ -1069,6 +1205,7 @@ const getCharHTML = (char) => {
   else if (char == "elodie2") return { html: elodie2HTML, color: "#9ab973" };
   else if (char == "nic2") return { html: nic2HTML, color: "#f88379" };
   else if (char == "blake") return { html: BlakeHTML, color: "#996515" };
+  else if (char == "aspen2") return { html: aspen2HTML, color: "#779ECB" };
 };
 
 function getTextReady(char, color) {
