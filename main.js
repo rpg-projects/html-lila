@@ -660,7 +660,7 @@ const elodie2HTML = `<center style="font-family: Tahoma">
           position: relative;
           width: auto;
           height: 80px;
-          background: url('https://64.media.tumblr.com/6822b262f83b21bd902e0767bdd83628/91919b6b502c6b9a-c2/s640x960/176b0b5b14dd381bf52e9c7e4e752119187fa511.jpg');
+          background: url('https://64.media.tumblr.com/ebd8e886f4896006228359f266757562/348c1b0b166d7e11-e8/s1280x1920/b6f24cd8f978c2662f473b6ce5965986195ee9ba.jpg');
           background-size: cover;
           background-position: center;
           overflow: hidden;
