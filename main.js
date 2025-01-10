@@ -1029,7 +1029,7 @@ const BlakeHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 29/29
+          HP 36/36
         </p>
       </div>
     </div>
