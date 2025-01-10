@@ -1216,14 +1216,14 @@ function getTextReady(char, color) {
 
   for (let i = 0; i < text.length; i++) {
     if ((text[i] == "~" || text[i] == "—") && isLineStart) {
-      char === "aspen"
+      char === "aspen" || char === "aspen2"
         ? newText.push(`<b style="color: ${color}">&quot;`)
         : char === "emily" || char === "brad"
         ? newText.push(`———<b style="color: ${color}">`)
         : newText.push(`—<b style="color: ${color}">`);
       isLineStart = false;
     } else if ((text[i] == "~" || text[i] == "—") && isLineStart == false) {
-      char === "aspen"
+      char === "aspen" || char === "aspen2"
         ? newText.push(`&quot;</b>`)
         : char === "emily" || char === "brad"
         ? newText.push(`</b>———`)
