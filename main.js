@@ -1056,11 +1056,11 @@ const aspen2HTML = `<center style="font-family: Tahoma">
       margin-top: 40px;
       width: 650px;
       background-color: #f5f8f1;
-      border: solid 4px #5384bc;
+      border: solid 4px #739dcd;
     "
   >
     <!-- titulo   -->
-    <div style="padding: 10px; background-color: rgba(83, 132, 188, 0.9)">
+    <div style="padding: 10px; background-color: rgba(115, 157, 205, 0.9)">
       <div
         style="
           position: relative;
@@ -1081,10 +1081,10 @@ const aspen2HTML = `<center style="font-family: Tahoma">
             width: 100%;
             height: 100%;
             background-color: rgba(
-              83,
-              132,
-              188,
-              0.6
+              115,
+              157,
+              205,
+              0.7
             ); /* Adjust transparency as needed */
             pointer-events: none;
           "
@@ -1126,7 +1126,7 @@ const aspen2HTML = `<center style="font-family: Tahoma">
             width: 90px;
             margin-right: 6px;
             margin-top: 4px;
-            border: #5384bc 4pt solid;
+            border: #739dcd 4pt solid;
           "
           alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
         />
@@ -1140,10 +1140,10 @@ const aspen2HTML = `<center style="font-family: Tahoma">
     style="
       height: 30px;
       width: 650px;
-      background-color: #5384bc;
+      background-color: #739dcd;
       margin-bottom: 40px;
       padding-right: 10px;
-      border: solid 2px #5384bc;
+      border: solid 2px #739dcd;
     "
   >
     <div style="float: left">
