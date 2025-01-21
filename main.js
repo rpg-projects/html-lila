@@ -705,7 +705,7 @@ const elodie2HTML = `<center style="font-family: Tahoma">
               ELODIE REITH
             </h1>
             <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
-              QUINTA CONTA ⇤ ATENA ⇥ 18 ANOS
+              SEXTA CONTA ⇤ ATENA ⇥ 19 ANOS
             </p>
           </div>
         </div>
@@ -759,7 +759,7 @@ const elodie2HTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 60/60
+          HP 65/65
         </p>
       </div>
     </div>
@@ -1186,6 +1186,142 @@ const aspen2HTML = `<center style="font-family: Tahoma">
 </center>
 `;
 
+const hughie2HTML = `<center style="font-family: Tahoma">
+  <div
+    style="
+      margin-top: 40px;
+      width: 650px;
+      background-color: #f5f8f1;
+      border: solid 4px #6990c2;
+    "
+  >
+    <!-- titulo   -->
+    <div style="padding: 10px; background-color: rgba(105, 144, 194, 0.9)">
+      <div
+        style="
+          position: relative;
+          width: auto;
+          height: 80px;
+          background: url('https://64.media.tumblr.com/720ce51d470de5568532f054d4e6cc57/3f96e85428c1b69d-18/s400x600/e29a5978d0b07b933e87701f127c37b644a9e88f.jpg');
+          background-size: auto;
+          background-position: center;
+          overflow: hidden;
+        "
+      >
+        <!-- Overlay for shading -->
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(
+              105,
+              144,
+              194,
+              0.8
+            ); /* Adjust transparency as needed */
+            pointer-events: none;
+          "
+        >
+          <div
+            style="
+              border: 1px solid #ffffff;
+              height: 100%;
+              width: auto;
+              padding-left: 15px;
+            "
+          >
+            <h1
+              style="
+                color: #ffffff;
+                font-size: 36px;
+                font-family: 'century gothic';
+                font-weight: 100;
+                margin-top: 10px;
+                margin-bottom: 0px;
+                letter-spacing: 2px;
+              "
+            >
+              HUGHIE LOCKE
+            </h1>
+            <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
+              QUARTA CONTA ⇤ ASTRÉIA ⇥ 20 ANOS
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- texto -->
+    <div style="padding: 2% 3%">
+      <div style="float: left">
+        <img
+          src="https://i.pinimg.com/originals/eb/92/e8/eb92e89dada002f3ea4c3e13b9a32229.gif"
+          style="
+            width: 90px;
+            margin-right: 6px;
+            margin-top: 4px;
+            border: #6990c2 4pt solid;
+          "
+          alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+        />
+      </div>
+      <p style="text-align: justify; line-height: 16px">&nbsp; TEXTO</p>
+    </div>
+  </div>
+  <!-- footer -->
+
+  <div
+    style="
+      height: 30px;
+      width: 650px;
+      background-color: #6990c2;
+      margin-bottom: 40px;
+      padding-right: 10px;
+      border: solid 2px #6990c2;
+    "
+  >
+    <div style="float: left">
+      <div
+        style="
+          width: 60px;
+          border: 1px solid #ffffff;
+          height: 20px;
+          float: left;
+          margin-left: 10px;
+          margin-top: 3px;
+        "
+      >
+        <p
+          style="
+            font-size: 10px;
+            color: #ffffff;
+            letter-spacing: 1px;
+            vertical-align: middle;
+          "
+        >
+          HP 55/55
+        </p>
+      </div>
+    </div>
+
+    <p
+      style="
+        color: #ffffff;
+        font-size: 10px;
+        float: right;
+        clear: both;
+        margin-top: -20px;
+        text-transform: uppercase;
+      "
+    >
+      Crying zeros and i'm hearing 111
+    </p>
+  </div>
+</center>
+`;
+
 const getCharHTML = (char) => {
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
   else if (char == "charlie") return { html: charlieHTML, color: "#f0a23a" };
@@ -1206,6 +1342,7 @@ const getCharHTML = (char) => {
   else if (char == "nic2") return { html: nic2HTML, color: "#f88379" };
   else if (char == "blake") return { html: BlakeHTML, color: "#996515" };
   else if (char == "aspen2") return { html: aspen2HTML, color: "#779ECB" };
+  else if (char == "hughie2") return { html: hughie2HTML, color: "#7DA7DB" };
 };
 
 function getTextReady(char, color) {
