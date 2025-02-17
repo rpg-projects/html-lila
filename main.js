@@ -1322,33 +1322,62 @@ const hughie2HTML = `<center style="font-family: Tahoma">
 </center>
 `;
 
-const blakeHTHTML = `<center style="font-family: Tahoma">
-  <div
-    style="
-      margin-top: 40px;
-      width: 650px;
-      background-color: #f5f8f1;
-      border: solid 4px #cc010f;
-    "
-  >
-    <!-- texto -->
-    <div style="padding: 1% 3% 2% 3%">
-      <p style="text-align: justify; line-height: 16px">&nbsp; TEXTO</p>
+const blakeHTHTML = `<center>
+  <div style="width: 650px; border: 4px #cc010f solid; margin: 30px">
+    <div style="padding: 10px 10px 5px 10px; background-color: white">
+      <p
+        style="
+          font-family: Tahoma;
+          text-align: justify;
+          font-size: 12px;
+          line-height: 14px;
+          letter-spacing: 1px;
+        "
+      >
+        TEXTO
+      </p>
     </div>
+    <div style="height: 25px; padding-top: 8px; background-color: #cc010f">
+      <span
+        style="
+          color: #ffffff;
+          font-family: 'courier new';
+          font-size: 15px;
+          text-transform: uppercase;
+          margin-left: 30%;
+        "
+        >BLAKE ELIZABETH MURPHY • Year ZERO • GRYFFINDOR</span
+      >
+    </div>
+  </div>
+</center>`;
 
-    <!-- titulo   -->
-    <div style="padding: 10px; background-color: #b8030f">
-      <div style="height: 12px">
-        <span
-          style="
-            text-transform: uppercase;
-            color: white;
-            text-align: right;
-            margin-left: 50%;
-          "
-          >Blake Elizabeth Murphy • Grifinória • 166 d.v.
-        </span>
-      </div>
+const romaHTHTML = `<center>
+  <div style="width: 650px; border: 4px #0b39c2 solid; margin: 30px">
+    <div style="padding: 10px 10px 5px 10px; background-color: white">
+      <p
+        style="
+          font-family: Tahoma;
+          text-align: justify;
+          font-size: 12px;
+          line-height: 14px;
+          letter-spacing: 1px;
+        "
+      >
+        TEXTO
+      </p>
+    </div>
+    <div style="height: 25px; padding-top: 8px; background-color: #0b39c2">
+      <span
+        style="
+          color: #ffffff;
+          font-family: 'courier new';
+          font-size: 15px;
+          text-transform: uppercase;
+          margin-left: 40%;
+        "
+        >Roma Hightower • Second Year • Ravenclaw</span
+      >
     </div>
   </div>
 </center>
@@ -1376,6 +1405,7 @@ const getCharHTML = (char) => {
   else if (char == "aspen2") return { html: aspen2HTML, color: "#779ECB" };
   else if (char == "hughie2") return { html: hughie2HTML, color: "#7DA7DB" };
   else if (char == "blake3") return { html: blakeHTHTML, color: "#cc010f" };
+  else if (char == "roma3") return { html: blakeHTHTML, color: "#0b39c2" };
 };
 
 function getTextReady(char, color) {
@@ -1408,12 +1438,14 @@ function getTextReady(char, color) {
 const getHTMLReady = () => {
   const char = document.getElementById("selectChar").value;
   const char2 = document.getElementById("selectChar2").value;
+  const char3 = document.getElementById("selectChar3").value;
 
-  if (char !== "none" && char2 !== "none") {
+  if (char !== "none" && char2 !== "none" && char3 !== "none") {
     alert("Inválido");
 
     document.getElementById("selectChar").value = "none";
     document.getElementById("selectChar2").value = "none";
+    document.getElementById("selectChar3").value = "none";
   }
 
   let { html, color } = { html: "", color: "" };
@@ -1423,6 +1455,9 @@ const getHTMLReady = () => {
   }
   if (char2 !== "none") {
     ({ html, color } = getCharHTML(char2));
+  }
+  if (char3 !== "none") {
+    ({ html, color } = getCharHTML(char3));
   }
 
   let [part1, part2] = html.split("TEXTO");
