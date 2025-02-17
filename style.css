@@ -15,16 +15,22 @@ textarea {
 
 .select-container {
   display: flex;
-  width: 16rem;
-  margin: auto;
-  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
   align-items: center;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
 }
 
 .select,
-.select2 {
+.select2,
+.select3 {
   width: 8rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
 }
 
 .radioSelection {

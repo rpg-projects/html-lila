@@ -1322,6 +1322,38 @@ const hughie2HTML = `<center style="font-family: Tahoma">
 </center>
 `;
 
+const blakeHTHTML = `<center style="font-family: Tahoma">
+  <div
+    style="
+      margin-top: 40px;
+      width: 650px;
+      background-color: #f5f8f1;
+      border: solid 4px #cc010f;
+    "
+  >
+    <!-- texto -->
+    <div style="padding: 1% 3% 2% 3%">
+      <p style="text-align: justify; line-height: 16px">&nbsp; TEXTO</p>
+    </div>
+
+    <!-- titulo   -->
+    <div style="padding: 10px; background-color: #b8030f">
+      <div style="height: 12px">
+        <span
+          style="
+            text-transform: uppercase;
+            color: white;
+            text-align: right;
+            margin-left: 50%;
+          "
+          >Blake Elizabeth Murphy • Grifinória • 166 d.v.
+        </span>
+      </div>
+    </div>
+  </div>
+</center>
+`;
+
 const getCharHTML = (char) => {
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
   else if (char == "charlie") return { html: charlieHTML, color: "#f0a23a" };
@@ -1343,6 +1375,7 @@ const getCharHTML = (char) => {
   else if (char == "blake") return { html: BlakeHTML, color: "#996515" };
   else if (char == "aspen2") return { html: aspen2HTML, color: "#779ECB" };
   else if (char == "hughie2") return { html: hughie2HTML, color: "#7DA7DB" };
+  else if (char == "blake3") return { html: blakeHTHTML, color: "#cc010f" };
 };
 
 function getTextReady(char, color) {
