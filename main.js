@@ -1337,7 +1337,7 @@ const blakeHTHTML = `<center>
         TEXTO
       </p>
     </div>
-    <div style="height: 25px; padding-top: 8px; background-color: #cc010f">
+    <div style="height: 25px; padding-top: 6px; margin-top: 20px; background-color: #cc010f">
       <span
         style="
           color: #ffffff;
@@ -1367,7 +1367,7 @@ const romaHTHTML = `<center>
         TEXTO
       </p>
     </div>
-    <div style="height: 25px; padding-top: 8px; background-color: #0b39c2">
+    <div style="height: 25px; padding-top: 6px; margin-top: 20px; background-color: #0b39c2">
       <span
         style="
           color: #ffffff;
