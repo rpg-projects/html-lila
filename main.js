@@ -10,8 +10,8 @@ const charlieHTML = `<center>
   "
 >
   <p>
-    CHARLIE BARLOWE &nbsp;─&nbsp; FILHO DE APOLO &nbsp;─&nbsp; SEXTO VERÃO
-    &nbsp;─&nbsp; 20 ANOS
+    CHARLIE BARLOWE &nbsp;─&nbsp; FILHO DE APOLO &nbsp;─&nbsp; SÉTIMO VERÃO
+    &nbsp;─&nbsp; 21 ANOS
   </p>
   <div
     style="
@@ -57,8 +57,8 @@ const elodieHTML = `<center>
   "
 >
   <p>
-    GREGUSKA ELODIE REITH &nbsp;─&nbsp; FILHA DE ATENA &nbsp;─&nbsp; QUINTO
-    VERÃO &nbsp;─&nbsp; 18 ANOS
+    GREGUSKA ELODIE REITH &nbsp;─&nbsp; FILHA DE ATENA &nbsp;─&nbsp; SEXTO
+    VERÃO &nbsp;─&nbsp; 19 ANOS
   </p>
   <div
     style="
@@ -103,7 +103,7 @@ const carcinhaHTML = `<center>
 >
   <p>
     CARÇOELE ELLE CONSUELA SUZANA MITCHELL &nbsp;─&nbsp; FILHA DE DIONÍSIO
-    &nbsp;─&nbsp; QUINTO VERÃO &nbsp;─&nbsp; 18 ANOS
+    &nbsp;─&nbsp; SEXTO VERÃO &nbsp;─&nbsp; 19 ANOS
   </p>
   <div
     style="
@@ -150,8 +150,8 @@ const jackieHTML = `<center>
   "
 >
   <p>
-    JACKIE BURDIEK &nbsp;─&nbsp; FILHA DE HERMES &nbsp;─&nbsp; QUINTO VERÃO
-    &nbsp;─&nbsp; 19 ANOS
+    JACKIE BURDIEK &nbsp;─&nbsp; FILHA DE HERMES &nbsp;─&nbsp; SEXTO VERÃO
+    &nbsp;─&nbsp; 20 ANOS
   </p>
   <div
     style="
@@ -198,8 +198,8 @@ const oliviaHTML = `<center>
   "
 >
   <p>
-    OLIVIA WAZOWSKI &nbsp;─&nbsp; FILHA DE HEBE &nbsp;─&nbsp; TERCEIRO VERÃO
-    &nbsp;─&nbsp; 18 ANOS
+    OLIVIA WAZOWSKI &nbsp;─&nbsp; FILHA DE HEBE &nbsp;─&nbsp; QUARTO VERÃO
+    &nbsp;─&nbsp; 19 ANOS
   </p>
   <div
     style="
@@ -246,8 +246,8 @@ const aspenHTML = `<center>
   "
 >
   <p>
-    ASPEN HEWITT &nbsp;─&nbsp; FILHA DE DESPINA &nbsp;─&nbsp; TERCEIRO VERÃO
-    &nbsp;─&nbsp; 18 ANOS
+    ASPEN HEWITT &nbsp;─&nbsp; FILHA DE DESPINA &nbsp;─&nbsp; QUARTO VERÃO
+    &nbsp;─&nbsp; 19 ANOS
   </p>
   <div
     style="
@@ -294,8 +294,8 @@ const hughieHTML = `<center>
   "
 >
   <p>
-    HUGHIE LOCKE &nbsp;─&nbsp; FILHO DE ASTREIA &nbsp;─&nbsp; TERCEIRO VERÃO
-    &nbsp;─&nbsp; 19 ANOS
+    HUGHIE LOCKE &nbsp;─&nbsp; FILHO DE ASTREIA &nbsp;─&nbsp; QUARTO VERÃO
+    &nbsp;─&nbsp; 20 ANOS
   </p>
   <div
     style="
@@ -330,319 +330,465 @@ const hughieHTML = `<center>
 </center>
 `;
 
-const kinsleyHTML = `
-<center><div style="width:650px;margin:14px;background-color:#99424a;color:#fff;font-family:'century gothic';font-size:10px;">  <p>   KINSLEY PALMER&nbsp; ─&nbsp; FILHA DE CIRCE&nbsp; ─&nbsp; SEGUNDO VERÃO&nbsp; ─&nbsp; 16 ANOS  </p>  
-<div style="background-color:#fff1f2;text-align:justify;border:#FF6E7B 3pt solid;padding:10px;line-height:14px;">    
-<div style="float:left;">      <img src="//64.media.tumblr.com/c36116a4b74ca1c0d74939ba9b334f0b/a004ff2e3f2c14cd-ba/s500x750/44fcedbed647cc0c547f6690b897019ec8892bf8.gif" style="width:90px; margin-right:6px; padding:3px; border:#FF6E7B 3pt solid;" alt="44fcedbed647cc0c547f6690b897019ec8892bf8.gif"></div>    
-<span style="width:630px;font-family:tahoma;font-size:10pt;color:#000000;">  TEXTO  </span>  </div>  <p style="text-transform:uppercase;">Your head in the curtains, your heart like the fourth of July</p></div></center>`;
-
-const matthewHTML = `<center><div style="width:650px; margin: 14px; background-color: #3b0707; color: #fff; font-family: 'century gothic'; font-size: 10px;">  
-  <p> MATTHEW GRAYBACK&nbsp; ─&nbsp; FILHO DE HEFESTO&nbsp; ─&nbsp; SEGUNDO VERÃO&nbsp; ─&nbsp;  17 ANOS </p>
-  <div style="background-color: #e1d5d5; text-align: justify; border: #4F0E0E 3pt solid; padding: 10px; line-height: 14px;"><div style="float: left"><img src="https://64.media.tumblr.com/e3325bbc531888c9a37e73bf80622e29/c562120c97effd1c-e4/s500x750/44ad647a39291ab28a6068c89d9535998d6a0030.webp" style="width: 90px; margin-right: 6px; padding: 3px; border: #4F0E0E 3pt solid;"></div>
-    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">      TEXTO    </span>  </div>
-  <p>ONCE UPON A DIFFERENT LIFE, WE RODE OUR BIKES INTO THE SKY</p>
-</div>
-</center>`;
-
-const skylarHTML = `
-<center><div style="    width: 650px;    margin: 14px;    background-color: #590e34;    color: #fff;    font-family: 'century gothic';    font-size: 10px;  ">  <p>    SKYLAR DILAURENTIS&nbsp; ─&nbsp; FILHO DE DIONÍSIO&nbsp; ─&nbsp; SEGUNDO VERÃO&nbsp; ─&nbsp;  16 ANOS  </p>
-  <div style="      background-color: #e3cad6;      text-align: justify;      border: #872657 3pt solid;      padding: 10px;      line-height: 14px;    ">    <div style="float: left">      <img src="https://64.media.tumblr.com/fa0ed8e4c21d40503d36a2b6d6e776b2/3c937a31625d5dbf-60/s250x400/a625d8964e4fb40e798ef94af3f624c675f6b124.gifv" style="          width: 90px;          margin-right: 6px;          padding: 3px;          border: #872657 3pt solid;        ">    </div>
-    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">      TEXTO    </span>  </div>
-  <p>HE TOOK THE MIDNIGHT TRAIN GOING ANYWHERE</p>
-</div>
+const kinsleyHTML = `<center>
+  <div
+    style="
+      width: 650px;
+      margin: 14px;
+      background-color: #99424a;
+      color: #fff;
+      font-family: 'century gothic';
+      font-size: 10px;
+    "
+  >
+    <p>
+      KINSLEY PALMER&nbsp; ─&nbsp; FILHA DE CIRCE&nbsp; ─&nbsp; TERCEIRO
+      VERÃO&nbsp; ─&nbsp; 17 ANOS
+    </p>
+    <div
+      style="
+        background-color: #fff1f2;
+        text-align: justify;
+        border: #ff6e7b 3pt solid;
+        padding: 10px;
+        line-height: 14px;
+      "
+    >
+      <div style="float: left">
+        <img
+          src="//64.media.tumblr.com/c36116a4b74ca1c0d74939ba9b334f0b/a004ff2e3f2c14cd-ba/s500x750/44fcedbed647cc0c547f6690b897019ec8892bf8.gif"
+          style="
+            width: 90px;
+            margin-right: 6px;
+            padding: 3px;
+            border: #ff6e7b 3pt solid;
+          "
+          alt="44fcedbed647cc0c547f6690b897019ec8892bf8.gif"
+        />
+      </div>
+      <span
+        style="
+          width: 630px;
+          font-family: tahoma;
+          font-size: 10pt;
+          color: #000000;
+        "
+      >
+        TEXTO
+      </span>
+    </div>
+    <p style="text-transform: uppercase">
+      Your head in the curtains, your heart like the fourth of July
+    </p>
+  </div>
 </center>
 `;
 
-const milesHTML = `
-<center><div style="    width: 650px;    margin: 14px;    background-color: #7389ab;    color: #fff;    font-family: 'century gothic';    font-size: 10px;  ">  <p>    MILES CAPPELLI&nbsp; ─&nbsp; FILHO DE SELENE&nbsp; ─&nbsp; SEGUNDO VERÃO&nbsp; ─&nbsp;  17 ANOS  </p>
-  <div style="      background-color: #ebeff6;      text-align: justify;      border: #A6B2C5 3pt solid;      padding: 10px;      line-height: 14px;    ">    <div style="float: left">      <img src="https://64.media.tumblr.com/e34efc3bea3a1b3a775563e0b639ce1a/3d539abcc8626995-d4/s250x400/a555ffbf3ba74d3f0201b168603ac202741f7af8.gifv" style="          width: 90px;          margin-right: 6px;          padding: 3px;          border: #A6B2C5 3pt solid;        ">    </div>
-    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">      TEXTO    </span>  </div>
-  <p>YOUR FAITH WAS STRONG, BUT YOU NEEDED PROOF</p>
-</div>
+const matthewHTML = `<center>
+  <div
+    style="
+      width: 650px;
+      margin: 14px;
+      background-color: #3b0707;
+      color: #fff;
+      font-family: 'century gothic';
+      font-size: 10px;
+    "
+  >
+    <p>
+      MATTHEW GRAYBACK&nbsp; ─&nbsp; FILHO DE HEFESTO&nbsp; ─&nbsp; TERCEIRO
+      VERÃO&nbsp; ─&nbsp; 18 ANOS
+    </p>
+    <div
+      style="
+        background-color: #e1d5d5;
+        text-align: justify;
+        border: #4f0e0e 3pt solid;
+        padding: 10px;
+        line-height: 14px;
+      "
+    >
+      <div style="float: left">
+        <img
+          src="https://64.media.tumblr.com/e3325bbc531888c9a37e73bf80622e29/c562120c97effd1c-e4/s500x750/44ad647a39291ab28a6068c89d9535998d6a0030.webp"
+          style="
+            width: 90px;
+            margin-right: 6px;
+            padding: 3px;
+            border: #4f0e0e 3pt solid;
+          "
+        />
+      </div>
+      <span
+        style="width: 630px; font-family: tahoma; font-size: 10pt; color: black"
+      >
+        TEXTO
+      </span>
+    </div>
+    <p>ONCE UPON A DIFFERENT LIFE, WE RODE OUR BIKES INTO THE SKY</p>
+  </div>
 </center>
 `;
 
 const nicHTML = `
-<center><div style="    width: 650px;    margin: 14px;    background-color: #c66961;    color: #fff;    font-family: 'century gothic';    font-size: 10px;  ">  <p>    NICOLE CAMPBELL&nbsp; ─&nbsp; FILHA DE PSIQUÊ&nbsp; ─&nbsp; PRIMEIRO VERÃO&nbsp; ─&nbsp;  15 ANOS  </p>
-  <div style="      background-color: #fee6e4;      text-align: justify;      border: #F88379 3pt solid;      padding: 10px;      line-height: 14px;    ">    <div style="float: left">      <img src="https://64.media.tumblr.com/ea60f08f671a11de9b682630965827e6/ab2af79a3be46b78-61/s250x400/b400ca39b7486e3af0a8ae143ada25dffa87b764.webp" style="          width: 90px;          margin-right: 6px;          padding: 3px;          border: #F88379 3pt solid;        ">    </div>
-    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">      TEXTO    </span>  </div>
-  <p>I USED TO FLOAT, NOW I JUST FALL DOWN</p>
-</div>
+<center>
+  <div
+    style="
+      width: 650px;
+      margin: 14px;
+      background-color: #c66961;
+      color: #fff;
+      font-family: 'century gothic';
+      font-size: 10px;
+    "
+  >
+    <p>
+      NICOLE CAMPBELL&nbsp; ─&nbsp; FILHA DE PSIQUÊ&nbsp; ─&nbsp; SEGUNDO
+      VERÃO&nbsp; ─&nbsp; 16 ANOS
+    </p>
+    <div
+      style="
+        background-color: #fee6e4;
+        text-align: justify;
+        border: #f88379 3pt solid;
+        padding: 10px;
+        line-height: 14px;
+      "
+    >
+      <div style="float: left">
+        <img
+          src="https://64.media.tumblr.com/ea60f08f671a11de9b682630965827e6/ab2af79a3be46b78-61/s250x400/b400ca39b7486e3af0a8ae143ada25dffa87b764.webp"
+          style="
+            width: 90px;
+            margin-right: 6px;
+            padding: 3px;
+            border: #f88379 3pt solid;
+          "
+        />
+      </div>
+      <span
+        style="width: 630px; font-family: tahoma; font-size: 10pt; color: black"
+      >
+        TEXTO
+      </span>
+    </div>
+    <p>I USED TO FLOAT, NOW I JUST FALL DOWN</p>
+  </div>
 </center>
+
 `;
 
 const brodyHTML = `
-<center><div style="    width: 650px;    margin: 14px;    background-color: #a2812a;    color: #fff;    font-family: 'century gothic';    font-size: 10px;  ">  <p>    BRODY KENNEDY&nbsp; ─&nbsp; FILHO DE NIKÉ&nbsp; ─&nbsp; PRIMEIRO VERÃO&nbsp; ─&nbsp;  16 ANOS  </p>
-  <div style="      background-color: #f5ecd7;      text-align: justify;      border: #CBA135 3pt solid;      padding: 10px;      line-height: 14px;    ">    <div style="float: left">      <img src="https://media.tenor.com/SOyDjn5RamYAAAAM/mason-mount-mason-mount-smh.gif" style="          width: 90px;          margin-right: 6px;          padding: 3px;          border: #CBA135 3pt solid;        ">    </div>
-    <span style="width: 630px;font-family: tahoma; font-size: 10pt; color: black">      TEXTO    </span>  </div>
-  <p>I'M ON A HIGHWAY TO HELL</p>
-</div>
-</center>
-`;
-
-const emilyHTML = `<center style="font-family: Tahoma">
+<center>
   <div
     style="
-      margin-top: 40px;
       width: 650px;
-      background-color: #deeef5;
-      border: solid 2px #1d6989;
+      margin: 14px;
+      background-color: #a2812a;
+      color: #fff;
+      font-family: 'century gothic';
+      font-size: 10px;
     "
   >
-    <!-- titulo   -->
+    <p>
+      BRODY KENNEDY&nbsp; ─&nbsp; FILHO DE NIKÉ&nbsp; ─&nbsp; SEGUNDO
+      VERÃO&nbsp; ─&nbsp; 17 ANOS
+    </p>
     <div
       style="
-        width: auto;
-        height: 78px;
-        background-color: #1d6989;
-        background: url('//64.media.tumblr.com/17143f0ce9fe7e7de4f21f5200a198d1/ce00c9a24d0405c3-88/s540x810/dd3b876836069c5d52d5f87e7d1d0f0876271014.webp');
-
+        background-color: #f5ecd7;
+        text-align: justify;
+        border: #cba135 3pt solid;
         padding: 10px;
+        line-height: 14px;
       "
     >
-      <div
-        style="
-          border: 1px solid #ffffff;
-          height: 99%;
-          width: auto;
-          padding-left: 15px;
-        "
-      >
-        <h1
-          style="
-            color: #ffffff;
-            font-size: 32px;
-            font-family: Tahoma;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            letter-spacing: 2px;
-          "
-        >
-          EMILY BLOOM
-        </h1>
-        <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
-          PRIMEIRA CONTA ⇤ PSIQUÊ ⇥ 14 ANOS
-        </p>
-      </div>
-    </div>
-    <!-- texto -->
-    <div style="padding: 2% 3%">
       <div style="float: left">
         <img
-          src="//64.media.tumblr.com/35d1c62eca6822cec6ee699abc34a9a3/5b9fc9a237631429-e0/s640x960/fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+          src="https://media.tenor.com/SOyDjn5RamYAAAAM/mason-mount-mason-mount-smh.gif"
           style="
             width: 90px;
             margin-right: 6px;
-            margin-top: 4px;
-            border: #1d6989 4pt solid;
-          "
-          alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
-        />
-      </div>
-      <p style="text-align: justify; line-height: 16px">
-        &nbsp; TEXTO
-      </p>
-    </div>
-  </div>
-  <!-- footer -->
-
-  <div
-    style="
-      height: 30px;
-      width: 650px;
-      background-color: #1d6989;
-      margin-bottom: 40px;
-      padding-right: 10px;
-      border: solid 2px #1d6989;
-    "
-  >
-    <div style="float: left">
-      <div
-        style="
-          width: 60px;
-          border: 1px solid #ffffff;
-          height: 20px;
-          float: left;
-          margin-left: 10px;
-          margin-top: 3px;
-        "
-      >
-        <p
-          style="
-            font-size: 10px;
-            color: #ffffff;
-            letter-spacing: 1px;
-            vertical-align: middle;
-          "
-        >
-          HP 20/20
-        </p>
-      </div>
-    </div>
-
-    <p
-      style="
-        color: #ffffff;
-        font-size: 10px;
-        float: right;
-        clear: both;
-        margin-top: -20px;
-      "
-    >
-      MAY YOUR PAST BE THE SOUND OF YOUR FEET UPON THE GROUND
-    </p>
-  </div>
-</center>
-`;
-
-const bradHTML = `<center style="font-family: 'Tahoma'; overflow: hidden">
-  <div
-    class="rounded"
-    style="
-      margin-top: 40px;
-      width: 650px;
-      background-color: #f7e6de;
-      border: solid 2px #b63f08;
-    "
-  >
-    <!-- título -->
-    <div
-      id="this"
-      style="
-        position: relative;
-        width: 650px;
-        height: 80px;
-        background-color: #b63f08;
-        background: url('https://64.media.tumblr.com/5b50ae8207e428491ec2494605b9a38b/d74f728e5cf3d2be-4b/s540x810/4ce3b2864a36941c0fe0286db33d13410830aac2.jpg');
-        background-position: cover;
-        padding: 10px;
-        width: auto;
-        box-sizing: border-box;
-      "
-    >
-      <div
-        style="
-          border: 1px solid white;
-          height: 99%;
-          width: auto;
-          box-sizing: border-box;
-          display: flex;
-          flex-direction: column;
-          overflow: visible;
-          padding-left: 15px;
-        "
-      >
-        <h1
-          style="
-            color: white;
-            text-align: ce;
-            font-size: 32px;
-            font-family: 'Tahoma';
-            margin-top: 0px;
-            margin-bottom: 0px;
-            letter-spacing: 2px;
-          "
-        >
-          BRAD MULROY
-        </h1>
-        <p
-          style="
-            color: white;
-            text-align: ce;
-            margin-top: -5px;
-            letter-spacing: 1px;
-          "
-        >
-          PRIMEIRA CONTA ⇤ NIKÉ ⇥ 15 ANOS
-        </p>
-      </div>
-    </div>
-    <!-- texto -->
-    <div style="padding: 2% 3%">
-      <div style="float: left">
-        <img
-          src="https://44.media.tumblr.com/28007a9ff771d213c4f5ff193bc395dd/3f71876b8f505fdb-18/s540x810_f1/a5969fd51a56936b9f975cfaa3c804d6d7db32ca.gifv"
-          style="
-            width: 90px;
-            margin-right: 6px;
-            margin-top: 4px;
-            border: #b63f08 4pt solid;
+            padding: 3px;
+            border: #cba135 3pt solid;
           "
         />
       </div>
-      <p
-        style="
-          text-align: justify;
-          line-height: 16px;
-          font-family: 'Tahoma';
-          color: black;
-        "
+      <span
+        style="width: 630px; font-family: tahoma; font-size: 10pt; color: black"
       >
-        &nbsp; TEXTO
-      </p>
+        TEXTO
+      </span>
     </div>
-  </div>
-  <!-- footer -->
-  <div
-    style="
-      height: 30px;
-      width: 650px;
-      background-color: #b63f08;
-      margin-bottom: 40px;
-      padding-right: 10px;
-      border: solid 2px #b63f08;
-    "
-  >
-    <div
-      style="
-        width: 40px;
-        border: 1px solid white;
-        height: 20px;
-        float: left;
-        margin-left: 10px;
-        margin-top: 3px;
-      "
-    >
-      <p
-        style="
-          font-size: 10px;
-          color: white;
-          letter-spacing: 1px;
-          vertical-align: middle;
-        "
-      >
-        HP 20
-      </p>
-    </div>
-    <p
-      style="
-        color: white;
-        font-size: 10px;
-        float: right;
-        clear: both;
-        margin-top: -20px;
-        text-transform: uppercase;
-      "
-    >
-      High off her love, drunk from her hate
-    </p>
+    <p>I'M ON A HIGHWAY TO HELL</p>
   </div>
 </center>
 
-<!-- <div
-  id="this"
-  style="
-    margin-top: 40px;
-    width: 650px;
-    height: 100px;
-    background-color: #b63f08;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), #b63f08),
-      url('https://64.media.tumblr.com/5b50ae8207e428491ec2494605b9a38b/d74f728e5cf3d2be-4b/s540x810/4ce3b2864a36941c0fe0286db33d13410830aac2.jpg');
-    padding: 10px;
-    box-sizing: border-box;
-  "
-></div> -->
 `;
+
+// const emilyHTML = `<center style="font-family: Tahoma">
+//   <div
+//     style="
+//       margin-top: 40px;
+//       width: 650px;
+//       background-color: #deeef5;
+//       border: solid 2px #1d6989;
+//     "
+//   >
+//     <!-- titulo   -->
+//     <div
+//       style="
+//         width: auto;
+//         height: 78px;
+//         background-color: #1d6989;
+//         background: url('//64.media.tumblr.com/17143f0ce9fe7e7de4f21f5200a198d1/ce00c9a24d0405c3-88/s540x810/dd3b876836069c5d52d5f87e7d1d0f0876271014.webp');
+
+//         padding: 10px;
+//       "
+//     >
+//       <div
+//         style="
+//           border: 1px solid #ffffff;
+//           height: 99%;
+//           width: auto;
+//           padding-left: 15px;
+//         "
+//       >
+//         <h1
+//           style="
+//             color: #ffffff;
+//             font-size: 32px;
+//             font-family: Tahoma;
+//             margin-top: 0px;
+//             margin-bottom: 0px;
+//             letter-spacing: 2px;
+//           "
+//         >
+//           EMILY BLOOM
+//         </h1>
+//         <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
+//           PRIMEIRA CONTA ⇤ PSIQUÊ ⇥ 14 ANOS
+//         </p>
+//       </div>
+//     </div>
+//     <!-- texto -->
+//     <div style="padding: 2% 3%">
+//       <div style="float: left">
+//         <img
+//           src="//64.media.tumblr.com/35d1c62eca6822cec6ee699abc34a9a3/5b9fc9a237631429-e0/s640x960/fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+//           style="
+//             width: 90px;
+//             margin-right: 6px;
+//             margin-top: 4px;
+//             border: #1d6989 4pt solid;
+//           "
+//           alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+//         />
+//       </div>
+//       <p style="text-align: justify; line-height: 16px">
+//         &nbsp; TEXTO
+//       </p>
+//     </div>
+//   </div>
+//   <!-- footer -->
+
+//   <div
+//     style="
+//       height: 30px;
+//       width: 650px;
+//       background-color: #1d6989;
+//       margin-bottom: 40px;
+//       padding-right: 10px;
+//       border: solid 2px #1d6989;
+//     "
+//   >
+//     <div style="float: left">
+//       <div
+//         style="
+//           width: 60px;
+//           border: 1px solid #ffffff;
+//           height: 20px;
+//           float: left;
+//           margin-left: 10px;
+//           margin-top: 3px;
+//         "
+//       >
+//         <p
+//           style="
+//             font-size: 10px;
+//             color: #ffffff;
+//             letter-spacing: 1px;
+//             vertical-align: middle;
+//           "
+//         >
+//           HP 20/20
+//         </p>
+//       </div>
+//     </div>
+
+//     <p
+//       style="
+//         color: #ffffff;
+//         font-size: 10px;
+//         float: right;
+//         clear: both;
+//         margin-top: -20px;
+//       "
+//     >
+//       MAY YOUR PAST BE THE SOUND OF YOUR FEET UPON THE GROUND
+//     </p>
+//   </div>
+// </center>
+// `;
+
+// const bradHTML = `<center style="font-family: 'Tahoma'; overflow: hidden">
+//   <div
+//     class="rounded"
+//     style="
+//       margin-top: 40px;
+//       width: 650px;
+//       background-color: #f7e6de;
+//       border: solid 2px #b63f08;
+//     "
+//   >
+//     <!-- título -->
+//     <div
+//       id="this"
+//       style="
+//         position: relative;
+//         width: 650px;
+//         height: 80px;
+//         background-color: #b63f08;
+//         background: url('https://64.media.tumblr.com/5b50ae8207e428491ec2494605b9a38b/d74f728e5cf3d2be-4b/s540x810/4ce3b2864a36941c0fe0286db33d13410830aac2.jpg');
+//         background-position: cover;
+//         padding: 10px;
+//         width: auto;
+//         box-sizing: border-box;
+//       "
+//     >
+//       <div
+//         style="
+//           border: 1px solid white;
+//           height: 99%;
+//           width: auto;
+//           box-sizing: border-box;
+//           display: flex;
+//           flex-direction: column;
+//           overflow: visible;
+//           padding-left: 15px;
+//         "
+//       >
+//         <h1
+//           style="
+//             color: white;
+//             text-align: ce;
+//             font-size: 32px;
+//             font-family: 'Tahoma';
+//             margin-top: 0px;
+//             margin-bottom: 0px;
+//             letter-spacing: 2px;
+//           "
+//         >
+//           BRAD MULROY
+//         </h1>
+//         <p
+//           style="
+//             color: white;
+//             text-align: ce;
+//             margin-top: -5px;
+//             letter-spacing: 1px;
+//           "
+//         >
+//           PRIMEIRA CONTA ⇤ NIKÉ ⇥ 15 ANOS
+//         </p>
+//       </div>
+//     </div>
+//     <!-- texto -->
+//     <div style="padding: 2% 3%">
+//       <div style="float: left">
+//         <img
+//           src="https://44.media.tumblr.com/28007a9ff771d213c4f5ff193bc395dd/3f71876b8f505fdb-18/s540x810_f1/a5969fd51a56936b9f975cfaa3c804d6d7db32ca.gifv"
+//           style="
+//             width: 90px;
+//             margin-right: 6px;
+//             margin-top: 4px;
+//             border: #b63f08 4pt solid;
+//           "
+//         />
+//       </div>
+//       <p
+//         style="
+//           text-align: justify;
+//           line-height: 16px;
+//           font-family: 'Tahoma';
+//           color: black;
+//         "
+//       >
+//         &nbsp; TEXTO
+//       </p>
+//     </div>
+//   </div>
+//   <!-- footer -->
+//   <div
+//     style="
+//       height: 30px;
+//       width: 650px;
+//       background-color: #b63f08;
+//       margin-bottom: 40px;
+//       padding-right: 10px;
+//       border: solid 2px #b63f08;
+//     "
+//   >
+//     <div
+//       style="
+//         width: 40px;
+//         border: 1px solid white;
+//         height: 20px;
+//         float: left;
+//         margin-left: 10px;
+//         margin-top: 3px;
+//       "
+//     >
+//       <p
+//         style="
+//           font-size: 10px;
+//           color: white;
+//           letter-spacing: 1px;
+//           vertical-align: middle;
+//         "
+//       >
+//         HP 20
+//       </p>
+//     </div>
+//     <p
+//       style="
+//         color: white;
+//         font-size: 10px;
+//         float: right;
+//         clear: both;
+//         margin-top: -20px;
+//         text-transform: uppercase;
+//       "
+//     >
+//       High off her love, drunk from her hate
+//     </p>
+//   </div>
+// </center>
+
+// <!-- <div
+//   id="this"
+//   style="
+//     margin-top: 40px;
+//     width: 650px;
+//     height: 100px;
+//     background-color: #b63f08;
+//     background: linear-gradient(rgba(0, 0, 0, 0.4), #b63f08),
+//       url('https://64.media.tumblr.com/5b50ae8207e428491ec2494605b9a38b/d74f728e5cf3d2be-4b/s540x810/4ce3b2864a36941c0fe0286db33d13410830aac2.jpg');
+//     padding: 10px;
+//     box-sizing: border-box;
+//   "
+// ></div> -->
+// `;
 
 const elodie2HTML = `<center style="font-family: Tahoma">
   <div
@@ -840,7 +986,7 @@ const nic2HTML = `<center style="font-family: Tahoma">
               NICOLE CAMPBELL
             </h1>
             <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
-              PRIMEIRA CONTA ⇤ FILHA DE PSIQUÊ ⇥ 15 ANOS
+              SEGUNDA CONTA ⇤ FILHA DE PSIQUÊ ⇥ 16 ANOS
             </p>
           </div>
         </div>
@@ -975,7 +1121,7 @@ const BlakeHTML = `<center style="font-family: Tahoma">
               BLAKE WALTON
             </h1>
             <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
-              PRIMEIRA CONTA ⇤ HÉRACLES ⇥ 16 ANOS
+              PRIMEIRA CONTA ⇤ HÉRACLES ⇥ 15 ANOS
             </p>
           </div>
         </div>
@@ -1322,6 +1468,142 @@ const hughie2HTML = `<center style="font-family: Tahoma">
 </center>
 `;
 
+const fallonHTML = `<center style="font-family: Tahoma">
+  <div
+    style="
+      margin-top: 40px;
+      width: 650px;
+      background-color: #f1e1e1;
+      border: solid 4px #4d1010;
+    "
+  >
+    <!-- titulo   -->
+    <div style="padding: 10px; background-color: rgba(93, 22, 22, 0.9)">
+      <div
+        style="
+          position: relative;
+          width: auto;
+          height: 80px;
+          background: url('https://64.media.tumblr.com/1b9b60b09ffbc40f62325680b26b3a58/cc4858ad2a88008e-dc/s1280x1920/ba27351cccd2e17096b54b50b4d3d0b2d6b4b4a7.jpg');
+          background-size: cover;
+          background-position: center;
+          overflow: hidden;
+        "
+      >
+        <!-- Overlay for shading -->
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(
+              85,
+              20,
+              20,
+              0.5
+            ); /* Adjust transparency as needed */
+            pointer-events: none;
+          "
+        >
+          <div
+            style="
+              border: 1px solid #ffffff;
+              height: 100%;
+              width: auto;
+              padding-left: 15px;
+            "
+          >
+            <h1
+              style="
+                color: #ffffff;
+                font-size: 36px;
+                font-family: 'century gothic';
+                font-weight: 100;
+                margin-top: 10px;
+                margin-bottom: 0px;
+                letter-spacing: 2px;
+              "
+            >
+              FALLON ASHFORD
+            </h1>
+            <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
+              PRIMEIRA CONTA ⇤ HEFESTO ⇥ 15 ANOS
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- texto -->
+    <div style="padding: 2% 3%">
+      <div style="float: left">
+        <img
+          src="https://64.media.tumblr.com/2412a7f19473db4fcc4b92abdb534c88/07bc578e1ef15ee3-85/s540x810/8ebf4ec76c1b51970f5f367c9226419ae439528d.gifv"
+          style="
+            width: 90px;
+            margin-right: 6px;
+            margin-top: 4px;
+            border: #4f0e0e 4pt solid;
+          "
+          alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+        />
+      </div>
+      <p style="text-align: justify; line-height: 16px">&nbsp; TEXTO</p>
+    </div>
+  </div>
+  <!-- footer -->
+
+  <div
+    style="
+      height: 30px;
+      width: 650px;
+      background-color: #561212;
+      margin-bottom: 40px;
+      padding-right: 10px;
+      border: solid 2px #4f0e0e;
+    "
+  >
+    <div style="float: left">
+      <div
+        style="
+          width: 60px;
+          border: 1px solid #ffffff;
+          height: 20px;
+          float: left;
+          margin-left: 10px;
+          margin-top: 3px;
+        "
+      >
+        <p
+          style="
+            font-size: 10px;
+            color: #ffffff;
+            letter-spacing: 1px;
+            vertical-align: middle;
+          "
+        >
+          HP 23/23
+        </p>
+      </div>
+    </div>
+
+    <p
+      style="
+        color: #ffffff;
+        font-size: 10px;
+        float: right;
+        clear: both;
+        margin-top: -20px;
+        text-transform: uppercase;
+      "
+    >
+      I'm fired up and tired of the way that things have been
+    </p>
+  </div>
+</center>
+`;
+
 const blakeHTHTML = `<center>
   <div style="width: 650px; border: 4px #cc010f solid; margin: 30px">
     <div style="padding: 10px 10px 5px 10px; background-color: white">
@@ -1393,19 +1675,18 @@ const getCharHTML = (char) => {
   else if (char == "hughie") return { html: hughieHTML, color: "#7DA7DB" };
   else if (char == "kinsley") return { html: kinsleyHTML, color: "#FF6E7B" };
   else if (char == "matthew") return { html: matthewHTML, color: "#4F0E0E" };
-  else if (char == "skylar") return { html: skylarHTML, color: "#872657" };
-  else if (char == "miles") return { html: milesHTML, color: "#A6B2C5" };
   else if (char == "nic") return { html: nicHTML, color: "#F88379" };
   else if (char == "brody") return { html: brodyHTML, color: "#CBA135" };
-  else if (char == "emily") return { html: emilyHTML, color: "#1d6989" };
-  else if (char == "brad") return { html: bradHTML, color: "#b63f08" };
   else if (char == "elodie2") return { html: elodie2HTML, color: "#9ab973" };
   else if (char == "nic2") return { html: nic2HTML, color: "#f88379" };
-  else if (char == "blake") return { html: BlakeHTML, color: "#996515" };
   else if (char == "aspen2") return { html: aspen2HTML, color: "#779ECB" };
   else if (char == "hughie2") return { html: hughie2HTML, color: "#7DA7DB" };
+  else if (char == "blake") return { html: BlakeHTML, color: "#996515" };
+  else if (char == "fallon") return { html: BlakeHTML, color: "#4d1010" };
   else if (char == "blake3") return { html: blakeHTHTML, color: "#cc010f" };
   else if (char == "roma3") return { html: blakeHTHTML, color: "#0b39c2" };
+  // else if (char == "emily") return { html: emilyHTML, color: "#1d6989" };
+  // else if (char == "brad") return { html: bradHTML, color: "#b63f08" };
 };
 
 function getTextReady(char, color) {
