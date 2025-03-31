@@ -1601,8 +1601,7 @@ const fallonHTML = `<center style="font-family: Tahoma">
       I'm fired up and tired of the way that things have been
     </p>
   </div>
-</center>
-`;
+</center>`;
 
 const blakeHTHTML = `<center>
   <div style="width: 650px; border: 4px #cc010f solid; margin: 30px">
