@@ -10,8 +10,8 @@ const charlieHTML = `<center>
   "
 >
   <p>
-    CHARLIE BARLOWE &nbsp;─&nbsp; FILHO DE APOLO &nbsp;─&nbsp; SÉTIMO VERÃO
-    &nbsp;─&nbsp; 21 ANOS
+    CHARLIE BARLOWE &nbsp;─&nbsp; FILHO DE APOLO &nbsp;─&nbsp; OITAVO VERÃO
+    &nbsp;─&nbsp; 22 ANOS
   </p>
   <div
     style="
@@ -57,8 +57,8 @@ const elodieHTML = `<center>
   "
 >
   <p>
-    GREGUSKA ELODIE REITH &nbsp;─&nbsp; FILHA DE ATENA &nbsp;─&nbsp; SEXTO
-    VERÃO &nbsp;─&nbsp; 19 ANOS
+    GREGUSKA ELODIE REITH &nbsp;─&nbsp; FILHA DE ATENA &nbsp;─&nbsp; SÉTIMO
+    VERÃO &nbsp;─&nbsp; 20 ANOS
   </p>
   <div
     style="
@@ -103,7 +103,7 @@ const carcinhaHTML = `<center>
 >
   <p>
     CARÇOELE ELLE CONSUELA SUZANA MITCHELL &nbsp;─&nbsp; FILHA DE DIONÍSIO
-    &nbsp;─&nbsp; SEXTO VERÃO &nbsp;─&nbsp; 19 ANOS
+    &nbsp;─&nbsp; SÉTIMO VERÃO &nbsp;─&nbsp; 20 ANOS
   </p>
   <div
     style="
@@ -150,8 +150,8 @@ const jackieHTML = `<center>
   "
 >
   <p>
-    JACKIE BURDIEK &nbsp;─&nbsp; FILHA DE HERMES &nbsp;─&nbsp; SEXTO VERÃO
-    &nbsp;─&nbsp; 20 ANOS
+    JACKIE BURDIEK &nbsp;─&nbsp; FILHA DE HERMES &nbsp;─&nbsp; SÉTIMO VERÃO
+    &nbsp;─&nbsp; 21 ANOS
   </p>
   <div
     style="
@@ -198,8 +198,8 @@ const oliviaHTML = `<center>
   "
 >
   <p>
-    OLIVIA WAZOWSKI &nbsp;─&nbsp; FILHA DE HEBE &nbsp;─&nbsp; QUARTO VERÃO
-    &nbsp;─&nbsp; 19 ANOS
+    OLIVIA WAZOWSKI &nbsp;─&nbsp; FILHA DE HEBE &nbsp;─&nbsp; QUINTO VERÃO
+    &nbsp;─&nbsp; 20 ANOS
   </p>
   <div
     style="
@@ -246,8 +246,8 @@ const aspenHTML = `<center>
   "
 >
   <p>
-    ASPEN HEWITT &nbsp;─&nbsp; FILHA DE DESPINA &nbsp;─&nbsp; QUARTO VERÃO
-    &nbsp;─&nbsp; 19 ANOS
+    ASPEN HEWITT &nbsp;─&nbsp; FILHA DE DESPINA &nbsp;─&nbsp; QUINTO VERÃO
+    &nbsp;─&nbsp; 20 ANOS
   </p>
   <div
     style="
@@ -294,8 +294,8 @@ const hughieHTML = `<center>
   "
 >
   <p>
-    HUGHIE LOCKE &nbsp;─&nbsp; FILHO DE ASTREIA &nbsp;─&nbsp; QUARTO VERÃO
-    &nbsp;─&nbsp; 20 ANOS
+    HUGHIE LOCKE &nbsp;─&nbsp; FILHO DE ASTREIA &nbsp;─&nbsp; QUINTO VERÃO
+    &nbsp;─&nbsp; 21 ANOS
   </p>
   <div
     style="
@@ -342,8 +342,8 @@ const kinsleyHTML = `<center>
     "
   >
     <p>
-      KINSLEY PALMER&nbsp; ─&nbsp; FILHA DE CIRCE&nbsp; ─&nbsp; TERCEIRO
-      VERÃO&nbsp; ─&nbsp; 17 ANOS
+      KINSLEY PALMER&nbsp; ─&nbsp; FILHA DE CIRCE&nbsp; ─&nbsp; QUARTO
+      VERÃO&nbsp; ─&nbsp; 18 ANOS
     </p>
     <div
       style="
@@ -396,8 +396,8 @@ const matthewHTML = `<center>
     "
   >
     <p>
-      MATTHEW GRAYBACK&nbsp; ─&nbsp; FILHO DE HEFESTO&nbsp; ─&nbsp; TERCEIRO
-      VERÃO&nbsp; ─&nbsp; 18 ANOS
+      MATTHEW GRAYBACK&nbsp; ─&nbsp; FILHO DE HEFESTO&nbsp; ─&nbsp; QUARTO
+      VERÃO&nbsp; ─&nbsp; 19 ANOS
     </p>
     <div
       style="
@@ -443,8 +443,8 @@ const nicHTML = `
     "
   >
     <p>
-      NICOLE CAMPBELL&nbsp; ─&nbsp; FILHA DE PSIQUÊ&nbsp; ─&nbsp; SEGUNDO
-      VERÃO&nbsp; ─&nbsp; 16 ANOS
+      NICOLE CAMPBELL&nbsp; ─&nbsp; FILHA DE PSIQUÊ&nbsp; ─&nbsp; TERCEIRO
+      VERÃO&nbsp; ─&nbsp; 17 ANOS
     </p>
     <div
       style="
@@ -491,8 +491,8 @@ const brodyHTML = `
     "
   >
     <p>
-      BRODY KENNEDY&nbsp; ─&nbsp; FILHO DE NIKÉ&nbsp; ─&nbsp; SEGUNDO
-      VERÃO&nbsp; ─&nbsp; 17 ANOS
+      BRODY KENNEDY&nbsp; ─&nbsp; FILHO DE NIKÉ&nbsp; ─&nbsp; TERCEIRO
+      VERÃO&nbsp; ─&nbsp; 18 ANOS
     </p>
     <div
       style="
@@ -567,7 +567,7 @@ const brodyHTML = `
 //           EMILY BLOOM
 //         </h1>
 //         <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
-//           PRIMEIRA CONTA ⇤ PSIQUÊ ⇥ 14 ANOS
+//           SEGUNDA CONTA ⇤ PSIQUÊ ⇥ 14 ANOS
 //         </p>
 //       </div>
 //     </div>
@@ -699,7 +699,7 @@ const brodyHTML = `
 //             letter-spacing: 1px;
 //           "
 //         >
-//           PRIMEIRA CONTA ⇤ NIKÉ ⇥ 15 ANOS
+//           SEGUNDA CONTA ⇤ NIKÉ ⇥ 15 ANOS
 //         </p>
 //       </div>
 //     </div>
@@ -851,7 +851,7 @@ const elodie2HTML = `<center style="font-family: Tahoma">
               ELODIE REITH
             </h1>
             <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
-              SEXTA CONTA ⇤ ATENA ⇥ 19 ANOS
+              SÉTIMA CONTA ⇤ ATENA ⇥ 20 ANOS
             </p>
           </div>
         </div>
@@ -905,7 +905,7 @@ const elodie2HTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 65/65
+          HP 79/79
         </p>
       </div>
     </div>
@@ -986,7 +986,7 @@ const nic2HTML = `<center style="font-family: Tahoma">
               NICOLE CAMPBELL
             </h1>
             <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
-              SEGUNDA CONTA ⇤ FILHA DE PSIQUÊ ⇥ 16 ANOS
+              TERCEIRA CONTA ⇤ FILHA DE PSIQUÊ ⇥ 17 ANOS
             </p>
           </div>
         </div>
@@ -1040,7 +1040,7 @@ const nic2HTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 18/18
+          HP 26/26
         </p>
       </div>
     </div>
@@ -1121,7 +1121,7 @@ const BlakeHTML = `<center style="font-family: Tahoma">
               BLAKE WALTON
             </h1>
             <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
-              PRIMEIRA CONTA ⇤ HÉRACLES ⇥ 15 ANOS
+              SEGUNDA CONTA* ⇤ HÉRACLES ⇥ 16 ANOS
             </p>
           </div>
         </div>
@@ -1175,7 +1175,7 @@ const BlakeHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 36/36
+          HP 43/43
         </p>
       </div>
     </div>
@@ -1257,7 +1257,7 @@ const aspen2HTML = `<center style="font-family: Tahoma">
               ASPEN HEWITT
             </h1>
             <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
-              QUARTA CONTA ⇤ DESPINA ⇥ 19 ANOS
+              QUINTA CONTA ⇤ DESPINA ⇥ 20 ANOS
             </p>
           </div>
         </div>
@@ -1311,7 +1311,7 @@ const aspen2HTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 54/54
+          HP 72/72
         </p>
       </div>
     </div>
@@ -1393,7 +1393,7 @@ const hughie2HTML = `<center style="font-family: Tahoma">
               HUGHIE LOCKE
             </h1>
             <p style="color: #ffffff; margin-top: -5px; letter-spacing: 1px">
-              QUARTA CONTA ⇤ ASTRÉIA ⇥ 20 ANOS
+              QUINTA CONTA ⇤ ASTRÉIA ⇥ 21 ANOS
             </p>
           </div>
         </div>
@@ -1447,7 +1447,7 @@ const hughie2HTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 55/55
+          HP 62/62
         </p>
       </div>
     </div>
@@ -1583,7 +1583,7 @@ const fallonHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 23/23
+          HP 27/27
         </p>
       </div>
     </div>
