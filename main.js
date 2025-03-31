@@ -24,7 +24,7 @@ const charlieHTML = `<center>
   >
     <div style="float: left">
       <img
-        src="https://64.media.tumblr.com/7a2f61cb6298a1dd71d54cbe03862035/67819a73e0192ed5-c9/s400x600/2151dd08f56c0e92e23ddf54356fc27e34f07050.gifv"
+        src="https://64.media.tumblr.com/0c62c9960631f7587f95efc585451e32/8f7eb46967b1a564-ad/s400x600/bfd742c4056ead5e49ed9416cf24969e8fe4fd62.gifv"
         style="
           width: 90px;
           margin-right: 6px;
@@ -39,7 +39,7 @@ const charlieHTML = `<center>
   </div>
 
   <p style="text-transform: uppercase">
-    And love is tough, but loneliness is twice as hard
+    YOU BROGHT ME OUT FROM THE COLD, NOW HOW I LONG TO GROW OLD
   </p>
 </div>
 </center>
