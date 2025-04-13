@@ -1681,7 +1681,7 @@ const getCharHTML = (char) => {
   else if (char == "aspen2") return { html: aspen2HTML, color: "#779ECB" };
   else if (char == "hughie2") return { html: hughie2HTML, color: "#7DA7DB" };
   else if (char == "blake") return { html: BlakeHTML, color: "#996515" };
-  else if (char == "fallon") return { html: BlakeHTML, color: "#4d1010" };
+  else if (char == "fallon") return { html: fallonHTML, color: "#4d1010" };
   else if (char == "blake3") return { html: blakeHTHTML, color: "#cc010f" };
   else if (char == "roma3") return { html: blakeHTHTML, color: "#0b39c2" };
   // else if (char == "emily") return { html: emilyHTML, color: "#1d6989" };
