@@ -160,7 +160,7 @@ const charlieHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                OITAVA CONTA ⇤ APOLO ⇥ 21 ANOS
+                OITAVA CONTA ⇤ APOLO ⇥ 22 ANOS
               </p>
             </div>
           </div>
@@ -354,7 +354,7 @@ const elodieHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                SÉTIMA CONTA ⇤ ATENA ⇥ 20 ANOS
+                OITAVA CONTA ⇤ ATENA ⇥ 21 ANOS
               </p>
             </div>
           </div>
@@ -551,7 +551,7 @@ const carcinhaHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                SÉTIMA CONTA ⇤ DIONÍSIO ⇥ 20 ANOS
+                OITAVA CONTA ⇤ DIONÍSIO ⇥ 21 ANOS
               </p>
             </div>
           </div>
@@ -745,7 +745,7 @@ const jackieHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                SÉTIMA CONTA ⇤ HERMES ⇥ 21 ANOS
+                OITAVA CONTA ⇤ HERMES ⇥ 22 ANOS
               </p>
             </div>
           </div>
@@ -939,7 +939,7 @@ const oliviaHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                QUINTA CONTA ⇤ HEBE ⇥ 20 ANOS
+                SEXTA CONTA ⇤ HEBE ⇥ 21 ANOS
               </p>
             </div>
           </div>
@@ -1133,7 +1133,7 @@ const aspenHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                QUINTA CONTA ⇤ DESPINA ⇥ 20 ANOS
+                SEXTA CONTA ⇤ DESPINA ⇥ 21 ANOS
               </p>
             </div>
           </div>
@@ -1327,7 +1327,7 @@ const hughieHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                QUINTA CONTA ⇤ ASTRÉIA ⇥ 21 ANOS
+                SEXTA CONTA ⇤ ASTRÉIA ⇥ 22 ANOS
               </p>
             </div>
           </div>
@@ -1521,7 +1521,7 @@ const kinsleyHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                QUARTA CONTA ⇤ CIRCE ⇥ 18 ANOS
+                QUINTA CONTA ⇤ CIRCE ⇥ 19 ANOS
               </p>
             </div>
           </div>
@@ -1715,7 +1715,7 @@ const matthewHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                QUARTA CONTA ⇤ HEFESTO ⇥ 19 ANOS
+                QUINTA CONTA ⇤ HEFESTO ⇥ 20 ANOS
               </p>
             </div>
           </div>
@@ -1909,7 +1909,7 @@ const nicHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                TERCEIRA CONTA ⇤ PSIQUÊ ⇥ 17 ANOS
+                QUARTA CONTA ⇤ PSIQUÊ ⇥ 18 ANOS
               </p>
             </div>
           </div>
@@ -2104,7 +2104,7 @@ const brodyHTML = `
                   margin-left: 4%;
                 "
               >
-                TERCEIRA CONTA ⇤ NIKÉ ⇥ 18 ANOS
+                QUARTA CONTA ⇤ NIKÉ ⇥ 19 ANOS
               </p>
             </div>
           </div>
@@ -2298,7 +2298,7 @@ const blakeHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                TERCEIRA CONTA ⇤ HÉRACLES ⇥ 16 ANOS
+                TERCEIRA CONTA* ⇤ HÉRACLES ⇥ 17 ANOS
               </p>
             </div>
           </div>
@@ -2492,7 +2492,7 @@ const fallonHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                PRIMEIRA CONTA** ⇤ HEFESTO ⇥ 15 ANOS
+                SEGUNDA CONTA** ⇤ HEFESTO ⇥ 16 ANOS
               </p>
             </div>
           </div>
@@ -2686,7 +2686,7 @@ const bashHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                PRIMEIRA CONTA ⇤ INDETERMINADO ⇥ 16 ANOS
+                PRIMEIRA CONTA ⇤ POSEIDON ⇥ 16 ANOS
               </p>
             </div>
           </div>
@@ -2846,7 +2846,7 @@ const getCharHTML = (char) => {
   else if (char == "brody") return { html: brodyHTML, color: "#CBA135" };
   else if (char == "blake") return { html: blakeHTML, color: "#996515" };
   else if (char == "fallon") return { html: fallonHTML, color: "#4d1010" };
-  else if (char == "bash") return { html: bashHtml, color: "#133574" };
+  else if (char == "bash") return { html: bashHTML, color: "#133574" };
   else if (char == "blake3") return { html: blakeHTHTML, color: "#cc010f" };
   else if (char == "roma3") return { html: blakeHTHTML, color: "#0b39c2" };
 };
