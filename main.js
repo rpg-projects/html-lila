@@ -2832,6 +2832,200 @@ const romaHTHTML = `<center>
 </center>
 `;
 
+const emilyHTML = `<center style="font-family: Tahoma">
+  <div
+    style="
+      margin-top: 40px;
+      width: 650px;
+      background-color: rgba(29, 105, 137, 0.9);
+      border: solid 4px #1d6989;
+      border-bottom: 0;
+    "
+  >
+    <!-- titulo   -->
+    <div style="padding: 10px 10px 0">
+      <div
+        style="
+          position: relative;
+          width: auto;
+          height: 80px;
+          background: url('https://64.media.tumblr.com/278854db0c475a278e1185b83207c8e2/4f4ca1106125100d-57/s640x960/17e99915ba12a935a16e596a602e1ca623a61891.pnj');
+          background-size: cover;
+          background-position: center;
+          overflow: hidden;
+        "
+      >
+        <!-- Overlay for shading -->
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(
+              29,
+              105,
+              137,
+              0.3
+            ); /* Adjust transparency as needed */
+          "
+        >
+          <div
+            style="
+              border: 1px solid #ffffff;
+              height: 100%;
+              width: 100%;
+              overflow: hidden;
+              text-align: center;
+            "
+          >
+            <div style="float: right; margin-top: 5px; margin-right: 5px">
+              <!-- <a
+                href="https://docs.google.com/document/d/1r8z3g3HWIe5m9KZd0IuBYwxEZ4T6dh1x6CvqwxwpzNA/preview?tab=t.0"
+                target="_blank"
+              > -->
+              <!-- <img
+                style="
+                  width: 18px;
+                  height: 22px;
+                  display: block;
+                  margin-bottom: 5px;
+                "
+                src="https://64.media.tumblr.com/e1a1a65ceb96c4f7d3039e87109b8799/61106e529f863e65-7b/s500x750/a86687a5f7017c8ff3bb9f4f45babdb54971f4ec.pnj"
+                alt=""
+              /> -->
+              <!-- </a> -->
+              <!-- <a href="">
+              <img
+                style="
+                  width: 20px;
+                  height: 20px;
+
+                  display: block;
+                  margin-bottom: 5px;
+                "
+                src="https://images-ext-1.discordapp.net/external/pwEEzxIpoFPiDLQYo0H0fPd2aE-1qEw1je_DHl31XJ8/https/64.media.tumblr.com/5cebb6e919055194f7cb2e8aa6f166cc/61106e529f863e65-b4/s2048x3072/b541ada9c0470774c8121359ada1ff43bdb501e3.pnj?format=webp&width=981&height=943"
+                alt=""
+              />
+            </a> -->
+            </div>
+            <div
+              style="
+                text-align: center;
+                margin-top: 10px;
+                float: left;
+                width: 96%;
+              "
+            >
+              <h1
+                style="
+                  color: #ffffff;
+                  font-size: 34px;
+                  font-family: 'century gothic';
+                  font-weight: 100;
+                  margin: 0;
+                  margin-left: 4%;
+                  letter-spacing: 2px;
+                  display: inline-block;
+                "
+              >
+                EMILY RAVENSHIRE
+              </h1>
+              <p
+                style="
+                  text-align: center;
+                  color: #ffffff;
+                  margin-top: -5px;
+                  letter-spacing: 1px;
+                  margin-left: 4%;
+                "
+              >
+                PRIMEIRO NÍVEL ⇤ CINDERELLA'S GIRL ⇥ 16 ANOS
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- texto -->
+    <div
+      style="
+        padding: 2% 3%;
+        background-color: #deebf0;
+        margin: 10px;
+        margin-bottom: 0px;
+        min-height: 120px;
+      "
+    >
+      <div style="float: left">
+        <img
+          src="https://64.media.tumblr.com/35d1c62eca6822cec6ee699abc34a9a3/5b9fc9a237631429-e0/s640x960/fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+          style="
+            width: 90px;
+            margin-right: 6px;
+            margin-top: 4px;
+            border: #1d6989 4pt solid;
+            padding: 1px;
+          "
+          alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+        />
+      </div>
+      <p style="text-align: justify; line-height: 16px">&nbsp; TEXTO</p>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div
+    style="
+      height: 30px;
+      width: 650px;
+      background-color: #1d6989;
+      margin-bottom: 40px;
+      padding-right: 10px;
+      border: solid 2px #1d6989;
+    "
+  >
+    <div style="float: left">
+      <div
+        style="
+          width: 60px;
+          border: 1px solid #ffffff;
+          height: 20px;
+          float: left;
+          margin-left: 10px;
+          margin-top: 3px;
+        "
+      >
+        <p
+          style="
+            font-size: 10px;
+            color: #ffffff;
+            letter-spacing: 1px;
+            vertical-align: middle;
+          "
+        >
+          HP 50/50
+        </p>
+      </div>
+    </div>
+
+    <p
+      style="
+        color: #ffffff;
+        font-size: 10px;
+        float: right;
+        clear: both;
+        text-transform: uppercase;
+        margin-top: -20px;
+      "
+    >
+      So hold my hands up, breathe in and breathe out
+    </p>
+  </div>
+</center>`;
+
 const getCharHTML = (char) => {
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
   else if (char == "charlie") return { html: charlieHTML, color: "#f0a23a" };
@@ -2849,6 +3043,7 @@ const getCharHTML = (char) => {
   else if (char == "bash") return { html: bashHTML, color: "#133574" };
   else if (char == "blake3") return { html: blakeHTHTML, color: "#cc010f" };
   else if (char == "roma3") return { html: blakeHTHTML, color: "#0b39c2" };
+  else if (char == "emily") return { html: emilyHTML, color: "#1d6989" };
 };
 
 function getTextReady(char, color) {
