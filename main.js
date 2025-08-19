@@ -2594,7 +2594,7 @@ const bashHTML = `<center style="font-family: Tahoma">
           position: relative;
           width: auto;
           height: 80px;
-          background: url('https://64.media.tumblr.com/eb9ef854171baeda9529f3326980fc65/65a95362f1fbbb4b-d8/s540x810/7ca0fbedbab793365e72b5bcd62028037fb4c7aa.pnj');
+          background: url('https://64.media.tumblr.com/40ea84d3a2b41e1b1fad4f77cc7aeb57/8f74810c6c04ae93-1c/s640x960/b1937ed718d6e41286a5199e2fdbdd30b375b010.pnj');
           background-size: cover;
           background-position: center;
           overflow: hidden;
@@ -2766,6 +2766,200 @@ const bashHTML = `<center style="font-family: Tahoma">
       "
     >
       Surround me, hold me deep beneath your waves
+    </p>
+  </div>
+</center>
+`;
+
+const benHTML = `<center style="font-family: Tahoma">
+  <div
+    style="
+      margin-top: 40px;
+      width: 650px;
+      background-color: rgba(196, 30, 58, 0.9);
+      border: solid 4px #c41e3a;
+      border-bottom: 0;
+    "
+  >
+    <!-- titulo   -->
+    <div style="padding: 10px 10px 0">
+      <div
+        style="
+          position: relative;
+          width: auto;
+          height: 80px;
+          background: url('https://64.media.tumblr.com/a6a1f784c7da92e9cb78cc82a52a0b51/e497f6475b877d3f-9d/s640x960/169e603c930c899a691a71762a5c4560e180f8e5.pnj');
+          background-size: cover;
+          background-position: center;
+          overflow: hidden;
+        "
+      >
+        <!-- Overlay for shading -->
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(
+              196,
+              30,
+              58,
+              0.5
+            ); /* Adjust transparency as needed */
+          "
+        >
+          <div
+            style="
+              border: 1px solid #ffffff;
+              height: 100%;
+              width: 100%;
+              overflow: hidden;
+              text-align: center;
+            "
+          >
+            <div style="float: right; margin-top: 5px; margin-right: 5px">
+              <a
+                href="https://docs.google.com/document/d/1PeX7WsLUi7pgqjcDjKOZ4y69q7ylcNPl5s5r6KaKWGY/preview?tab=t.0"
+                target="_blank"
+              >
+                <img
+                  style="
+                    width: 18px;
+                    height: 22px;
+                    display: block;
+                    margin-bottom: 5px;
+                  "
+                  src="https://64.media.tumblr.com/e1a1a65ceb96c4f7d3039e87109b8799/61106e529f863e65-7b/s500x750/a86687a5f7017c8ff3bb9f4f45babdb54971f4ec.pnj"
+                  alt=""
+                />
+              </a>
+              <!-- <a href="">
+              <img
+                style="
+                  width: 20px;
+                  height: 20px;
+
+                  display: block;
+                  margin-bottom: 5px;
+                "
+                src="https://images-ext-1.discordapp.net/external/pwEEzxIpoFPiDLQYo0H0fPd2aE-1qEw1je_DHl31XJ8/https/64.media.tumblr.com/5cebb6e919055194f7cb2e8aa6f166cc/61106e529f863e65-b4/s2048x3072/b541ada9c0470774c8121359ada1ff43bdb501e3.pnj?format=webp&width=981&height=943"
+                alt=""
+              />
+            </a> -->
+            </div>
+            <div
+              style="
+                text-align: center;
+                margin-top: 10px;
+                float: left;
+                width: 96%;
+              "
+            >
+              <h1
+                style="
+                  color: #ffffff;
+                  font-size: 36px;
+                  font-family: 'century gothic';
+                  font-weight: 100;
+                  margin: 0;
+                  margin-left: 4%;
+                  letter-spacing: 2px;
+                  display: inline-block;
+                "
+              >
+                BEN HARRINGTON
+              </h1>
+              <p
+                style="
+                  text-align: center;
+                  color: #ffffff;
+                  margin-top: -5px;
+                  letter-spacing: 1px;
+                  margin-left: 4%;
+                "
+              >
+                PRIMEIRA CONTA ⇤ ÊNIO ⇥ 16 ANOS
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- texto -->
+    <div
+      style="
+        padding: 2% 3%;
+        background-color: #f5f8f1;
+        margin: 10px;
+        margin-bottom: 0px;
+        min-height: 120px;
+      "
+    >
+      <div style="float: left">
+        <img
+          src="https://44.media.tumblr.com/c4d9586d981529a7280d96d6b7b404b5/106ae59eaa7758db-ff/s500x750_f1/659723bd24181d37a8286e5cdb046b797badda5e.gifv"
+          style="
+            width: 90px;
+            margin-right: 6px;
+            margin-top: 4px;
+            border: #c41e3a 4pt solid;
+          "
+          alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+        />
+      </div>
+      <p style="text-align: justify; line-height: 16px">&nbsp; TEXTO</p>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div
+    style="
+      height: 30px;
+      width: 650px;
+      background-color: #c41e3a;
+      margin-bottom: 40px;
+      padding-right: 10px;
+      border: solid 2px #c41e3a;
+    "
+  >
+    <div style="float: left">
+      <div
+        style="
+          width: 60px;
+          border: 1px solid #ffffff;
+          height: 20px;
+          float: left;
+          margin-left: 10px;
+          margin-top: 3px;
+        "
+      >
+        <p
+          style="
+            font-size: 10px;
+            color: #ffffff;
+            letter-spacing: 1px;
+            vertical-align: middle;
+          "
+        >
+          HP 22/22
+        </p>
+      </div>
+    </div>
+
+    <p
+      style="
+        color: #ffffff;
+        font-size: 10px;
+        float: right;
+        clear: both;
+        text-transform: uppercase;
+        margin-top: -20px;
+      "
+    >
+      You better run, better run, outrun my gun
     </p>
   </div>
 </center>
