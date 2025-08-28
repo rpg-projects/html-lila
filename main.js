@@ -3432,8 +3432,8 @@ const getCharHTML = (char) => {
   // else if (char == "blake3") return { html: blakeHTHTML, color: "#cc010f" };
   // else if (char == "roma3") return { html: blakeHTHTML, color: "#0b39c2" };
   // else if (char == "emily") return { html: emilyHTML, color: "#1d6989" };
-  else if (char == "ben") return { html: benHTML, color: "#1d6989" };
-  else if (char == "carter") return { html: carterHTML, color: "#1d6989" };
+  else if (char == "ben") return { html: benHTML, color: "#c41e3a" };
+  else if (char == "carter") return { html: carterHTML, color: "#6180d7" };
 };
 
 function getTextReady(char, color) {
