@@ -3629,7 +3629,7 @@ const getCharHTML = (char) => {
   // else if (char == "emily") return { html: emilyHTML, color: "#1d6989" };
   else if (char == "ben") return { html: benHTML, color: "#c41e3a" };
   else if (char == "carter") return { html: carterHTML, color: "#6180d7" };
-  else if (char == "noah") return { html: carterHTML, color: "#009ec1" };
+  else if (char == "noah") return { html: noahHTML, color: "#009ec1" };
 };
 
 function getTextReady(char, color) {
