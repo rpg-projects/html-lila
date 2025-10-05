@@ -3288,7 +3288,7 @@ const noahHTML = `<center style="font-family: Tahoma">
     >
       <div style="float: left">
         <img
-          src="https://44.media.tumblr.com/390944bf2a7ed95b04708974e2e2ca00/aabe3f5f82e5ad04-ee/s400x600_f1/a01637f7de280695fe21acd93be82be96c65a4ff.gifv"
+          src="https://64.media.tumblr.com/390944bf2a7ed95b04708974e2e2ca00/aabe3f5f82e5ad04-ee/s400x600/15f6409a823088de970a566c03e5d8f1fb065b89.gifv"
           style="
             width: 90px;
             margin-right: 6px;
