@@ -3624,7 +3624,7 @@ const getCharHTML = (char) => {
   else if (char == "blake") return { html: blakeHTML, color: "#996515" };
   else if (char == "fallon") return { html: fallonHTML, color: "#4d1010" };
   else if (char == "bash") return { html: bashHTML, color: "#133574" };
-  // else if (char == "blake3") return { html: blakeHTHTML, color: "#cc010f" };
+  else if (char == "blake3") return { html: blakeHTHTML, color: "#cc010f" };
   // else if (char == "roma3") return { html: blakeHTHTML, color: "#0b39c2" };
   // else if (char == "emily") return { html: emilyHTML, color: "#1d6989" };
   else if (char == "ben") return { html: benHTML, color: "#c41e3a" };
