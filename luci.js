@@ -701,13 +701,10 @@ function getTextReady(char, color) {
   const newText = [];
 
   for (let i = 0; i < text.length; i++) {
-    if ((text[i] == "~" || text[i] == "—" || text[i] == "-") && isLineStart) {
+    if ((text[i] == "~" || text[i] == "—") && isLineStart) {
       newText.push(`<b style="color: ${color}">⸻`);
       isLineStart = false;
-    } else if (
-      (text[i] == "~" || text[i] == "—" || text[i] == "-") &&
-      isLineStart == false
-    ) {
+    } else if ((text[i] == "~" || text[i] == "—") && isLineStart == false) {
       newText.push("⸻</b>");
       isLineStart = true;
     } else newText.push(text[i]);
