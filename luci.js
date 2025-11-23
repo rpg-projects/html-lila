@@ -557,6 +557,139 @@ const aelinHTML = `<div
 </div>
 `;
 
+const chiaraHTML = `<div
+  style="
+    background-color: #f3ebe0;
+    width: 650px;
+    margin: 5% auto;
+    border: 2px solid #f0a23a;
+    padding: 10px 15px;
+  "
+>
+  <!-- banner -->
+  <div
+    style="
+      height: 80px;
+      width: auto;
+      position: relative;
+      background: url('https://64.media.tumblr.com/999b81cfb57cde447332db7125476c19/a17bc04292fc86ec-43/s640x960/c70d4a7ba012c52a2b319e729a6b896677fb94d3.pnj');
+      background-size: cover;
+      background-position: center;
+      overflow: hidden;
+      box-sizing: border-box;
+      border: 2px solid #f0a23a;
+    "
+  >
+    <div
+      style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(
+          240,
+          162,
+          58,
+          0.2
+        ); /* Adjust transparency as needed */
+
+        border: 1px solid #ffffff;
+      "
+    >
+      <h1
+        style="
+          color: #ffffff;
+          font-size: 36px;
+          font-family: 'century gothic';
+          font-weight: 100;
+          margin-top: 10px;
+          margin-bottom: 0px;
+          letter-spacing: 2px;
+          text-align: center;
+        "
+      >
+        Chiara Bianchi
+      </h1>
+    </div>
+  </div>
+
+  <!-- infos -->
+  <div
+    style="width: 100%; background-color: #f0a23a; height: 20px"
+    class="uk-visible-hover"
+  >
+    <center>
+      <div>
+        <img
+          src="https://www.onlygfx.com/wp-content/uploads/2018/09/4-clipart-sun-1.png"
+          style="
+            width: 30px;
+            background-color: white;
+            margin-top: -8px;
+            border: 2px solid #f0a23a;
+            padding: 1px;
+          "
+          class="img-circle"
+          alt=""
+        />
+        <table
+          class="uk-hidden"
+          style="
+            font-family: 'tahoma';
+            letter-spacing: 1px;
+            margin-top: -24px;
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 11px;
+            color: #412b10;
+          "
+        >
+          <tr>
+            <td
+              style="vertical-align: middle; width: 325px; text-align: center"
+            >
+              primeiro verão
+            </td>
+            <td
+              style="vertical-align: middle; width: 325px; text-align: center"
+            >
+              dezesseis anos
+            </td>
+          </tr>
+        </table>
+      </div>
+    </center>
+  </div>
+
+  <!-- texto -->
+  <div style="margin-top: 10px">
+    <div style="float: left">
+      <img
+        src="https://64.media.tumblr.com/1e5725602d731c3e7309242256d46237/4dbb2fef2add3ac3-21/s250x400/05821195d269cf110e25679116f5b6b6aa1ffc9e.gifv"
+        style="
+          width: 72px;
+          margin-right: 6px;
+          border: #f0a23a 4px solid;
+          padding: 1px;
+        "
+        alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+      />
+    </div>
+    <p
+      style="
+        font-family: 'tahoma';
+        font-size: 13px;
+        letter-spacing: 0.8px;
+        line-height: 15px;
+        text-align: justify;
+      "
+    >
+      TEXTO
+    </p>
+  </div>
+</div>`;
+
 const dimitriHTML = `<div
   style="
     background-color: #edf0f5;
@@ -691,6 +824,7 @@ const getCharHTML = (char) => {
   else if (char == "emma") return { html: emmaHTML, color: "#ed5576" };
   else if (char == "faith") return { html: faithHTML, color: "#ff6e7b" };
   else if (char == "aelin") return { html: aelinHTML, color: "#560319" };
+  else if (char == "chiara") return { html: chiaraHTML, color: "#f0a23a" };
   else if (char == "dimitri") return { html: dimitriHTML, color: "#06132f" };
 };
 
