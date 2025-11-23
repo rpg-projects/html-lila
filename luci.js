@@ -687,7 +687,7 @@ const dimitriHTML = `<div
 `;
 
 const getCharHTML = (char) => {
-  if (char == "ivy") return { html: elodieHTML, color: "#133574" };
+  if (char == "ivy") return { html: ivyHTML, color: "#133574" };
   else if (char == "emma") return { html: emmaHTML, color: "#ed5576" };
   else if (char == "faith") return { html: faithHTML, color: "#ff6e7b" };
   else if (char == "aelin") return { html: aelinHTML, color: "#560319" };
@@ -717,15 +717,9 @@ function getTextReady(char, color) {
 }
 
 const getHTMLReady = () => {
+  console.log("entrei");
   const char = document.getElementById("selectChar").value;
-  const char3 = document.getElementById("selectChar3").value;
-
-  if (char !== "none" && char3 !== "none") {
-    alert("Inválido");
-
-    document.getElementById("selectChar").value = "none";
-    document.getElementById("selectChar3").value = "none";
-  }
+  console.log("char :>> ", char);
 
   let { html, color } = { html: "", color: "" };
 
@@ -733,15 +727,13 @@ const getHTMLReady = () => {
     ({ html, color } = getCharHTML(char));
   }
 
-  if (char3 !== "none") {
-    ({ html, color } = getCharHTML(char3));
-  }
-
   let [part1, part2] = html.split("TEXTO");
 
   const text = getTextReady(char, color);
 
   completeHtml = `${part1}${text}${part2}`;
+
+  console.log("completeHtml :>> ", completeHtml);
 
   navigator.clipboard.writeText(completeHtml);
   return completeHtml;
