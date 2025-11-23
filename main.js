@@ -3609,6 +3609,200 @@ const emilyHTML = `<center style="font-family: Tahoma">
   </div>
 </center>`;
 
+const feyreHTML = `<center style="font-family: Tahoma">
+  <div
+    style="
+      margin-top: 40px;
+      width: 650px;
+      background-color: rgba(6, 19, 47, 0.9);
+      border: solid 4px #06132f;
+      border-bottom: 0;
+    "
+  >
+    <!-- titulo   -->
+    <div style="padding: 10px 10px 0">
+      <div
+        style="
+          position: relative;
+          width: auto;
+          height: 80px;
+          background: url('https://i.pinimg.com/1200x/26/d4/28/26d42842a753847c46fb7b0b0b6925e6.jpg');
+          background-size: cover;
+          background-position: center;
+          overflow: hidden;
+        "
+      >
+        <!-- Overlay for shading -->
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(
+              6,
+              19,
+              47,
+              0.3
+            ); /* Adjust transparency as needed */
+          "
+        >
+          <div
+            style="
+              border: 1px solid #ffffff;
+              height: 100%;
+              width: 100%;
+              overflow: hidden;
+              text-align: center;
+            "
+          >
+            <div style="float: right; margin-top: 5px; margin-right: 5px">
+              <!-- <a
+                href="https://docs.google.com/document/d/1r8z3g3HWIe5m9KZd0IuBYwxEZ4T6dh1x6CvqwxwpzNA/preview?tab=t.0"
+                target="_blank"
+              > -->
+              <img
+                style="
+                  width: 18px;
+                  height: 22px;
+                  display: block;
+                  margin-bottom: 5px;
+                "
+                src="https://64.media.tumblr.com/e1a1a65ceb96c4f7d3039e87109b8799/61106e529f863e65-7b/s500x750/a86687a5f7017c8ff3bb9f4f45babdb54971f4ec.pnj"
+                alt=""
+              />
+              <!-- </a> -->
+              <!-- <a href="">
+              <img
+                style="
+                  width: 20px;
+                  height: 20px;
+
+                  display: block;
+                  margin-bottom: 5px;
+                "
+                src="https://images-ext-1.discordapp.net/external/pwEEzxIpoFPiDLQYo0H0fPd2aE-1qEw1je_DHl31XJ8/https/64.media.tumblr.com/5cebb6e919055194f7cb2e8aa6f166cc/61106e529f863e65-b4/s2048x3072/b541ada9c0470774c8121359ada1ff43bdb501e3.pnj?format=webp&width=981&height=943"
+                alt=""
+              />
+            </a> -->
+            </div>
+            <div
+              style="
+                text-align: center;
+                margin-top: 10px;
+                float: left;
+                width: 96%;
+              "
+            >
+              <h1
+                style="
+                  color: #ffffff;
+                  font-size: 34px;
+                  font-family: 'century gothic';
+                  font-weight: 100;
+                  margin: 0;
+                  margin-left: 4%;
+                  letter-spacing: 2px;
+                  display: inline-block;
+                "
+              >
+                FEYRE JÓNSSON
+              </h1>
+              <p
+                style="
+                  text-align: center;
+                  color: #ffffff;
+                  margin-top: -5px;
+                  letter-spacing: 1px;
+                  margin-left: 4%;
+                "
+              >
+                PRIMEIRO ANO ⇤ NYX ⇥ 15 ANOS
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- texto -->
+    <div
+      style="
+        padding: 2% 3%;
+        background-color: #f5f8f1;
+        margin: 10px;
+        margin-bottom: 0px;
+        min-height: 120px;
+      "
+    >
+      <div style="float: left">
+        <img
+          src="https://64.media.tumblr.com/83c42e0be68e54d5d93c725c6ddd7bf1/cc6cd677eb75d4d0-7e/s250x400/8bcc351dbaa7f9be13738addbe2411c6201f155c.gifv"
+          style="
+            width: 90px;
+            margin-right: 6px;
+            margin-top: 4px;
+            border: #06132f 4pt solid;
+          "
+          alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+        />
+      </div>
+      <p style="text-align: justify; line-height: 16px">&nbsp; TEXTO</p>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div
+    style="
+      height: 30px;
+      width: 650px;
+      background-color: #06132f;
+      margin-bottom: 40px;
+      padding-right: 10px;
+      border: solid 2px #06132f;
+    "
+  >
+    <div style="float: left">
+      <div
+        style="
+          width: 60px;
+          border: 1px solid #ffffff;
+          height: 20px;
+          float: left;
+          margin-left: 10px;
+          margin-top: 3px;
+        "
+      >
+        <p
+          style="
+            font-size: 10px;
+            color: #ffffff;
+            letter-spacing: 1px;
+            vertical-align: middle;
+          "
+        >
+          HP 22/22
+        </p>
+      </div>
+    </div>
+
+    <p
+      style="
+        color: #ffffff;
+        font-size: 10px;
+        float: right;
+        clear: both;
+        text-transform: uppercase;
+        margin-top: -20px;
+      "
+    >
+      And it hardened like my heart did when you left town
+    </p>
+  </div>
+</center>
+`;
+
 const getCharHTML = (char) => {
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
   else if (char == "charlie") return { html: charlieHTML, color: "#f0a23a" };
@@ -3630,6 +3824,7 @@ const getCharHTML = (char) => {
   else if (char == "ben") return { html: benHTML, color: "#c41e3a" };
   else if (char == "carter") return { html: carterHTML, color: "#6180d7" };
   else if (char == "noah") return { html: noahHTML, color: "#009ec1" };
+  else if (char == "feyre") return { html: feyreHTML, color: "#06132f" };
 };
 
 function getTextReady(char, color) {

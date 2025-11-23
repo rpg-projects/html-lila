@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html charger</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <h1>HTML CHARGER</h1>
+
+    <p></p>
+    <textarea id="text" name="post" cols="30" rows="10"></textarea>
+
+    <div class="select" style="margin: auto">
+      <label for="select">TWH</label>
+      <select name="select" id="selectChar">
+        <option value="none">-</option>
+        <option value="ivy">Ivy</option>
+        <option value="emma">Emma</option>
+        <option value="faith">Faith</option>
+        <option value="aelin">Aelin</option>
+        <option value="dimitri">Dimitri</option>
+      </select>
+    </div>
+
+    <div class="buttons">
+      <button id="get-html-button" onclick="getHTMLReady()" type="submit">
+        PEGAR HTML PRONTO
+      </button>
+    </div>
+    <div class="code-block">
+      <code id="postText"></code>
+    </div>
+
+    <script type="text/javascript" src="luci.js"></script>
+  </body>
+</html>
