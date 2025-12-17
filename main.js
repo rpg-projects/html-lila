@@ -354,7 +354,7 @@ const elodieHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                OITAVA CONTA ⇤ ATENA ⇥ 21 ANOS
+                OITAVA CONTA ⇤ ATENA ⇥ 22 ANOS
               </p>
             </div>
           </div>
@@ -418,7 +418,7 @@ const elodieHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 79/79
+          HP 93/93
         </p>
       </div>
     </div>
@@ -1003,7 +1003,7 @@ const oliviaHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 34/34
+          HP 46/46
         </p>
       </div>
     </div>
@@ -1181,7 +1181,7 @@ const aspenHTML = `<center style="font-family: Tahoma">
     <div style="float: left">
       <div
         style="
-          width: 60px;
+          width: 68px;
           border: 1px solid #ffffff;
           height: 20px;
           float: left;
@@ -1197,7 +1197,7 @@ const aspenHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 72/72
+          HP 139/139
         </p>
       </div>
     </div>
@@ -1391,7 +1391,7 @@ const hughieHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 62/62
+          HP 92/92
         </p>
       </div>
     </div>
@@ -1585,7 +1585,7 @@ const kinsleyHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 50/50
+          HP 68/68
         </p>
       </div>
     </div>
@@ -1779,7 +1779,7 @@ const matthewHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 55/55
+          HP 87/87
         </p>
       </div>
     </div>
@@ -1973,7 +1973,7 @@ const nicHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 23/23
+          HP 38/38
         </p>
       </div>
     </div>
@@ -2168,7 +2168,7 @@ const brodyHTML = `
             vertical-align: middle;
           "
         >
-          HP 48/48
+          HP 79/79
         </p>
       </div>
     </div>
@@ -2346,7 +2346,7 @@ const blakeHTML = `<center style="font-family: Tahoma">
     <div style="float: left">
       <div
         style="
-          width: 60px;
+          width: 68px;
           border: 1px solid #ffffff;
           height: 20px;
           float: left;
@@ -2362,7 +2362,7 @@ const blakeHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 43/43
+          HP 127/127
         </p>
       </div>
     </div>
@@ -2556,7 +2556,7 @@ const fallonHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 43/43
+          HP 94/94
         </p>
       </div>
     </div>
@@ -2750,7 +2750,7 @@ const bashHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 22/22
+          HP 61/61
         </p>
       </div>
     </div>
