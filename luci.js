@@ -39,6 +39,24 @@ const ivyHTML = `<div
         border: 1px solid #ffffff;
       "
     >
+      <!-- ficha -->
+      <div style="float: right; margin-top: 5px; margin-right: 5px">
+        <a
+          href="https://docs.google.com/document/d/1XOOLuUdqJb7KJGQXLlLS41hYB97BBCde9I9tHcaq2nM/preview?tab=t.0"
+          target="_blank"
+        >
+          <img
+            style="
+              width: 18px;
+              height: 22px;
+              display: block;
+              margin-bottom: 5px;
+            "
+            src="https://cdn-icons-png.flaticon.com/512/124/124837.png"
+            alt=""
+          />
+        </a>
+      </div>
       <h1
         style="
           color: #ffffff;
@@ -93,12 +111,12 @@ const ivyHTML = `<div
             <td
               style="vertical-align: middle; width: 325px; text-align: center"
             >
-              oitavo verão
+              formada
             </td>
             <td
               style="vertical-align: middle; width: 325px; text-align: center"
             >
-              vinte e dois anos
+              vinte e três anos
             </td>
           </tr>
         </table>
@@ -129,7 +147,7 @@ const ivyHTML = `<div
         text-align: justify;
       "
     >
-    TEXTO
+      TEXTO
     </p>
   </div>
 </div>
@@ -177,6 +195,24 @@ const emmaHTML = `<div
         border: 1px solid #ffffff;
       "
     >
+      <!-- ficha -->
+      <div style="float: right; margin-top: 5px; margin-right: 5px">
+        <a
+          href="https://docs.google.com/document/d/16km3JtkGkhB6lY_aRYfp62kzNH41iD_YgBux6dNKljQ/preview?tab=t.0"
+          target="_blank"
+        >
+          <img
+            style="
+              width: 18px;
+              height: 22px;
+              display: block;
+              margin-bottom: 5px;
+            "
+            src="https://cdn-icons-png.flaticon.com/512/124/124837.png"
+            alt=""
+          />
+        </a>
+      </div>
       <h1
         style="
           color: #ffffff;
@@ -237,7 +273,7 @@ const emmaHTML = `<div
             <td
               style="vertical-align: middle; width: 325px; text-align: center"
             >
-              vinte e dois anos
+              vinte e três anos
             </td>
           </tr>
         </table>
@@ -268,7 +304,154 @@ const emmaHTML = `<div
         text-align: justify;
       "
     >
-    TEXTO
+      TEXTO
+    </p>
+  </div>
+</div>
+`;
+
+const alexHTML = `<div
+  style="
+    background-color: #f0e5e5;
+    width: 650px;
+    margin: 5% auto;
+    border: 2px solid #801818;
+    padding: 10px 15px;
+  "
+>
+  <!-- banner -->
+  <div
+    style="
+      height: 80px;
+      width: auto;
+      position: relative;
+      background: url('https://64.media.tumblr.com/3f51afb672670c69d355e2018a52f17e/8c66b113b7a1a3b6-cc/s640x960/c0b402e25a84ef69b2b2e945bba0c3d10f96b1e1.pnj');
+      background-size: contain;
+      background-position: center;
+      overflow: hidden;
+      box-sizing: border-box;
+      border: 2px solid #801818;
+    "
+  >
+    <div
+      style="
+        position: absolute;
+        margin-top: -10px;
+        top: -4;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        background-color: rgba(
+          128,
+          24,
+          24,
+          0.5
+        ); /* Adjust transparency as needed */
+
+        border: 1px solid #ffffff;
+      "
+    >
+      <!-- ficha -->
+      <div style="float: right; margin-top: 5px; margin-right: 5px">
+        <a
+          href="https://docs.google.com/document/d/1OaWof7vkZtqGMiAwKef9XZu7BL0_1j7wB03OBpBbjTY/preview?tab=t.0"
+          target="_blank"
+        >
+          <img
+            style="
+              width: 18px;
+              height: 22px;
+              display: block;
+              margin-bottom: 5px;
+            "
+            src="https://cdn-icons-png.flaticon.com/512/124/124837.png"
+            alt=""
+          />
+        </a>
+      </div>
+      <h1
+        style="
+          color: #ffffff;
+          font-size: 36px;
+          font-family: 'century gothic';
+          font-weight: 100;
+          margin-top: 10px;
+          padding-top: 16px;
+          margin-bottom: 0px;
+          letter-spacing: 2px;
+          text-align: center;
+          vertical-align: middle;
+        "
+      >
+        Alexander Hyss Dryagin
+      </h1>
+    </div>
+  </div>
+
+  <!-- infos -->
+  <div
+    style="width: 100%; background-color: #801818; height: 20px"
+    class="uk-visible-hover"
+  >
+    <center>
+      <div>
+        <img
+          src="https://static.stands4.com/images/symbol/5307_deimos-moon.png"
+          style="
+            width: 35px;
+            background-color: white;
+            border: 2px solid #801818;
+
+            margin-top: -8px;
+          "
+          class="img-circle"
+          alt=""
+        />
+        <table
+          class="uk-hidden"
+          style="
+            font-family: 'tahoma';
+            letter-spacing: 1px;
+            margin-top: -28px;
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 11px;
+            color: white;
+          "
+        >
+          <tr>
+            <td style="width: 325px; text-align: center">sétimo verão*</td>
+            <td style="width: 325px; text-align: center">vinte e um anos</td>
+          </tr>
+        </table>
+      </div>
+    </center>
+  </div>
+
+  <!-- texto -->
+  <div style="margin-top: 10px">
+    <div style="float: left">
+      <img
+        src="https://64.media.tumblr.com/7e0591be8662d7aae2922c2d7e8cbd0f/20d4639d60c8c223-bb/s250x400/eb00cbafae55b12b2e4c16d204a5664c0046d232.gifv"
+        style="
+          width: 72px;
+          margin-right: 6px;
+          border: #801818 4px solid;
+          padding: 1px;
+        "
+        alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+      />
+    </div>
+    <p
+      style="
+        font-family: 'tahoma';
+        font-size: 13px;
+        letter-spacing: 0.8px;
+        line-height: 15px;
+        text-align: justify;
+      "
+    >
+      TEXTO
     </p>
   </div>
 </div>
@@ -324,9 +507,27 @@ const faithHTML = `<div
               width: 40px;
               height: 40px;
               display: block;
-              margin-bottom: 5px;
+              margin-bottom: 8px;
             "
             src="https://64.media.tumblr.com/18b617fcd63e6d74bd32d70038de2625/f955cb2dab9b8385-6b/s640x960/88220a9c97e4590fb05e9b9f131d8f07cf9898af.pnj"
+            alt=""
+          />
+        </a>
+      </div>
+      <!-- ficha -->
+      <div style="float: right; margin-top: 8px; margin-right: 5px">
+        <a
+          href="https://docs.google.com/document/d/1MMbMxYMXL7NtbAe5iSeJsb56R2y8vfpu26C1wMu1KAc/preview?tab=t.0"
+          target="_blank"
+        >
+          <img
+            style="
+              width: 18px;
+              height: 22px;
+              display: block;
+              margin-bottom: 5px;
+            "
+            src="https://cdn-icons-png.flaticon.com/512/124/124837.png"
             alt=""
           />
         </a>
@@ -386,7 +587,7 @@ const faithHTML = `<div
             <td
               style="vertical-align: middle; width: 325px; text-align: center"
             >
-              quinto verão
+              sexto verão
             </td>
             <td
               style="vertical-align: middle; width: 325px; text-align: center"
@@ -422,7 +623,7 @@ const faithHTML = `<div
         text-align: justify;
       "
     >
-    TEXTO
+      TEXTO
     </p>
   </div>
 </div>
@@ -469,6 +670,24 @@ const aelinHTML = `<div
         border: 1px solid #ffffff;
       "
     >
+      <!-- ficha -->
+      <div style="float: right; margin-top: 5px; margin-right: 5px">
+        <a
+          href="https://docs.google.com/document/d/1QNPVjYwhSzXuny1rQCQuEBOrRttSAhZ3Kf4DyeQRx_U/preview?tab=t.0"
+          target="_blank"
+        >
+          <img
+            style="
+              width: 18px;
+              height: 22px;
+              display: block;
+              margin-bottom: 5px;
+            "
+            src="https://cdn-icons-png.flaticon.com/512/124/124837.png"
+            alt=""
+          />
+        </a>
+      </div>
       <h1
         style="
           color: #ffffff;
@@ -520,8 +739,8 @@ const aelinHTML = `<div
           "
         >
           <tr>
-            <td style="width: 325px; text-align: center">segundo verão***</td>
-            <td style="width: 325px; text-align: center">dezessete anos</td>
+            <td style="width: 325px; text-align: center">terceiro verão***</td>
+            <td style="width: 325px; text-align: center">dezoito anos</td>
           </tr>
         </table>
       </div>
@@ -597,6 +816,24 @@ const chiaraHTML = `<div
         border: 1px solid #ffffff;
       "
     >
+      <!-- ficha -->
+      <div style="float: right; margin-top: 5px; margin-right: 5px">
+        <a
+          href="https://docs.google.com/document/d/1TBFxyRV-NK5ehfvS_0tfCnhbjetxn1Tm_V8JMNzZdv4/preview?tab=t.0"
+          target="_blank"
+        >
+          <img
+            style="
+              width: 18px;
+              height: 22px;
+              display: block;
+              margin-bottom: 5px;
+            "
+            src="https://cdn-icons-png.flaticon.com/512/124/124837.png"
+            alt=""
+          />
+        </a>
+      </div>
       <h1
         style="
           color: #ffffff;
@@ -649,12 +886,12 @@ const chiaraHTML = `<div
             <td
               style="vertical-align: middle; width: 325px; text-align: center"
             >
-              primeiro verão
+              segundo verão
             </td>
             <td
               style="vertical-align: middle; width: 325px; text-align: center"
             >
-              dezesseis anos
+              dezessete anos
             </td>
           </tr>
         </table>
@@ -688,7 +925,8 @@ const chiaraHTML = `<div
       TEXTO
     </p>
   </div>
-</div>`;
+</div>
+`;
 
 const dimitriHTML = `<div
   style="
@@ -731,6 +969,24 @@ const dimitriHTML = `<div
         border: 1px solid #ffffff;
       "
     >
+      <!-- ficha -->
+      <div style="float: right; margin-top: 5px; margin-right: 5px">
+        <a
+          href="https://docs.google.com/document/d/1pVQf-psqQRMqaE4RSI3l46J0P9ofkeaUOXsKe3ZVjfU/preview?tab=t.0"
+          target="_blank"
+        >
+          <img
+            style="
+              width: 18px;
+              height: 22px;
+              display: block;
+              margin-bottom: 5px;
+            "
+            src="https://cdn-icons-png.flaticon.com/512/124/124837.png"
+            alt=""
+          />
+        </a>
+      </div>
       <h1
         style="
           color: #ffffff;
@@ -813,7 +1069,7 @@ const dimitriHTML = `<div
         text-align: justify;
       "
     >
-    TEXTO
+      TEXTO
     </p>
   </div>
 </div>
@@ -822,6 +1078,7 @@ const dimitriHTML = `<div
 const getCharHTML = (char) => {
   if (char == "ivy") return { html: ivyHTML, color: "#133574" };
   else if (char == "emma") return { html: emmaHTML, color: "#ed5576" };
+  else if (char == "alex") return { html: alexHTML, color: "#801818" };
   else if (char == "faith") return { html: faithHTML, color: "#ff6e7b" };
   else if (char == "aelin") return { html: aelinHTML, color: "#560319" };
   else if (char == "chiara") return { html: chiaraHTML, color: "#f0a23a" };
