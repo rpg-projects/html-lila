@@ -160,7 +160,7 @@ const charlieHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                OITAVA CONTA ⇤ APOLO ⇥ 22 ANOS
+                FORMADO ⇤ APOLO ⇥ 22 ANOS
               </p>
             </div>
           </div>
@@ -354,7 +354,7 @@ const elodieHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                OITAVA CONTA ⇤ ATENA ⇥ 22 ANOS
+                FORMADA ⇤ ATENA ⇥ 22 ANOS
               </p>
             </div>
           </div>
@@ -551,7 +551,7 @@ const carcinhaHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                OITAVA CONTA ⇤ DIONÍSIO ⇥ 21 ANOS
+                FORMADA ⇤ DIONÍSIO ⇥ 21 ANOS
               </p>
             </div>
           </div>
@@ -745,7 +745,7 @@ const jackieHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                OITAVA CONTA ⇤ HERMES ⇥ 22 ANOS
+                FORMADA ⇤ HERMES ⇥ 22 ANOS
               </p>
             </div>
           </div>
@@ -939,7 +939,7 @@ const oliviaHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                SÉTIMA CONTA ⇤ HEBE ⇥ 22 ANOS
+                OITAVA CONTA ⇤ HEBE ⇥ 22 ANOS
               </p>
             </div>
           </div>
@@ -1133,7 +1133,7 @@ const aspenHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                SÉTIMA CONTA ⇤ DESPINA ⇥ 22 ANOS
+                OITAVA CONTA ⇤ DESPINA ⇥ 22 ANOS
               </p>
             </div>
           </div>
@@ -1327,7 +1327,7 @@ const hughieHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                SÉTIMA CONTA ⇤ ASTRÉIA ⇥ 23 ANOS
+                OITAVA CONTA ⇤ ASTRÉIA ⇥ 23 ANOS
               </p>
             </div>
           </div>
@@ -1521,7 +1521,7 @@ const kinsleyHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                SEXTA CONTA ⇤ CIRCE ⇥ 20 ANOS
+                SÉTIMA CONTA ⇤ CIRCE ⇥ 20 ANOS
               </p>
             </div>
           </div>
@@ -1715,7 +1715,7 @@ const matthewHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                SEXTA CONTA ⇤ HEFESTO ⇥ 20 ANOS
+                SÉTIMA CONTA ⇤ HEFESTO ⇥ 20 ANOS
               </p>
             </div>
           </div>
@@ -1909,7 +1909,7 @@ const nicHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                QUINTA CONTA ⇤ PSIQUÊ ⇥ 19 ANOS
+                SEXTA CONTA ⇤ PSIQUÊ ⇥ 19 ANOS
               </p>
             </div>
           </div>
@@ -2104,7 +2104,7 @@ const brodyHTML = `
                   margin-left: 4%;
                 "
               >
-                QUINTA CONTA ⇤ NIKÉ ⇥ 20 ANOS
+                SEXTA CONTA ⇤ NIKÉ ⇥ 20 ANOS
               </p>
             </div>
           </div>
@@ -2298,7 +2298,7 @@ const blakeHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                QUARTA CONTA* ⇤ HÉRACLES ⇥ 18 ANOS
+                QUINTA CONTA* ⇤ HÉRACLES ⇥ 18 ANOS
               </p>
             </div>
           </div>
@@ -2492,7 +2492,7 @@ const fallonHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                TERCEIRA CONTA** ⇤ HEFESTO ⇥ 17 ANOS
+                QUARTA CONTA** ⇤ HEFESTO ⇥ 17 ANOS
               </p>
             </div>
           </div>
@@ -2686,7 +2686,7 @@ const bashHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                SEGUNDA CONTA ⇤ POSEIDON ⇥ 17 ANOS
+                TERCEIRA CONTA ⇤ POSEIDON ⇥ 17 ANOS
               </p>
             </div>
           </div>
@@ -2880,7 +2880,7 @@ const benHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                PRIMEIRA CONTA ⇤ ÊNIO ⇥ 16 ANOS
+                SEGUNDA CONTA ⇤ ÊNIO ⇥ 16 ANOS
               </p>
             </div>
           </div>
@@ -3074,7 +3074,7 @@ const carterHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                PRIMEIRA CONTA ⇤ MORFEU ⇥ 14 ANOS
+                SEGUNDA CONTA ⇤ MORFEU ⇥ 14 ANOS
               </p>
             </div>
           </div>
@@ -3268,7 +3268,7 @@ const noahHTML = `<center style="font-family: Tahoma">
                   margin-left: 4%;
                 "
               >
-                PRIMEIRA CONTA ⇤ TRITÃO ⇥ 14 ANOS
+                SEGUNDA CONTA ⇤ TRITÃO ⇥ 14 ANOS
               </p>
             </div>
           </div>
