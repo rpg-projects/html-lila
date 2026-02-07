@@ -1,1098 +1,233 @@
-const ivyHTML = `<div
-  style="
-    background-color: #e6ebf5;
-    width: 650px;
-    margin: 5% auto;
-    border: 2px solid #133574;
-    padding: 10px 15px;
-  "
->
-  <!-- banner -->
+const viviHTML = `<center>
   <div
     style="
-      height: 80px;
-      width: auto;
-      position: relative;
-      background: url('https://64.media.tumblr.com/3668ca99c5957647b8a9ad6647c2075b/ba5c7f90ea832a81-84/s640x960/9c30118e0349a2533235365aff85c0daee0503a2.pnj');
-      background-size: cover;
-      background-position: center;
-      overflow: hidden;
-      box-sizing: border-box;
-      border: 2px solid #133574;
+      font-size: 0px;
+      line-height: 0px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 700px;
     "
+    title="violet☆"
   >
-    <div
-      style="
-        position: absolute;
-        margin-top: -10px;
-        top: -4;
-        left: 0;
-        width: 100%;
-        height: 80px;
-        background-color: rgba(
-          67,
-          95,
-          148,
-          0.4
-        ); /* Adjust transparency as needed */
-
-        border: 1px solid #ffffff;
-      "
-    >
-      <!-- ficha -->
-      <div style="float: right; margin-top: 5px; margin-right: 5px">
-        <a
-          href="https://docs.google.com/document/d/1XOOLuUdqJb7KJGQXLlLS41hYB97BBCde9I9tHcaq2nM/preview?tab=t.0"
-          target="_blank"
-        >
-          <img
-            style="
-              width: 18px;
-              height: 22px;
-              display: block;
-              margin-bottom: 5px;
-            "
-            src="https://cdn-icons-png.flaticon.com/512/124/124837.png"
-            alt=""
-          />
-        </a>
-      </div>
-      <h1
-        style="
-          color: #ffffff;
-          font-size: 36px;
-          font-family: 'century gothic';
-          font-weight: 100;
-          margin-top: 10px;
-          padding-top: 10px;
-          margin-bottom: 0px;
-          letter-spacing: 2px;
-          text-align: center;
-          vertical-align: middle;
-        "
-      >
-        Ivy Bow
-      </h1>
-    </div>
-  </div>
-
-  <!-- infos -->
-  <div
-    style="width: 100%; background-color: #133574; height: 20px"
-    class="uk-visible-hover"
-  >
-    <center>
-      <div>
-        <img
-          src="https://png.pngtree.com/png-vector/20230808/ourmid/pngtree-tidal-wave-clipart-vector-png-image_6865053.png"
-          style="
-            width: 30px;
-            background-color: white;
-            margin-top: -8px;
-            border: 2px solid #133574;
-            padding: 1px;
-          "
-          class="img-circle"
-          alt=""
-        />
-        <table
-          class="uk-hidden"
-          style="
-            font-family: 'tahoma';
-            letter-spacing: 1px;
-            margin-top: -24px;
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 11px;
-            color: white;
-          "
-        >
-          <tr>
-            <td
-              style="vertical-align: middle; width: 325px; text-align: center"
-            >
-              formada
-            </td>
-            <td
-              style="vertical-align: middle; width: 325px; text-align: center"
-            >
-              vinte e três anos
-            </td>
-          </tr>
-        </table>
-      </div>
-    </center>
-  </div>
-
-  <!-- texto -->
-  <div style="margin-top: 10px">
-    <div style="float: left">
+    <div>
       <img
-        src="https://64.media.tumblr.com/b9dcc46f06fa25c2286b1f213a645d3c/558a54e5fee28128-86/s400x600/5d9ff5f676a9e76f46085ecd4112958f02de3841.webp"
-        style="
-          width: 72px;
-          margin-right: 6px;
-          border: #133574 4px solid;
-          padding: 1px;
-        "
-        alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+        src="//i.postimg.cc/CLdftvHL/divider1.png"
+        style="background-color: #de6fa1; width: 400px; margin-bottom: 2px"
+        alt="divider1.png"
       />
     </div>
-    <p
-      style="
-        font-family: 'tahoma';
-        font-size: 13px;
-        letter-spacing: 0.8px;
-        line-height: 15px;
-        text-align: justify;
-      "
-    >
-      TEXTO
-    </p>
-  </div>
-</div>
-`;
-
-const emmaHTML = `<div
-  style="
-    background-color: #f2eaeb;
-    width: 650px;
-    margin: 5% auto;
-    border: 2px solid #ed5576;
-    padding: 10px 15px;
-  "
->
-  <!-- banner -->
-  <div
-    style="
-      height: 80px;
-      width: auto;
-      position: relative;
-      background: url('https://i.pinimg.com/736x/47/bb/f7/47bbf78113bf76cf723170b1aa1e5729.jpg');
-      background-size: cover;
-      background-position: center;
-      overflow: hidden;
-      box-sizing: border-box;
-      border: 2px solid #ed5576;
-    "
-  >
-    <!-- overlay -->
     <div
       style="
-        position: absolute;
-        margin-top: -10px;
-        top: -4;
-        left: 0;
-        width: 100%;
-        height: 80px;
-        background-color: rgba(
-          237,
-          85,
-          119,
-          0.2
-        ); /* Adjust transparency as needed */
-
-        border: 1px solid #ffffff;
+        width: 680px;
+        border: solid 2px #de6fa1;
+        background-color: #f7d8e1;
+        padding: 10px;
       "
     >
-      <!-- ficha -->
-      <div style="float: right; margin-top: 5px; margin-right: 5px">
-        <a
-          href="https://docs.google.com/document/d/16km3JtkGkhB6lY_aRYfp62kzNH41iD_YgBux6dNKljQ/preview?tab=t.0"
-          target="_blank"
-        >
-          <img
+      <div style="border: solid 2px #de6fa1; padding: 10px">
+        <div style="padding: 0px" class="uk-visible-hover">
+          <table style="font-size: 0px; line-height: 0px">
+            <tbody>
+              <tr>
+                <td>
+                  <img
+                    src="//64.media.tumblr.com/e5d6d55e613ea631d3cf53c06d91996b/25ca08b7363ceb49-cb/s250x400/622670891265c9c2f9b1c089ff3ca24ba2388d18.gifv"
+                    style="
+                      width: 100px;
+                      height: 100px;
+                      padding: 2px;
+                      border: solid 1px #fff;
+                    "
+                    class="img-circle"
+                    alt="622670891265c9c2f9b1c089ff3ca24ba2388d18.gifv"
+                  />
+                </td>
+                <td style="width: 424px">
+                  <center>
+                    <div
+                      style="
+                        border-top: solid 1px #fff;
+                        border-bottom: solid 1px #fff;
+                        width: 300px;
+                        height: 100px;
+                      "
+                    >
+                      <div
+                        style="
+                          font-size: 50px;
+                          line-height: 50px;
+                          font-family: &quot;old english text mt&quot;;
+                          color: #de6fa1;
+                          margin-left: -20px;
+                          margin-top: 3px;
+                        "
+                      >
+                        Genevieve
+                      </div>
+                      <div
+                        style="
+                          font-size: 50px;
+                          line-height: 20px;
+                          font-family: &quot;old english text mt&quot;;
+                          color: #de6fa1;
+                          margin-left: 20px;
+                        "
+                      >
+                        Grimaldi
+                      </div>
+                    </div>
+                  </center>
+                </td>
+                <td>
+                  <img
+                    src="//64.media.tumblr.com/c904ae38e8d5c96c535d9bb42ef9dd54/25ca08b7363ceb49-83/s250x400/b0078f0ec10924161fb7854e9fa8c1f6bea85c6d.gifv"
+                    style="
+                      width: 100px;
+                      height: 100px;
+                      padding: 2px;
+                      border: solid 1px #fff;
+                    "
+                    class="img-circle"
+                    alt="b0078f0ec10924161fb7854e9fa8c1f6bea85c6d.gifv"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div
+            class="uk-hidden uk-animation-slide-bottom"
             style="
-              width: 18px;
-              height: 22px;
-              display: block;
-              margin-bottom: 5px;
+              background-color: #de6fa1;
+              height: 100px;
+              margin-top: -100px;
+              color: #fff;
+              font-family: &quot;times new roman&quot;;
+              font-size: 20px;
+              line-height: 20px;
+              padding: 15px;
+              text-align: left;
             "
-            src="https://cdn-icons-png.flaticon.com/512/124/124837.png"
-            alt=""
-          />
-        </a>
-      </div>
-      <h1
-        style="
-          color: #ffffff;
-          font-size: 36px;
-          font-family: 'century gothic';
-          font-weight: 100;
-          margin-top: 10px;
-          padding-top: 10px;
-          margin-bottom: 0px;
-          letter-spacing: 2px;
-          text-align: center;
-          vertical-align: middle;
-        "
-      >
-        Emma Taylor
-      </h1>
-    </div>
-  </div>
-
-  <!-- infos -->
-  <div
-    style="width: 100%; background-color: #ed5576; height: 20px"
-    class="uk-visible-hover"
-  >
-    <center>
-      <div>
-        <img
-          src="https://www.shutterstock.com/image-vector/woman-aphrodite-ancient-greek-god-600nw-2607621431.jpg"
+          >
+            ONCE UPON A TIME,
+            <!-- infos -->
+            <div style="font-size: 15px; line-height: 15px; margin-top: 6px">
+              Princesa de Mônaco • Filha de Feme • Quinto verão • 20 Anos •
+              Líder do chalé • Namorando Benito Herrero
+            </div>
+          </div>
+        </div>
+        <div
           style="
-            width: 30px;
-            height: 30px;
-            background-color: white;
-            margin-top: -8px;
-            border: 2px solid #ed5576;
-            padding: 1px;
-          "
-          class="img-circle"
-          alt=""
-        />
-        <table
-          class="uk-hidden"
-          style="
-            font-family: 'tahoma';
-            letter-spacing: 1px;
-            margin-top: -24px;
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 11px;
-            color: white;
+            margin-top: 10px;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: justify;
+            font-family: verdana;
+            color: #000;
           "
         >
-          <tr>
-            <td
-              style="vertical-align: middle; width: 325px; text-align: center"
-            >
-              formada
-            </td>
-            <td
-              style="vertical-align: middle; width: 325px; text-align: center"
-            >
-              vinte e três anos
-            </td>
-          </tr>
-        </table>
+          <!-- primeira letra -->
+          TEXTO
+          <span style="color: #de6fa1; font-size: 15px">♥</span>
+        </div>
+        <div
+          style="
+            background-color: #de6fa1;
+            margin-top: 10px;
+            color: #fff;
+            font-family: &quot;times new roman&quot;;
+            font-size: 12px;
+            line-height: 20px;
+            word-spacing: 1px;
+          "
+          class="uk-visible-hover"
+        >
+          <center>
+            “Vous pouvez abandonner votre mission, mais vous ne cesserez jamais
+            d'être une princesse.” +
+          </center>
+          <div
+            style="
+              background-color: #de6fa1;
+              margin-top: -20px;
+              padding: 10px;
+              color: #fff;
+              font-family: verdana;
+              font-size: 12px;
+              line-height: 12px;
+              text-align: justify;
+            "
+            class="uk-hidden"
+          >
+            HP:89/89 DP: 15 DE: 12 /
+            <p>
+              <a
+                href="//docs.google.com/document/d/1JsfNX4EMwZJUvllnX5JNPqHCIyfJgt_A5AoDwWxDJDc/preview?tab=t.0"
+                >FICHA</a
+              >
+            </p>
+            <br /><br />
+            Informações<br /><br /><br /><br />
+          </div>
+        </div>
       </div>
-    </center>
-  </div>
-
-  <!-- texto -->
-  <div style="margin-top: 10px">
-    <div style="float: left">
+    </div>
+    <div>
       <img
-        src="https://64.media.tumblr.com/d54000a08461528b106bed251f860e64/6f34728d9b46515f-4c/s250x400/68d19f4df0f96ed93392932562151e52c4dca879.gifv"
-        style="
-          width: 72px;
-          margin-right: 6px;
-          border: #ed5576 4px solid;
-          padding: 1px;
-        "
-        alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+        src="//i.postimg.cc/CLdftvHL/divider1.png"
+        style="background-color: #de6fa1; width: 400px; margin-top: 2px"
+        alt="divider1.png"
       />
     </div>
-    <p
-      style="
-        font-family: 'tahoma';
-        font-size: 13px;
-        letter-spacing: 0.8px;
-        line-height: 15px;
-        text-align: justify;
-      "
-    >
-      TEXTO
-    </p>
   </div>
-</div>
-`;
-
-const alexHTML = `<div
-  style="
-    background-color: #f0e5e5;
-    width: 650px;
-    margin: 5% auto;
-    border: 2px solid #801818;
-    padding: 10px 15px;
-  "
->
-  <!-- banner -->
-  <div
-    style="
-      height: 80px;
-      width: auto;
-      position: relative;
-      background: url('https://64.media.tumblr.com/3f51afb672670c69d355e2018a52f17e/8c66b113b7a1a3b6-cc/s640x960/c0b402e25a84ef69b2b2e945bba0c3d10f96b1e1.pnj');
-      background-size: contain;
-      background-position: center;
-      overflow: hidden;
-      box-sizing: border-box;
-      border: 2px solid #801818;
-    "
-  >
-    <div
-      style="
-        position: absolute;
-        margin-top: -10px;
-        top: -4;
-        left: 0;
-        width: 100%;
-        height: 80px;
-        background-color: rgba(
-          128,
-          24,
-          24,
-          0.5
-        ); /* Adjust transparency as needed */
-
-        border: 1px solid #ffffff;
-      "
-    >
-      <!-- ficha -->
-      <div style="float: right; margin-top: 5px; margin-right: 5px">
-        <a
-          href="https://docs.google.com/document/d/1OaWof7vkZtqGMiAwKef9XZu7BL0_1j7wB03OBpBbjTY/preview?tab=t.0"
-          target="_blank"
-        >
-          <img
-            style="
-              width: 18px;
-              height: 22px;
-              display: block;
-              margin-bottom: 5px;
-            "
-            src="https://cdn-icons-png.flaticon.com/512/124/124837.png"
-            alt=""
-          />
-        </a>
-      </div>
-      <h1
-        style="
-          color: #ffffff;
-          font-size: 36px;
-          font-family: 'century gothic';
-          font-weight: 100;
-          margin-top: 10px;
-          padding-top: 16px;
-          margin-bottom: 0px;
-          letter-spacing: 2px;
-          text-align: center;
-          vertical-align: middle;
-        "
-      >
-        Alexander Hyss Dryagin
-      </h1>
-    </div>
-  </div>
-
-  <!-- infos -->
-  <div
-    style="width: 100%; background-color: #801818; height: 20px"
-    class="uk-visible-hover"
-  >
-    <center>
-      <div>
-        <img
-          src="https://static.stands4.com/images/symbol/5307_deimos-moon.png"
-          style="
-            width: 35px;
-            background-color: white;
-            border: 2px solid #801818;
-
-            margin-top: -8px;
-          "
-          class="img-circle"
-          alt=""
-        />
-        <table
-          class="uk-hidden"
-          style="
-            font-family: 'tahoma';
-            letter-spacing: 1px;
-            margin-top: -28px;
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 11px;
-            color: white;
-          "
-        >
-          <tr>
-            <td style="width: 325px; text-align: center">sétimo verão*</td>
-            <td style="width: 325px; text-align: center">vinte e um anos</td>
-          </tr>
-        </table>
-      </div>
-    </center>
-  </div>
-
-  <!-- texto -->
-  <div style="margin-top: 10px">
-    <div style="float: left">
-      <img
-        src="https://64.media.tumblr.com/7e0591be8662d7aae2922c2d7e8cbd0f/20d4639d60c8c223-bb/s250x400/eb00cbafae55b12b2e4c16d204a5664c0046d232.gifv"
-        style="
-          width: 72px;
-          margin-right: 6px;
-          border: #801818 4px solid;
-          padding: 1px;
-        "
-        alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
-      />
-    </div>
-    <p
-      style="
-        font-family: 'tahoma';
-        font-size: 13px;
-        letter-spacing: 0.8px;
-        line-height: 15px;
-        text-align: justify;
-      "
-    >
-      TEXTO
-    </p>
-  </div>
-</div>
-`;
-
-const faithHTML = `<div
-  style="
-    background-color: #f1e9ea;
-    width: 650px;
-    margin: 5% auto;
-    border: 2px solid #ff6e7b;
-    padding: 10px 15px;
-  "
->
-  <!-- banner -->
-  <div
-    style="
-      height: 80px;
-      width: auto;
-      position: relative;
-      background: url('https://i.pinimg.com/736x/07/b6/6f/07b66fa29931c835c23f8b5f26ff5799.jpg');
-      background-size: cover;
-      background-position: center;
-      overflow: hidden;
-      box-sizing: border-box;
-      border: 2px solid #ff6e7b;
-    "
-  >
-    <div
-      style="
-        margin-top: -10px;
-        left: 0;
-        width: 100%;
-        height: 80px;
-        position: relative;
-        background-color: rgba(
-          255,
-          110,
-          123,
-          0.4
-        ); /* Adjust transparency as needed */
-
-        border: 1px solid #ffffff;
-      "
-    >
-      <div style="float: right">
-        <a
-          href="https://64.media.tumblr.com/5a7b4bf9ea5f1d901ccd31c0606fb98f/c23a1f3e611b6289-cc/s400x600/8bcd4d6e1ba7ecd0877ca251de7cd5cb11193139.webp"
-          target="_blank"
-        >
-          <img
-            style="
-              width: 40px;
-              height: 40px;
-              display: block;
-              margin-bottom: 8px;
-            "
-            src="https://64.media.tumblr.com/18b617fcd63e6d74bd32d70038de2625/f955cb2dab9b8385-6b/s640x960/88220a9c97e4590fb05e9b9f131d8f07cf9898af.pnj"
-            alt=""
-          />
-        </a>
-      </div>
-      <!-- ficha -->
-      <div style="float: right; margin-top: 8px; margin-right: 5px">
-        <a
-          href="https://docs.google.com/document/d/1MMbMxYMXL7NtbAe5iSeJsb56R2y8vfpu26C1wMu1KAc/preview?tab=t.0"
-          target="_blank"
-        >
-          <img
-            style="
-              width: 18px;
-              height: 22px;
-              display: block;
-              margin-bottom: 5px;
-            "
-            src="https://cdn-icons-png.flaticon.com/512/124/124837.png"
-            alt=""
-          />
-        </a>
-      </div>
-      <h1
-        style="
-          color: #ffffff;
-          font-size: 36px;
-          font-family: 'century gothic';
-          font-weight: 100;
-          margin-top: 10px;
-          padding-top: 10px;
-          margin-bottom: 0px;
-          letter-spacing: 2px;
-          text-align: center;
-          vertical-align: middle;
-        "
-      >
-        Faith Sanderson
-      </h1>
-    </div>
-  </div>
-
-  <!-- infos -->
-  <div
-    style="width: 100%; background-color: #ff6e7b; height: 20px"
-    class="uk-visible-hover"
-  >
-    <center>
-      <div>
-        <img
-          src="https://i.pinimg.com/736x/86/41/67/8641676fff6712f1f29b209850995225.jpg"
-          style="
-            width: 30px;
-            height: 30px;
-            background-color: white;
-            margin-top: -8px;
-            border: 2px solid #ff6e7b;
-            padding: 1px;
-          "
-          class="img-circle"
-          alt=""
-        />
-        <table
-          class="uk-hidden"
-          style="
-            font-family: 'tahoma';
-            letter-spacing: 1px;
-            margin-top: -24px;
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 11px;
-            color: white;
-          "
-        >
-          <tr>
-            <td
-              style="vertical-align: middle; width: 325px; text-align: center"
-            >
-              sexto verão
-            </td>
-            <td
-              style="vertical-align: middle; width: 325px; text-align: center"
-            >
-              dezenove anos
-            </td>
-          </tr>
-        </table>
-      </div>
-    </center>
-  </div>
-
-  <!-- texto -->
-  <div style="margin-top: 10px">
-    <div style="float: left">
-      <img
-        src="https://64.media.tumblr.com/80a1bb2ac8fc82a1d50f1428e68b15a3/22a96bae28615a39-7d/s250x400/8772367368fa9ea587122c6cd0ad05479ac22a1d.gifv"
-        style="
-          width: 72px;
-          margin-right: 6px;
-          border: #ff6e7b 4px solid;
-          padding: 1px;
-        "
-        alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
-      />
-    </div>
-    <p
-      style="
-        font-family: 'tahoma';
-        font-size: 13px;
-        letter-spacing: 0.8px;
-        line-height: 15px;
-        text-align: justify;
-      "
-    >
-      TEXTO
-    </p>
-  </div>
-</div>
-`;
-
-const aelinHTML = `<div
-  style="
-    background-color: #f7eaed;
-    width: 650px;
-    margin: 5% auto;
-    border: 2px solid #560319;
-    padding: 10px 15px;
-  "
->
-  <!-- banner -->
-  <div
-    style="
-      height: 80px;
-      width: auto;
-      position: relative;
-      background: url('https://64.media.tumblr.com/a692e5aa6f8dd383285ab9647ca67521/bde9a3f6b36c8fcb-d5/s1280x1920/4bc9c5bb6ad9a86c73bbe4df5968ef0452b903d3.pnj');
-      background-size: contain;
-      background-position: center;
-      overflow: hidden;
-      box-sizing: border-box;
-      border: 2px solid #560319;
-    "
-  >
-    <div
-      style="
-        position: absolute;
-        margin-top: -10px;
-        top: -4;
-        left: 0;
-        width: 100%;
-        height: 80px;
-        background-color: rgba(
-          86,
-          3,
-          25,
-          0.5
-        ); /* Adjust transparency as needed */
-
-        border: 1px solid #ffffff;
-      "
-    >
-      <!-- ficha -->
-      <div style="float: right; margin-top: 5px; margin-right: 5px">
-        <a
-          href="https://docs.google.com/document/d/1QNPVjYwhSzXuny1rQCQuEBOrRttSAhZ3Kf4DyeQRx_U/preview?tab=t.0"
-          target="_blank"
-        >
-          <img
-            style="
-              width: 18px;
-              height: 22px;
-              display: block;
-              margin-bottom: 5px;
-            "
-            src="https://cdn-icons-png.flaticon.com/512/124/124837.png"
-            alt=""
-          />
-        </a>
-      </div>
-      <h1
-        style="
-          color: #ffffff;
-          font-size: 36px;
-          font-family: 'century gothic';
-          font-weight: 100;
-          margin-top: 10px;
-          padding-top: 10px;
-          margin-bottom: 0px;
-          letter-spacing: 2px;
-          text-align: center;
-          vertical-align: middle;
-        "
-      >
-        Aelin Hyss Dryagin
-      </h1>
-    </div>
-  </div>
-
-  <!-- infos -->
-  <div
-    style="width: 100%; background-color: #560319; height: 20px"
-    class="uk-visible-hover"
-  >
-    <center>
-      <div>
-        <img
-          src="https://64.media.tumblr.com/65cfab66a1eb20bb9430ba25bb6d9126/3c9be57e2be1085d-13/s250x400/78d49de0053b0a302598806028fd824fd048161d.pnj"
-          style="
-            width: 35px;
-            background-color: white;
-            border: 2px solid #560319;
-            padding: 1px;
-            margin-top: -6px;
-          "
-          class="img-circle"
-          alt=""
-        />
-        <table
-          class="uk-hidden"
-          style="
-            font-family: 'tahoma';
-            letter-spacing: 1px;
-            margin-top: -30px;
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 11px;
-            color: white;
-          "
-        >
-          <tr>
-            <td style="width: 325px; text-align: center">terceiro verão***</td>
-            <td style="width: 325px; text-align: center">dezoito anos</td>
-          </tr>
-        </table>
-      </div>
-    </center>
-  </div>
-
-  <!-- texto -->
-  <div style="margin-top: 10px">
-    <div style="float: left">
-      <img
-        src="https://64.media.tumblr.com/6b602241ff46b522c8cb6574b4de84cf/71f9e7f27ea92cb2-ac/s400x600/757df45287f1ac06a2ac8090ae1f3f77e1c9614a.webp"
-        style="
-          width: 72px;
-          margin-right: 6px;
-          border: #560319 4px solid;
-          padding: 1px;
-        "
-        alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
-      />
-    </div>
-    <p
-      style="
-        font-family: 'tahoma';
-        font-size: 13px;
-        letter-spacing: 0.8px;
-        line-height: 15px;
-        text-align: justify;
-      "
-    >
-      TEXTO
-    </p>
-  </div>
-</div>
-`;
-
-const chiaraHTML = `<div
-  style="
-    background-color: #f3ebe0;
-    width: 650px;
-    margin: 5% auto;
-    border: 2px solid #f0a23a;
-    padding: 10px 15px;
-  "
->
-  <!-- banner -->
-  <div
-    style="
-      height: 80px;
-      width: auto;
-      position: relative;
-      background: url('https://64.media.tumblr.com/999b81cfb57cde447332db7125476c19/a17bc04292fc86ec-43/s640x960/c70d4a7ba012c52a2b319e729a6b896677fb94d3.pnj');
-      background-size: cover;
-      background-position: center;
-      overflow: hidden;
-      box-sizing: border-box;
-      border: 2px solid #f0a23a;
-    "
-  >
-    <div
-      style="
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(
-          240,
-          162,
-          58,
-          0.2
-        ); /* Adjust transparency as needed */
-
-        border: 1px solid #ffffff;
-      "
-    >
-      <!-- ficha -->
-      <div style="float: right; margin-top: 5px; margin-right: 5px">
-        <a
-          href="https://docs.google.com/document/d/1TBFxyRV-NK5ehfvS_0tfCnhbjetxn1Tm_V8JMNzZdv4/preview?tab=t.0"
-          target="_blank"
-        >
-          <img
-            style="
-              width: 18px;
-              height: 22px;
-              display: block;
-              margin-bottom: 5px;
-            "
-            src="https://cdn-icons-png.flaticon.com/512/124/124837.png"
-            alt=""
-          />
-        </a>
-      </div>
-      <h1
-        style="
-          color: #ffffff;
-          font-size: 36px;
-          font-family: 'century gothic';
-          font-weight: 100;
-          margin-top: 10px;
-          margin-bottom: 0px;
-          letter-spacing: 2px;
-          text-align: center;
-        "
-      >
-        Chiara Bianchi
-      </h1>
-    </div>
-  </div>
-
-  <!-- infos -->
-  <div
-    style="width: 100%; background-color: #f0a23a; height: 20px"
-    class="uk-visible-hover"
-  >
-    <center>
-      <div>
-        <img
-          src="https://www.onlygfx.com/wp-content/uploads/2018/09/4-clipart-sun-1.png"
-          style="
-            width: 30px;
-            background-color: white;
-            margin-top: -8px;
-            border: 2px solid #f0a23a;
-            padding: 1px;
-          "
-          class="img-circle"
-          alt=""
-        />
-        <table
-          class="uk-hidden"
-          style="
-            font-family: 'tahoma';
-            letter-spacing: 1px;
-            margin-top: -24px;
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 11px;
-            color: #412b10;
-          "
-        >
-          <tr>
-            <td
-              style="vertical-align: middle; width: 325px; text-align: center"
-            >
-              segundo verão
-            </td>
-            <td
-              style="vertical-align: middle; width: 325px; text-align: center"
-            >
-              dezessete anos
-            </td>
-          </tr>
-        </table>
-      </div>
-    </center>
-  </div>
-
-  <!-- texto -->
-  <div style="margin-top: 10px">
-    <div style="float: left">
-      <img
-        src="https://64.media.tumblr.com/1e5725602d731c3e7309242256d46237/4dbb2fef2add3ac3-21/s250x400/05821195d269cf110e25679116f5b6b6aa1ffc9e.gifv"
-        style="
-          width: 72px;
-          margin-right: 6px;
-          border: #f0a23a 4px solid;
-          padding: 1px;
-        "
-        alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
-      />
-    </div>
-    <p
-      style="
-        font-family: 'tahoma';
-        font-size: 13px;
-        letter-spacing: 0.8px;
-        line-height: 15px;
-        text-align: justify;
-      "
-    >
-      TEXTO
-    </p>
-  </div>
-</div>
-`;
-
-const dimitriHTML = `<div
-  style="
-    background-color: #edf0f5;
-    width: 650px;
-    margin: 5% auto;
-    border: 2px solid #06132f;
-    padding: 10px 15px;
-  "
->
-  <!-- banner -->
-  <div
-    style="
-      height: 80px;
-      width: 100%;
-      position: relative;
-      background: url('https://i.pinimg.com/1200x/a3/1b/63/a31b63fb2da5550d3f5fd89aaf179019.jpg');
-      background-size: cover;
-      background-position: center;
-      overflow: hidden;
-      box-sizing: border-box;
-      border: 2px solid #06132f;
-    "
-  >
-    <div
-      style="
-        position: absolute;
-        margin-top: -10px;
-        top: -4;
-        left: 0;
-        width: 100%;
-        height: 80px;
-        background-color: rgba(
-          6,
-          19,
-          47,
-          0.5
-        ); /* Adjust transparency as needed */
-
-        border: 1px solid #ffffff;
-      "
-    >
-      <!-- ficha -->
-      <div style="float: right; margin-top: 5px; margin-right: 5px">
-        <a
-          href="https://docs.google.com/document/d/1pVQf-psqQRMqaE4RSI3l46J0P9ofkeaUOXsKe3ZVjfU/preview?tab=t.0"
-          target="_blank"
-        >
-          <img
-            style="
-              width: 18px;
-              height: 22px;
-              display: block;
-              margin-bottom: 5px;
-            "
-            src="https://cdn-icons-png.flaticon.com/512/124/124837.png"
-            alt=""
-          />
-        </a>
-      </div>
-      <h1
-        style="
-          color: #ffffff;
-          font-size: 36px;
-          font-family: 'century gothic';
-          font-weight: 100;
-          margin-top: 10px;
-          padding-top: 10px;
-          margin-bottom: 0px;
-          letter-spacing: 2px;
-          text-align: center;
-          vertical-align: middle;
-        "
-      >
-        Dimitri Rhysand
-      </h1>
-    </div>
-  </div>
-
-  <!-- infos -->
-  <div
-    style="width: 100%; background-color: #06132f; height: 20px"
-    class="uk-visible-hover"
-  >
-    <center>
-      <div>
-        <img
-          src="https://spells8.com/wp-content/uploads/2023/06/Moon-Symbol-of-Goddess-Nyx.jpg"
-          style="
-            width: 35px;
-            background-color: white;
-            border: 2px solid #06132f;
-            padding: 1px;
-            margin-top: -8px;
-          "
-          class="img-circle"
-          alt=""
-        />
-        <table
-          class="uk-hidden"
-          style="
-            font-family: 'tahoma';
-            letter-spacing: 1px;
-            margin-top: -32px;
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 11px;
-            color: white;
-          "
-        >
-          <tr>
-            <td style="width: 325px; text-align: center">primeiro ano</td>
-            <td style="width: 325px; text-align: center">quinze anos</td>
-          </tr>
-        </table>
-      </div>
-    </center>
-  </div>
-
-  <!-- texto -->
-  <div style="margin-top: 10px">
-    <div style="float: left">
-      <img
-        src="https://i.pinimg.com/originals/b1/76/5b/b1765b590d474455a31edb1bd710fa52.gif"
-        style="
-          width: 66px;
-          margin-right: 6px;
-          border: #06132f 4px solid;
-          padding: 1px;
-        "
-        alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
-      />
-    </div>
-    <p
-      style="
-        font-family: 'tahoma';
-        font-size: 13px;
-        letter-spacing: 0.8px;
-        line-height: 15px;
-        text-align: justify;
-      "
-    >
-      TEXTO
-    </p>
-  </div>
-</div>
+</center>
+<p><br /></p>
 `;
 
 const getCharHTML = (char) => {
-  if (char == "ivy") return { html: ivyHTML, color: "#133574" };
-  else if (char == "emma") return { html: emmaHTML, color: "#ed5576" };
-  else if (char == "alex") return { html: alexHTML, color: "#801818" };
-  else if (char == "faith") return { html: faithHTML, color: "#ff6e7b" };
-  else if (char == "aelin") return { html: aelinHTML, color: "#560319" };
-  else if (char == "chiara") return { html: chiaraHTML, color: "#f0a23a" };
-  else if (char == "dimitri") return { html: dimitriHTML, color: "#06132f" };
+  if (char == "vivi") return { html: viviHTML, color: "#de6fa1" };
 };
 
-function getTextReady(char, color) {
+function coverFirstLetter() {
   const text = document.getElementById("text").value;
+  const firstLetter = text.slice(0, 1);
+  const firstLetterHTML1 = `<div
+            style="
+              float: left;
+              border: solid 1px #de6fa1;
+              margin-right: 5px;
+              padding: 2px;
+            "
+          >
+            <div
+              style="
+                background-color: #de6fa1;
+                height: 58px;
+                color: #fff;
+                font-size: 50px;
+                line-height: 60px;
+                font-family: &quot;old english text mt&quot;;
+                padding-left: 5px;
+                padding-right: 5px;
+              "
+            >
+              <center>`;
+  const firstLetterHTML2 = `</center>
+            </div>
+          </div>`;
+
+  return `${firstLetterHTML1}${firstLetter}${firstLetterHTML2}`;
+}
+
+function getTextReady(char, color) {
+  const text = document.getElementById("text").value.slice(1);
 
   let isLineStart = true;
   const newText = [];
 
   for (let i = 0; i < text.length; i++) {
     if ((text[i] == "~" || text[i] == "—") && isLineStart) {
+      console.log("color :>> ", color);
       newText.push(`<b style="color: ${color}">⸻`);
       isLineStart = false;
     } else if ((text[i] == "~" || text[i] == "—") && isLineStart == false) {
@@ -1105,9 +240,7 @@ function getTextReady(char, color) {
 }
 
 const getHTMLReady = () => {
-  console.log("entrei");
   const char = document.getElementById("selectChar").value;
-  console.log("char :>> ", char);
 
   let { html, color } = { html: "", color: "" };
 
@@ -1117,11 +250,10 @@ const getHTMLReady = () => {
 
   let [part1, part2] = html.split("TEXTO");
 
+  const firstLetter = coverFirstLetter();
   const text = getTextReady(char, color);
 
-  completeHtml = `${part1}${text}${part2}`;
-
-  console.log("completeHtml :>> ", completeHtml);
+  completeHtml = `${part1}${firstLetter}${text}${part2}`;
 
   navigator.clipboard.writeText(completeHtml);
   return completeHtml;
