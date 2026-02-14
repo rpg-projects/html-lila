@@ -224,7 +224,7 @@ const suzieHTML = `<center style="font-family: Tahoma">
             vertical-align: middle;
           "
         >
-          HP 79/79
+          HP 66/66
         </p>
       </div>
     </div>
@@ -239,7 +239,7 @@ const suzieHTML = `<center style="font-family: Tahoma">
         margin-top: -20px;
       "
     >
-      If the subways flood and the bridges break
+      A cowgirl like me was worth every penny
     </p>
   </div>
 </center>
