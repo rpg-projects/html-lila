@@ -3094,7 +3094,7 @@ const benHTML = `<center style="font-family: Tahoma">
     >
       <div style="float: left">
         <img
-          src="https://44.media.tumblr.com/c4d9586d981529a7280d96d6b7b404b5/106ae59eaa7758db-ff/s500x750_f1/659723bd24181d37a8286e5cdb046b797badda5e.gifv"
+          src="https://64.media.tumblr.com/c4d9586d981529a7280d96d6b7b404b5/106ae59eaa7758db-ff/s500x750/ec4389b5670706399f9c4b176bfdd9f6015d744b.gifv"
           style="
             width: 90px;
             margin-right: 6px;
