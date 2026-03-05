@@ -2982,7 +2982,7 @@ const benHTML = `<center style="font-family: Tahoma">
           position: relative;
           width: auto;
           height: 80px;
-          background: url('https://64.media.tumblr.com/a6a1f784c7da92e9cb78cc82a52a0b51/e497f6475b877d3f-9d/s640x960/169e603c930c899a691a71762a5c4560e180f8e5.pnj');
+          background: url(&quot;https://64.media.tumblr.com/a6a1f784c7da92e9cb78cc82a52a0b51/e497f6475b877d3f-9d/s640x960/169e603c930c899a691a71762a5c4560e180f8e5.pnj&quot;);
           background-size: cover;
           background-position: center;
           overflow: hidden;
@@ -3000,7 +3000,7 @@ const benHTML = `<center style="font-family: Tahoma">
               196,
               30,
               58,
-              0.5
+              0.2
             ); /* Adjust transparency as needed */
           "
         >
@@ -3055,7 +3055,7 @@ const benHTML = `<center style="font-family: Tahoma">
                 style="
                   color: #ffffff;
                   font-size: 36px;
-                  font-family: 'century gothic';
+                  font-family: &quot;century gothic&quot;;
                   font-weight: 100;
                   margin: 0;
                   margin-left: 4%;
