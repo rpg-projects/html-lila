@@ -3000,7 +3000,7 @@ const benHTML = `<center style="font-family: Tahoma">
               196,
               30,
               58,
-              0.2
+              0.3
             ); /* Adjust transparency as needed */
           "
         >
