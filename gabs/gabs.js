@@ -240,6 +240,7 @@ function getTextReady(char, color) {
 }
 
 const getHTMLReady = () => {
+  const button = document.getElementById("get-html-button");
   const char = document.getElementById("selectChar").value;
 
   let { html, color } = { html: "", color: "" };
@@ -256,5 +257,14 @@ const getHTMLReady = () => {
   completeHtml = `${part1}${firstLetter}${text}${part2}`;
 
   navigator.clipboard.writeText(completeHtml);
+
+  // 👉 feedback visual no botão
+  const originalText = button.innerText;
+  button.innerText = "HTML COPIADO ✔";
+
+  setTimeout(() => {
+    button.innerText = originalText;
+  }, 1000); // volta depois de 1s
+
   return completeHtml;
 };

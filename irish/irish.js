@@ -1,4 +1,26 @@
-<div
+const fionnHTML = `<br><center> 
+  <div style="padding:25px;">
+    <table style="border-collapse:collapse;width:100%;border-bottom:solid 1pt #708732;margin-bottom:2px;" border="0">
+      <tbody>
+        <tr>
+          <td style="width:650px;color:#708732;font-family:candara;font-size:35px;line-height:45px;text-align:center;">
+
+          </td><td></td></tr></tbody></table>
+    <div style="border-style:solid;border-width:9pt 0pt 0pt 2pt;border-color:#708732;background-color:#f9f9f9;">
+      <div style="font-family:'ms gothic';font-size:10px;text-transform:uppercase;color:#708732;text-align:center;padding-top:0px;">
+        ㅤㅤ </div>
+        
+        <div style="border:solid 1pt #5c0108;margin-left:15px;font-family:verdana;font-size:12px;text-align:justify;padding:10px;color:#000;line-height:15px;background-color:#fff;">
+          <div style="float:left;padding-right:5px;">
+            <img style="border-style:solid;border-width:1pt 5pt 5pt 1pt;border-color:#708732;padding:2px;width:90px;" src="https://64.media.tumblr.com/531c65e4e6da35aba05f6e4bfb51d15f/be03044580933974-a6/s250x400/90b2e82d7c55204d16c90bf28a59a593fe5bc3c8.gifv" /></div>ㅤㅤㅤ
+            TEXTO </div>
+            <div style="border:solid 1pt #5c0108;margin-top:5px;margin-left:15px;font-family:verdana;font-size:10px;text-align:justify;padding:10px;color:#000;line-height:12px;background-color:#fff;">
+            <span style="background-color:#708732;color:#fff;padding-right:3px;padding-left:3px;">FIONN PRICE</span> é um semideus filho de <b>Medusa</b>. Nascido em Belfast, no norte da Irlanda, cresceu junto de seu pai aplicando golpes. 
+            Está no nível <b>01</b> e possui <b>26</b> de HP. Sua arma inicial é um arco e flecha. Você pode consultar sua ficha <a href= "https://docs.google.com/document/d/1zaRap2KTQimYR1Oa0SidbfTWH2iS1vuoYAilLx8E_TE/edit?tab=t.0">aqui</a>!  </div><br /></div></div>                                      
+  
+  </div><br>`;
+
+const murphyHTML = `<div
   title="madhouse studio® by kamikaze"
   style="border: 2px solid #751717; background-color: #990000; padding: 10px"
 >
@@ -163,3 +185,58 @@
 </div>
 
 <div style="margin-top: -15px; font-size: 1px">,</div>
+`;
+
+const getCharHTML = (char) => {
+  if (char == "murphy") return { html: murphyHTML, color: "#5c0108;" };
+  else if (char == "fionn") return { html: fionnHTML, color: "#708732;" };
+};
+
+function getTextReady(char, color) {
+  const text = document.getElementById("text").value;
+
+  let isLineStart = true;
+  const newText = [];
+
+  // ─── <span style="color: ${color}"><strong>
+  for (let i = 0; i < text.length; i++) {
+    if ((text[i] == "~" || text[i] == "—") && isLineStart) {
+      newText.push(`─── <span style="color: ${color}"><strong>`);
+      isLineStart = false;
+    } else if ((text[i] == "~" || text[i] == "—") && isLineStart == false) {
+      newText.push("─── </strong></span>");
+      isLineStart = true;
+    } else newText.push(text[i]);
+  }
+
+  return newText.join("");
+}
+
+const getHTMLReady = () => {
+  const button = document.getElementById("get-html-button");
+  const char = document.getElementById("selectChar").value;
+
+  let { html, color } = { html: "", color: "" };
+
+  if (char !== "none") {
+    ({ html, color } = getCharHTML(char));
+  }
+
+  let [part1, part2] = html.split("TEXTO");
+
+  const text = getTextReady(char, color);
+
+  completeHtml = `${part1}${text}${part2}`;
+
+  navigator.clipboard.writeText(completeHtml);
+
+  // 👉 feedback visual no botão
+  const originalText = button.innerText;
+  button.innerText = "HTML COPIADO ✔";
+
+  setTimeout(() => {
+    button.innerText = originalText;
+  }, 1000); // volta depois de 1s
+
+  return completeHtml;
+};
