@@ -9,6 +9,18 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
+
+    <style>
+      textarea {
+        font-size: 24px;
+      }
+
+      @media screen and (max-width: 720px) {
+        textarea {
+          font-size: 14px;
+        }
+      }
+    </style>
   </head>
   <body>
     <h1>LILA HTMLS!</h1>
@@ -23,7 +35,13 @@
       <!-- Coloque o texto do post aqui, as falas ficarão negritadas e da cor
       escolhida se escritas entre — travessões —. -->
     </p>
-    <textarea id="text" name="post" cols="30" rows="10"></textarea>
+    <textarea
+      style="width: 80%"
+      id="text"
+      name="post"
+      cols="30"
+      rows="20"
+    ></textarea>
     <!-- <div class="radioSelection">
       <label>
         <input type="radio" name="option" value="twh" class="radioInp" />
