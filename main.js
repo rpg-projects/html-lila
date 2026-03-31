@@ -3541,7 +3541,7 @@ const noahHTML = `<center style="font-family: Tahoma">
         margin-top: -20px;
       "
     >
-      This cowboy is running from himself,<br />
+      This cowboy is running from himself,
       she's been living on the highest shelf
     </p>
   </div>
@@ -4191,6 +4191,200 @@ const teoHTML = `<center style="font-family: Tahoma">
 </center>
 `;
 
+const cocaHTML = `<center style="font-family: Tahoma">
+  <div
+    style="
+      margin-top: 40px;
+      width: 650px;
+      background-color: rgba(0, 66, 37, 0.9);
+      border: solid 4px #004225;
+      border-bottom: 0;
+    "
+  >
+    <!-- titulo   -->
+    <div style="padding: 10px 10px 0">
+      <div
+        style="
+          position: relative;
+          width: auto;
+          height: 80px;
+          background: url(https://64.media.tumblr.com/1cf3440a3644cd2186237d29ca73dbef/69cd6b348133508a-e6/s640x960/0f7610f632baf3a0b7772d7bf4bd8f8ce5a74303.pnj);
+          background-size: cover;
+          background-position: center;
+          overflow: hidden;
+        "
+      >
+        <!-- Overlay for shading -->
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(
+              0,
+              66,
+              37,
+              0.3
+            ); /* Adjust transparency as needed */
+          "
+        >
+          <div
+            style="
+              border: 1px solid #ffffff;
+              height: 100%;
+              width: 100%;
+              overflow: hidden;
+              text-align: center;
+            "
+          >
+            <div style="float: right; margin-top: 5px; margin-right: 5px">
+              <a
+                href="https://docs.google.com/document/d/1EWhOdjha7zMADw7h6JjcDg5IPS86aUGto5I96XISXVk/preview?tab=t.0"
+                target="_blank"
+              >
+                <img
+                  style="
+                    width: 18px;
+                    height: 22px;
+                    display: block;
+                    margin-bottom: 5px;
+                  "
+                  src="https://64.media.tumblr.com/e1a1a65ceb96c4f7d3039e87109b8799/61106e529f863e65-7b/s500x750/a86687a5f7017c8ff3bb9f4f45babdb54971f4ec.pnj"
+                  alt=""
+                />
+              </a>
+              <!-- <a href="">
+              <img
+                style="
+                  width: 20px;
+                  height: 20px;
+
+                  display: block;
+                  margin-bottom: 5px;
+                "
+                src="https://images-ext-1.discordapp.net/external/pwEEzxIpoFPiDLQYo0H0fPd2aE-1qEw1je_DHl31XJ8/https/64.media.tumblr.com/5cebb6e919055194f7cb2e8aa6f166cc/61106e529f863e65-b4/s2048x3072/b541ada9c0470774c8121359ada1ff43bdb501e3.pnj?format=webp&width=981&height=943"
+                alt=""
+              />
+            </a> -->
+            </div>
+            <div
+              style="
+                text-align: center;
+                margin-top: 10px;
+                float: left;
+                width: 96%;
+              "
+            >
+              <h1
+                style="
+                  color: #ffffff;
+                  font-size: 36px;
+                  font-family: &quot;century gothic&quot;;
+                  font-weight: 100;
+                  margin: 0;
+                  margin-left: 4%;
+                  letter-spacing: 2px;
+                  display: inline-block;
+                "
+              >
+                DAKOTA WHEELER
+              </h1>
+              <p
+                style="
+                  text-align: center;
+                  color: #ffffff;
+                  margin-top: -5px;
+                  letter-spacing: 1px;
+                  margin-left: 4%;
+                "
+              >
+                PRIMEIRA CONTA ⇤ ZAGREU ⇥ 13 ANOS
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- texto -->
+    <div
+      style="
+        padding: 2% 3%;
+        background-color: #f5f8f1;
+        margin: 10px;
+        margin-bottom: 0px;
+        min-height: 120px;
+      "
+    >
+      <div style="float: left">
+        <img
+          src="https://64.media.tumblr.com/44195ba675b0d9fd4a85ded579041ffd/3b316c39a6317d4b-fc/s400x600/6f5983a567e02de80a86936d68b2aa3a60458cda.gifv"
+          style="
+            width: 90px;
+            margin-right: 6px;
+            margin-top: 4px;
+            border: #004225 4pt solid;
+          "
+          alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+        />
+      </div>
+      <p style="text-align: justify; line-height: 16px">&nbsp; TEXTO</p>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div
+    style="
+      height: 30px;
+      width: 650px;
+      background-color: #004225;
+      margin-bottom: 40px;
+      padding-right: 10px;
+      border: solid 2px #004225;
+    "
+  >
+    <div style="float: left">
+      <div
+        style="
+          width: 60px;
+          border: 1px solid #ffffff;
+          height: 20px;
+          float: left;
+          margin-left: 10px;
+          margin-top: 3px;
+        "
+      >
+        <p
+          style="
+            font-size: 10px;
+            color: #ffffff;
+            letter-spacing: 1px;
+            vertical-align: middle;
+          "
+        >
+          HP 20/20
+        </p>
+      </div>
+    </div>
+
+    <p
+      style="
+        color: #ffffff;
+        font-size: 10px;
+        float: right;
+        clear: both;
+        text-transform: uppercase;
+        margin-top: -20px;
+      "
+    >
+      There'll be no value in the strength of walls that I have grown
+    </p>
+  </div>
+</center>
+`;
+
 const getCharHTML = (char) => {
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
   else if (char == "charlie") return { html: charlieHTML, color: "#f0a23a" };
@@ -4215,6 +4409,7 @@ const getCharHTML = (char) => {
   else if (char == "noah") return { html: noahHTML, color: "#009ec1" };
   else if (char == "feyre") return { html: feyreHTML, color: "#06132f" };
   else if (char == "teo") return { html: teoHTML, color: "#ed5576" };
+  else if (char == "coca") return { html: cocaHTML, color: "#004225" };
 };
 
 function getTextReady(char, color) {
