@@ -2582,8 +2582,8 @@ const blakeHTML = `<center style="font-family: Tahoma">
     style="
       margin-top: 40px;
       width: 650px;
-      background-color: rgba(194, 163, 115, 0.9);
-      border: solid 4px #c2a373;
+      background-color: rgba(143, 99, 49, 0.9);
+      border: solid 4px #8f6331;
       border-bottom: 0;
     "
   >
@@ -2594,7 +2594,7 @@ const blakeHTML = `<center style="font-family: Tahoma">
           position: relative;
           width: auto;
           height: 80px;
-          background: url('https://64.media.tumblr.com/c4ec35ff6e84998d4dc8db393bbbc6e6/ef650eecb9be7895-e3/s640x960/cd3c3d4d12e764871eed1a2b0e2d46c94665968a.jpg');
+          background: url(&quot;https://64.media.tumblr.com/c4ec35ff6e84998d4dc8db393bbbc6e6/ef650eecb9be7895-e3/s640x960/cd3c3d4d12e764871eed1a2b0e2d46c94665968a.jpg&quot;);
           background-size: cover;
           background-position: center;
           overflow: hidden;
@@ -2609,9 +2609,9 @@ const blakeHTML = `<center style="font-family: Tahoma">
             width: 100%;
             height: 100%;
             background-color: rgba(
-              194,
-              163,
-              115,
+              143,
+              99,
+              49,
               0.6
             ); /* Adjust transparency as needed */
           "
@@ -2625,7 +2625,7 @@ const blakeHTML = `<center style="font-family: Tahoma">
               text-align: center;
             "
           >
-            <div style="float: right; margin-top: 5px; margin-right: 5px">
+            <!-- <div style="float: right; margin-top: 5px; margin-right: 5px">
               <a
                 href="https://docs.google.com/document/d/1PeX7WsLUi7pgqjcDjKOZ4y69q7ylcNPl5s5r6KaKWGY/preview?tab=t.0"
                 target="_blank"
@@ -2641,7 +2641,7 @@ const blakeHTML = `<center style="font-family: Tahoma">
                   alt=""
                 />
               </a>
-              <!-- <a href="">
+              <a href="">
               <img
                 style="
                   width: 20px;
@@ -2653,8 +2653,8 @@ const blakeHTML = `<center style="font-family: Tahoma">
                 src="https://images-ext-1.discordapp.net/external/pwEEzxIpoFPiDLQYo0H0fPd2aE-1qEw1je_DHl31XJ8/https/64.media.tumblr.com/5cebb6e919055194f7cb2e8aa6f166cc/61106e529f863e65-b4/s2048x3072/b541ada9c0470774c8121359ada1ff43bdb501e3.pnj?format=webp&width=981&height=943"
                 alt=""
               />
-            </a> -->
-            </div>
+            </a>
+            </div> -->
             <div
               style="
                 text-align: center;
@@ -2667,7 +2667,7 @@ const blakeHTML = `<center style="font-family: Tahoma">
                 style="
                   color: #ffffff;
                   font-size: 36px;
-                  font-family: 'century gothic';
+                  font-family: &quot;century gothic&quot;;
                   font-weight: 100;
                   margin: 0;
                   margin-left: 4%;
@@ -2711,7 +2711,7 @@ const blakeHTML = `<center style="font-family: Tahoma">
             width: 90px;
             margin-right: 6px;
             margin-top: 4px;
-            border: #c2a373 4pt solid;
+            border: #8f6331 4pt solid;
           "
           alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
         />
@@ -2725,13 +2725,13 @@ const blakeHTML = `<center style="font-family: Tahoma">
     style="
       height: 30px;
       width: 650px;
-      background-color: #c2a373;
+      background-color: #8f6331;
       margin-bottom: 40px;
       padding-right: 10px;
-      border: solid 2px #c2a373;
+      border: solid 2px #8f6331;
     "
   >
-    <div style="float: left">
+    <!-- <div style="float: left">
       <div
         style="
           width: 68px;
@@ -2753,7 +2753,7 @@ const blakeHTML = `<center style="font-family: Tahoma">
           HP 127/127
         </p>
       </div>
-    </div>
+    </div> -->
 
     <p
       style="
@@ -2762,7 +2762,7 @@ const blakeHTML = `<center style="font-family: Tahoma">
         float: right;
         clear: both;
         text-transform: uppercase;
-        margin-top: -20px;
+        margin-top: 10px;
       "
     >
       If the subways flood and the bridges break
@@ -2776,8 +2776,8 @@ const fallonHTML = `<center style="font-family: Tahoma">
     style="
       margin-top: 40px;
       width: 650px;
-      background-color: rgba(77, 16, 16, 0.9);
-      border: solid 4px #4d1010;
+      background-color: rgba(69, 33, 30, 0.9);
+      border: solid 4px #45211e;
       border-bottom: 0;
     "
   >
@@ -2788,7 +2788,7 @@ const fallonHTML = `<center style="font-family: Tahoma">
           position: relative;
           width: auto;
           height: 80px;
-          background: url('https://64.media.tumblr.com/1b9b60b09ffbc40f62325680b26b3a58/cc4858ad2a88008e-dc/s1280x1920/ba27351cccd2e17096b54b50b4d3d0b2d6b4b4a7.jpg');
+          background: url(&quot;https://64.media.tumblr.com/1b9b60b09ffbc40f62325680b26b3a58/cc4858ad2a88008e-dc/s1280x1920/ba27351cccd2e17096b54b50b4d3d0b2d6b4b4a7.jpg&quot;);
           background-size: cover;
           background-position: center;
           overflow: hidden;
@@ -2803,9 +2803,9 @@ const fallonHTML = `<center style="font-family: Tahoma">
             width: 100%;
             height: 100%;
             background-color: rgba(
-              77,
-              16,
-              16,
+              69,
+              33,
+              30,
               0.5
             ); /* Adjust transparency as needed */
           "
@@ -2819,7 +2819,7 @@ const fallonHTML = `<center style="font-family: Tahoma">
               text-align: center;
             "
           >
-            <div style="float: right; margin-top: 5px; margin-right: 5px">
+            <!-- <div style="float: right; margin-top: 5px; margin-right: 5px">
               <a
                 href="https://docs.google.com/document/d/1yspW6lTXxUZwLz5aDVCVk8-Py-17INzUxy2ATQc1cuo/edit?tab=t.0"
                 target="_blank"
@@ -2835,7 +2835,7 @@ const fallonHTML = `<center style="font-family: Tahoma">
                   alt=""
                 />
               </a>
-              <!-- <a href="">
+              <a href="">
               <img
                 style="
                   width: 20px;
@@ -2847,8 +2847,8 @@ const fallonHTML = `<center style="font-family: Tahoma">
                 src="https://images-ext-1.discordapp.net/external/pwEEzxIpoFPiDLQYo0H0fPd2aE-1qEw1je_DHl31XJ8/https/64.media.tumblr.com/5cebb6e919055194f7cb2e8aa6f166cc/61106e529f863e65-b4/s2048x3072/b541ada9c0470774c8121359ada1ff43bdb501e3.pnj?format=webp&width=981&height=943"
                 alt=""
               />
-            </a> -->
-            </div>
+            </a>
+            </div> -->
             <div
               style="
                 text-align: center;
@@ -2861,7 +2861,7 @@ const fallonHTML = `<center style="font-family: Tahoma">
                 style="
                   color: #ffffff;
                   font-size: 36px;
-                  font-family: 'century gothic';
+                  font-family: &quot;century gothic&quot;;
                   font-weight: 100;
                   margin: 0;
                   margin-left: 4%;
@@ -2905,7 +2905,7 @@ const fallonHTML = `<center style="font-family: Tahoma">
             width: 90px;
             margin-right: 6px;
             margin-top: 4px;
-            border: #4d1010 4pt solid;
+            border: #45211e 4pt solid;
           "
           alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
         />
@@ -2919,13 +2919,13 @@ const fallonHTML = `<center style="font-family: Tahoma">
     style="
       height: 30px;
       width: 650px;
-      background-color: #4d1010;
+      background-color: #45211e;
       margin-bottom: 40px;
       padding-right: 10px;
-      border: solid 2px #4d1010;
+      border: solid 2px #45211e;
     "
   >
-    <div style="float: left">
+    <!-- <div style="float: left">
       <div
         style="
           width: 60px;
@@ -2947,7 +2947,7 @@ const fallonHTML = `<center style="font-family: Tahoma">
           HP 94/94
         </p>
       </div>
-    </div>
+    </div> -->
 
     <p
       style="
@@ -2956,7 +2956,7 @@ const fallonHTML = `<center style="font-family: Tahoma">
         float: right;
         clear: both;
         text-transform: uppercase;
-        margin-top: -20px;
+        margin-top: 10px;
       "
     >
       I'm fired up and tired of the way that things have been
@@ -4599,14 +4599,18 @@ const getCharHTML = (char) => {
   // else if (char == "carter") return { html: carterHTML, color: "#6180d7" };
   // else if (char == "feyre") return { html: feyreHTML, color: "#06132f" };
   // else if (char == "teo") return { html: teoHTML, color: "#ed5576" };
-  else if (char == "fallon") return { html: fallonHTML, color: "#4d1010" };
+  else if (char == "fallon")
+    return { html: fallonHTML, color: "#45211E" }; //ok
   else if (char == "noah")
     return { html: noahHTML, color: "#20b2aa" }; //ok
   else if (char == "ben") return { html: benHTML, color: "#c41e3a" };
+  else if (char == "coca")
+    return { html: cocaHTML, color: "#174223" }; //ok
   else if (char == "aspen")
     return { html: aspenHTML, color: "#8b90f0" }; //ok
-  else if (char == "blake") return { html: blakeHTML, color: "#996515" };
-  else if (char == "coca") return { html: cocaHTML, color: "#174223" }; //ok
+  else if (char == "blake")
+    return { html: blakeHTML, color: "#8f6331" }; //ok
+  else if (char == "maddie") return { html: blakeHTML, color: "#996515" };
 };
 
 function getTextReady(char, color) {
