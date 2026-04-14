@@ -1075,6 +1075,131 @@ const dimitriHTML = `<div
 </div>
 `;
 
+const gwynethHTML = `<div
+  style="
+    background-color: #f0fff0;
+    width: 650px;
+    margin: 5% auto;
+    border: 2px solid #9ab973;
+    padding: 10px 15px;
+  "
+>
+  <div
+    style="
+      height: 80px;
+      width: auto;
+      background: url(&quot;https://64.media.tumblr.com/98fec1199ad422f0b8863ca67e1705f2/f4b6e61d4246143c-34/s640x960/154f17eca682b62455a6a37b6fa55cf29105e28e.pnj&quot;);
+      background-position: center;
+      border: 2px solid #9ab973;
+    "
+  >
+    <div
+      style="
+        width: 100%;
+        height: 100%;
+        background-color: rgba(154, 185, 115, 0);
+      "
+    >
+      <div style="float: right; margin-top: 5px; margin-right: 5px">
+        <a href="link da ficha aqui" target="_blank" rel="noreferrer noopener">
+          <img
+            style="width: 18px; height: 22px; margin-bottom: 5px"
+            src="//cdn-icons-png.flaticon.com/512/124/124837.png"
+            alt=""
+        /></a>
+      </div>
+      <h1
+        style="
+          color: #ffffff;
+          font-size: 36px;
+          font-family: &quot;century gothic&quot;;
+          font-weight: 100;
+          margin-top: 10px;
+          margin-bottom: 0px;
+          letter-spacing: 2px;
+          text-align: center;
+        "
+      >
+        Gwyneth Berdara
+      </h1>
+    </div>
+  </div>
+  <div
+    style="width: 100%; background-color: #9ab973; height: 20px"
+    class="uk-visible-hover"
+  >
+    <center>
+      <div>
+        <img
+          src="https://64.media.tumblr.com/1b18545bbc390bc10037a7e1c8f1d8e0/08273131fa5e7aca-7a/s500x750/28ecaa91fe136fc931c00f55acfb2fa4b80740c4.pnj"
+          style="
+            width: 30px;
+            background-color: #ffffff;
+            margin-top: -8px;
+            border: 2px solid #9ab973;
+            padding: 1px;
+          "
+          class="img-circle"
+          alt=""
+        />
+        <table
+          class="uk-hidden"
+          style="
+            font-family: tahoma;
+            letter-spacing: 1px;
+            margin-top: -24px;
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 11px;
+            color: #412b10;
+          "
+        >
+          <tbody>
+            <tr>
+              <td
+                style="vertical-align: middle; width: 325px; text-align: center"
+              >
+                primeiro verão
+              </td>
+              <td
+                style="vertical-align: middle; width: 325px; text-align: center"
+              >
+                dezesseis anos
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </center>
+  </div>
+  <div style="margin-top: 10px">
+    <div style="float: left">
+      <img
+        src="https://64.media.tumblr.com/53674133b592814a9c44179c2951f356/tumblr_inline_odmzzdMCTB1ur5d3a_100.gifv"
+        style="
+          width: 72px;
+          margin-right: 6px;
+          border: #9ab973 4px solid;
+          padding: 1px;
+        "
+        alt="fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+      />
+    </div>
+    <p
+      style="
+        font-family: tahoma;
+        font-size: 13px;
+        letter-spacing: 0.8px;
+        line-height: 15px;
+        text-align: justify;
+      "
+    >
+      TEXTO
+    </p>
+  </div>
+</div>
+`;
+
 const getCharHTML = (char) => {
   if (char == "ivy") return { html: ivyHTML, color: "#133574" };
   else if (char == "emma") return { html: emmaHTML, color: "#ed5576" };
@@ -1083,6 +1208,7 @@ const getCharHTML = (char) => {
   else if (char == "aelin") return { html: aelinHTML, color: "#560319" };
   else if (char == "chiara") return { html: chiaraHTML, color: "#f0a23a" };
   else if (char == "dimitri") return { html: dimitriHTML, color: "#06132f" };
+  else if (char == "gwyneth") return { html: gwynethHTML, color: "#9ab973" };
 };
 
 function getTextReady(char, color) {
