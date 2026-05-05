@@ -2311,7 +2311,7 @@ const ryanHTML = `<center style="font-family: courier new; margin: 40px auto">
             </tr>
             <tr>
               <td>idade:</td>
-              <td style="text-align: right">16</td>
+              <td style="text-align: right">15</td>
             </tr>
             <tr>
               <td>hp:</td>
@@ -2372,19 +2372,28 @@ const mayaHTML = `<center style="font-family: courier new; margin: 40px auto">
               <td>
                 <div
                   style="width: 10px; height: 10px; background: #ff5f56"
-                ></div>
+                  class="img-circle"
+                >
+                  .
+                </div>
               </td>
               <td style="width: 5px"></td>
               <td>
                 <div
                   style="width: 10px; height: 10px; background: #ffbd2e"
-                ></div>
+                  class="img-circle"
+                >
+                  .
+                </div>
               </td>
               <td style="width: 5px"></td>
               <td>
                 <div
                   style="width: 10px; height: 10px; background: #27c93f"
-                ></div>
+                  class="img-circle"
+                >
+                  .
+                </div>
               </td>
             </tr>
           </table>
@@ -2519,6 +2528,8 @@ const mayaHTML = `<center style="font-family: courier new; margin: 40px auto">
 </center>
 `;
 
+const annaHTML = ``;
+
 const getCharHTML = (char) => {
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
   else if (char == "aspen-twh") return { html: aspenTwhHTML, color: "#779ECB" };
@@ -2547,7 +2558,7 @@ const getCharHTML = (char) => {
   else if (char == "blake") return { html: blakeHTML, color: "#8f6331" };
   else if (char == "maddie") return { html: maddieHTML, color: "#910000" };
   else if (char == "ryan") return { html: ryanHTML, color: "#5aa7ff" };
-  else if (char == "anna") return { html: maddieHTML, color: "#910000" };
+  else if (char == "anna") return { html: annaHTML, color: "#910000" };
   else if (char == "maya") return { html: mayaHTML, color: "#349367" };
 };
 
@@ -2559,12 +2570,14 @@ function getTextReady(char, color) {
 
   for (let i = 0; i < text.length; i++) {
     if ((text[i] == "~" || text[i] == "—") && isLineStart) {
-      char === "aspen" || char === "aspen-twh"
+      char === "aspen" || char === "aspen-twh" || char === "maya"
         ? newText.push(`<b style="color: ${color}">&quot`)
         : newText.push(`—<b style="color: ${color}">`);
       isLineStart = false;
     } else if ((text[i] == "~" || text[i] == "—") && isLineStart == false) {
-      char === "aspen" ? newText.push(`&quot</b>`) : newText.push("</b>—");
+      char === "aspen" || char === "aspen-twh" || char === "maya"
+        ? newText.push(`&quot</b>`)
+        : newText.push("</b>—");
       isLineStart = true;
     } else newText.push(text[i]);
   }
