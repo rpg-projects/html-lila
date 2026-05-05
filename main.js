@@ -2408,7 +2408,6 @@ const mayaHTML = `<center style="font-family: courier new; margin: 40px auto">
     <!-- CONTEÚDO -->
     <table style="width: 100%; border-collapse: collapse">
       <tr>
-        <!-- TEXTO -->
         <td
           style="
             width: 70%;
