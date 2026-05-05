@@ -2567,6 +2567,8 @@ function getTextReady(char, color) {
   let isLineStart = true;
   const newText = [];
 
+  console.log("char :>> ", char);
+
   for (let i = 0; i < text.length; i++) {
     if ((text[i] == "~" || text[i] == "—") && isLineStart) {
       char === "aspen" || char === "aspen-twh" || char === "maya"
@@ -2586,8 +2588,8 @@ function getTextReady(char, color) {
 
 const getHTMLReady = () => {
   const button = document.getElementById("get-html-button");
-  const char = document.getElementById("selectChar").value;
-  const char3 = document.getElementById("selectChar3").value;
+  let char = document.getElementById("selectChar").value;
+  let char3 = document.getElementById("selectChar3").value;
 
   if (char !== "none" && char3 !== "none") {
     alert("Inválido");
@@ -2604,6 +2606,7 @@ const getHTMLReady = () => {
 
   if (char3 !== "none") {
     ({ html, color } = getCharHTML(char3));
+    char = char3;
   }
 
   let [part1, part2] = html.split("TEXTO");
