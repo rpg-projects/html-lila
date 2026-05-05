@@ -2238,7 +2238,6 @@ const ryanHTML = `<center style="font-family: courier new; margin: 40px auto">
     <!-- CONTEÚDO -->
     <table style="width: 100%; border-collapse: collapse">
       <tr>
-        <!-- TEXTO -->
         <td
           style="
             width: 70%;
@@ -2358,6 +2357,168 @@ const ryanHTML = `<center style="font-family: courier new; margin: 40px auto">
 </center>
 `;
 
+const mayaHTML = `<center style="font-family: courier new; margin: 40px auto">
+  <div
+    style="width: 720px; background-color: #0e1a14; border: 2px solid #1a3126"
+  >
+    <!-- BARRA DE NAVEGADOR -->
+    <table
+      style="width: 100%; border-collapse: collapse; background-color: #1a3126"
+    >
+      <tr>
+        <td style="padding: 6px; width: 120px">
+          <table style="border-collapse: collapse">
+            <tr>
+              <td>
+                <div
+                  style="width: 10px; height: 10px; background: #ff5f56"
+                ></div>
+              </td>
+              <td style="width: 5px"></td>
+              <td>
+                <div
+                  style="width: 10px; height: 10px; background: #ffbd2e"
+                ></div>
+              </td>
+              <td style="width: 5px"></td>
+              <td>
+                <div
+                  style="width: 10px; height: 10px; background: #27c93f"
+                ></div>
+              </td>
+            </tr>
+          </table>
+        </td>
+
+        <td style="color: #7f9a8c; font-size: 11px; padding-left: 5px">
+          https://palerose.academy/maya
+        </td>
+      </tr>
+    </table>
+
+    <!-- CONTEÚDO -->
+    <table style="width: 100%; border-collapse: collapse">
+      <tr>
+        <!-- TEXTO -->
+        <td
+          style="
+            width: 70%;
+            padding: 15px;
+            color: #cfd8e3;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: justify;
+            vertical-align: top;
+          "
+        >
+          <p>TEXTO</p>
+        </td>
+
+        <!-- FICHA -->
+        <td
+          style="
+            width: 25%;
+            border-left: 1px solid #1a3126;
+            padding: 10px;
+            background-color: #101c16;
+            color: #cfd8e3;
+            font-size: 11px;
+            text-transform: uppercase;
+            vertical-align: top;
+          "
+        >
+          <!-- GIF -->
+          <div style="text-align: center; margin-bottom: 10px">
+            <img
+              src="https://i.pinimg.com/originals/ca/f0/cf/caf0cf5f425d966e6306c35ddf6d4ca8.gif"
+              style="
+                width: 120px;
+                height: 120px;
+                object-fit: cover;
+                border: 2px solid #1a3126;
+              "
+            />
+          </div>
+
+          <!-- NOME -->
+          <div
+            style="
+              font-size: 14px;
+              letter-spacing: 1px;
+              margin-bottom: 10px;
+              color: #349367;
+              text-align: center;
+            "
+          >
+            MAYA RUSU
+          </div>
+
+          <!-- INFO -->
+          <table style="width: 100%; font-size: 11px">
+            <tr>
+              <td>raça:</td>
+              <td style="text-align: right">lobisomem</td>
+            </tr>
+            <tr>
+              <td>facção:</td>
+              <td style="text-align: right">lupora</td>
+            </tr>
+            <tr>
+              <td>alcateia:</td>
+              <td style="text-align: right">lua cinzenta</td>
+            </tr>
+            <tr>
+              <td>nível:</td>
+              <td style="text-align: right">01</td>
+            </tr>
+            <tr>
+              <td>idade:</td>
+              <td style="text-align: right">15</td>
+            </tr>
+            <tr>
+              <td>hp:</td>
+              <td style="text-align: right">023</td>
+            </tr>
+          </table>
+
+          <!-- CONTATO -->
+          <div
+            style="
+              margin-top: 10px;
+              border-top: 1px solid #1a3126;
+              padding-top: 8px;
+              font-size: 10px;
+              color: #7f9a8c;
+              text-align: center;
+            "
+          >
+            @lilamontenegro
+          </div>
+
+          <!-- FRASE -->
+          <div
+            style="
+              margin-top: 10px;
+              padding: 6px;
+              background-color: #0e1a14;
+              border: 1px solid #1a3126;
+              font-size: 10px;
+              text-transform: none;
+              color: #a8b6c7;
+              font-style: italic;
+              text-align: center;
+            "
+          >
+            "I thought that I could trust you, nevermind Why all the switching
+            sides?"
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</center>
+`;
+
 const getCharHTML = (char) => {
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
   else if (char == "aspen-twh") return { html: aspenTwhHTML, color: "#779ECB" };
@@ -2386,8 +2547,8 @@ const getCharHTML = (char) => {
   else if (char == "blake") return { html: blakeHTML, color: "#8f6331" };
   else if (char == "maddie") return { html: maddieHTML, color: "#910000" };
   else if (char == "ryan") return { html: ryanHTML, color: "#5aa7ff" };
-  else if (char == "emma") return { html: maddieHTML, color: "#910000" };
-  else if (char == "maya") return { html: maddieHTML, color: "#910000" };
+  else if (char == "anna") return { html: maddieHTML, color: "#910000" };
+  else if (char == "maya") return { html: mayaHTML, color: "#349367" };
 };
 
 function getTextReady(char, color) {
