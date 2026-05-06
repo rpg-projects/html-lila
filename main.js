@@ -2527,7 +2527,176 @@ const mayaHTML = `<center style="font-family: courier new; margin: 40px auto">
 </center>
 `;
 
-const annaHTML = ``;
+const annaHTML = `<center style="font-family: courier new; margin: 40px auto">
+  <div
+    style="width: 720px; background-color: #0e1a14; border: 2px solid #1a3126"
+  >
+    <!-- BARRA DE NAVEGADOR -->
+    <table
+      style="width: 100%; border-collapse: collapse; background-color: #1a3126"
+    >
+      <tr>
+        <td style="padding: 6px; width: 120px">
+          <table style="border-collapse: collapse">
+            <tr>
+              <td>
+                <div
+                  style="width: 10px; height: 10px; background: #ff5f56"
+                  class="img-circle"
+                >
+                  .
+                </div>
+              </td>
+              <td style="width: 5px"></td>
+              <td>
+                <div
+                  style="width: 10px; height: 10px; background: #ffbd2e"
+                  class="img-circle"
+                >
+                  .
+                </div>
+              </td>
+              <td style="width: 5px"></td>
+              <td>
+                <div
+                  style="width: 10px; height: 10px; background: #27c93f"
+                  class="img-circle"
+                >
+                  .
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+
+        <td style="color: #7f9a8c; font-size: 11px; padding-left: 5px">
+          https://palerose.academy/deanna
+        </td>
+      </tr>
+    </table>
+
+    <!-- CONTEÚDO -->
+    <table style="width: 100%; border-collapse: collapse">
+      <tr>
+        <!-- TEXTO -->
+        <td
+          style="
+            width: 70%;
+            padding: 15px;
+            color: #cfd8e3;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: justify;
+            vertical-align: top;
+          "
+        >
+          <p>TEXTO</p>
+        </td>
+
+        <!-- FICHA -->
+        <td
+          style="
+            width: 25%;
+            border-left: 1px solid #1a3126;
+            padding: 10px;
+            background-color: #101c16;
+            color: #cfd8e3;
+            font-size: 11px;
+            text-transform: uppercase;
+            vertical-align: top;
+          "
+        >
+          <!-- GIF -->
+          <div style="text-align: center; margin-bottom: 10px">
+            <img
+              src="https://64.media.tumblr.com/277262d6eb1d89578175a7de854eff40/7d5a3dfb1c735dd5-2f/s400x600/fddfa03267ae6ec59ae3a97e5dad2960474a80ac.gifv"
+              style="
+                width: 120px;
+                height: 120px;
+                object-fit: cover;
+                border: 2px solid #1a3126;
+              "
+            />
+          </div>
+
+          <!-- NOME -->
+          <div
+            style="
+              font-size: 14px;
+              letter-spacing: 1px;
+              margin-bottom: 10px;
+              color: #349367;
+              text-align: center;
+            "
+          >
+            DEANNA PRITCHARD
+          </div>
+
+          <!-- INFO -->
+          <table style="width: 100%; font-size: 11px">
+            <tr>
+              <td>raça:</td>
+              <td style="text-align: right">humana</td>
+            </tr>
+            <tr>
+              <td>ordem:</td>
+              <td style="text-align: right">drazin</td>
+            </tr>
+            <tr>
+              <td>facção:</td>
+              <td style="text-align: right">lupora</td>
+            </tr>
+            <tr>
+              <td>nível:</td>
+              <td style="text-align: right">01</td>
+            </tr>
+            <tr>
+              <td>idade:</td>
+              <td style="text-align: right">16</td>
+            </tr>
+            <tr>
+              <td>hp:</td>
+              <td style="text-align: right">-</td>
+            </tr>
+          </table>
+
+          <!-- CONTATO -->
+          <div
+            style="
+              margin-top: 10px;
+              border-top: 1px solid #1a3126;
+              padding-top: 8px;
+              font-size: 10px;
+              color: #7f9a8c;
+              text-align: center;
+            "
+          >
+            @lilamontenegro
+          </div>
+
+          <!-- FRASE -->
+          <div
+            style="
+              margin-top: 10px;
+              padding: 6px;
+              background-color: #0e1a14;
+              border: 1px solid #1a3126;
+              font-size: 10px;
+              text-transform: none;
+              color: #a8b6c7;
+              font-style: italic;
+              text-align: center;
+            "
+          >
+            "On my darkest day when you're miles away So you'll come, we will
+            find our way home"
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</center>
+`;
 
 const getCharHTML = (char) => {
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
@@ -2557,7 +2726,7 @@ const getCharHTML = (char) => {
   else if (char == "blake") return { html: blakeHTML, color: "#8f6331" };
   else if (char == "maddie") return { html: maddieHTML, color: "#910000" };
   else if (char == "ryan") return { html: ryanHTML, color: "#5aa7ff" };
-  else if (char == "anna") return { html: annaHTML, color: "#910000" };
+  else if (char == "anna") return { html: annaHTML, color: "#349367" };
   else if (char == "maya") return { html: mayaHTML, color: "#349367" };
 };
 
