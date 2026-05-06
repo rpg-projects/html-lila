@@ -2315,7 +2315,7 @@ const ryanHTML = `<center style="font-family: courier new; margin: 40px auto">
             </tr>
             <tr>
               <td>hp:</td>
-              <td style="text-align: right">023</td>
+              <td style="text-align: right">-</td>
             </tr>
           </table>
 
@@ -2347,7 +2347,7 @@ const ryanHTML = `<center style="font-family: courier new; margin: 40px auto">
               text-align: center;
             "
           >
-            "So, I just float around and keep my head down And hope my life
+            "So, I just float around and keep my head down and hope my life
             unfolds"
           </div>
         </td>
@@ -2468,12 +2468,12 @@ const mayaHTML = `<center style="font-family: courier new; margin: 40px auto">
               <td style="text-align: right">lobisomem</td>
             </tr>
             <tr>
-              <td>facção:</td>
-              <td style="text-align: right">lupora</td>
-            </tr>
-            <tr>
               <td>alcateia:</td>
               <td style="text-align: right">lua cinzenta</td>
+            </tr>
+            <tr>
+              <td>facção:</td>
+              <td style="text-align: right">lupora</td>
             </tr>
             <tr>
               <td>nível:</td>
@@ -2485,7 +2485,7 @@ const mayaHTML = `<center style="font-family: courier new; margin: 40px auto">
             </tr>
             <tr>
               <td>hp:</td>
-              <td style="text-align: right">023</td>
+              <td style="text-align: right">-</td>
             </tr>
           </table>
 
@@ -2517,7 +2517,7 @@ const mayaHTML = `<center style="font-family: courier new; margin: 40px auto">
               text-align: center;
             "
           >
-            "I thought that I could trust you, nevermind Why all the switching
+            "I thought that I could trust you, nevermind. Why all the switching
             sides?"
           </div>
         </td>
