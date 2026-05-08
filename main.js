@@ -2204,7 +2204,7 @@ const ryanHTML = `<center style="font-family: courier new; margin: 40px auto">
                   style="width: 10px; height: 10px; background: #ff5f56"
                   class="img-circle"
                 >
-                  .
+                  <span style="color: #1f2a38">.</span>
                 </div>
               </td>
               <td style="width: 5px"></td>
@@ -2213,7 +2213,7 @@ const ryanHTML = `<center style="font-family: courier new; margin: 40px auto">
                   style="width: 10px; height: 10px; background: #ffbd2e"
                   class="img-circle"
                 >
-                  .
+                  <span style="color: #1f2a38">.</span>
                 </div>
               </td>
               <td style="width: 5px"></td>
@@ -2222,7 +2222,7 @@ const ryanHTML = `<center style="font-family: courier new; margin: 40px auto">
                   style="width: 10px; height: 10px; background: #27c93f"
                   class="img-circle"
                 >
-                  .
+                  <span style="color: #1f2a38">.</span>
                 </div>
               </td>
             </tr>
@@ -2374,7 +2374,7 @@ const mayaHTML = `<center style="font-family: courier new; margin: 40px auto">
                   style="width: 10px; height: 10px; background: #ff5f56"
                   class="img-circle"
                 >
-                  .
+                  <span style="color: #1a3126">.</span>
                 </div>
               </td>
               <td style="width: 5px"></td>
@@ -2383,7 +2383,7 @@ const mayaHTML = `<center style="font-family: courier new; margin: 40px auto">
                   style="width: 10px; height: 10px; background: #ffbd2e"
                   class="img-circle"
                 >
-                  .
+                  <span style="color: #1a3126">.</span>
                 </div>
               </td>
               <td style="width: 5px"></td>
@@ -2392,7 +2392,7 @@ const mayaHTML = `<center style="font-family: courier new; margin: 40px auto">
                   style="width: 10px; height: 10px; background: #27c93f"
                   class="img-circle"
                 >
-                  .
+                  <span style="color: #1a3126">.</span>
                 </div>
               </td>
             </tr>
@@ -2544,7 +2544,7 @@ const annaHTML = `<center style="font-family: courier new; margin: 40px auto">
                   style="width: 10px; height: 10px; background: #ff5f56"
                   class="img-circle"
                 >
-                  .
+                  <span style="color: #1a3126">.</span>
                 </div>
               </td>
               <td style="width: 5px"></td>
@@ -2553,7 +2553,7 @@ const annaHTML = `<center style="font-family: courier new; margin: 40px auto">
                   style="width: 10px; height: 10px; background: #ffbd2e"
                   class="img-circle"
                 >
-                  .
+                  <span style="color: #1a3126">.</span>
                 </div>
               </td>
               <td style="width: 5px"></td>
@@ -2562,7 +2562,7 @@ const annaHTML = `<center style="font-family: courier new; margin: 40px auto">
                   style="width: 10px; height: 10px; background: #27c93f"
                   class="img-circle"
                 >
-                  .
+                  <span style="color: #1a3126">.</span>
                 </div>
               </td>
             </tr>
@@ -2697,6 +2697,180 @@ const annaHTML = `<center style="font-family: courier new; margin: 40px auto">
 </center>
 `;
 
+const rileyHTML = `<center style="font-family: courier new; margin: 40px auto">
+  <div
+    style="width: 720px; background-color: #111f1b; border: 2px solid #253631"
+  >
+    <!-- BARRA DE NAVEGADOR -->
+    <table
+      style="width: 100%; border-collapse: collapse; background-color: #253631"
+    >
+      <tr>
+        <td style="padding: 6px; width: 120px">
+          <table style="border-collapse: collapse">
+            <tr>
+              <td>
+                <div
+                  style="width: 10px; height: 10px; background: #ff5f56"
+                  class="img-circle"
+                >
+                  <span style="color: #253631">.</span>
+                </div>
+              </td>
+              <td style="width: 5px"></td>
+              <td>
+                <div
+                  style="width: 10px; height: 10px; background: #ffbd2e"
+                  class="img-circle"
+                >
+                  <span style="color: #253631">.</span>
+                </div>
+              </td>
+              <td style="width: 5px"></td>
+              <td>
+                <div
+                  style="width: 10px; height: 10px; background: #27c93f"
+                  class="img-circle"
+                >
+                  <span style="color: #253631">.</span>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+
+        <td style="color: #94b3aa; font-size: 11px; padding-left: 5px">
+          https://palerose.academy/riley
+        </td>
+      </tr>
+    </table>
+
+    <!-- CONTEÚDO -->
+    <table style="width: 100%; border-collapse: collapse">
+      <tr>
+        <td
+          style="
+            width: 70%;
+            padding: 15px;
+            color: #cfd8e3;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: justify;
+            vertical-align: top;
+          "
+        >
+          <p>TEXTO</p>
+        </td>
+
+        <!-- FICHA -->
+        <td
+          style="
+            width: 25%;
+            border-left: 1px solid #253631;
+            padding: 10px;
+            background-color: #111d1a;
+            color: #cfd8e3;
+            font-size: 11px;
+            text-transform: uppercase;
+            vertical-align: top;
+          "
+        >
+          <!-- GIF -->
+          <div style="text-align: center; margin-bottom: 10px">
+            <img
+              src="https://64.media.tumblr.com/35d1c62eca6822cec6ee699abc34a9a3/5b9fc9a237631429-e0/s640x960/fefb51206c85aa71b1e5be2b0ee51770c0b30ba6.gifv"
+              style="
+                width: 120px;
+                height: 120px;
+                object-fit: cover;
+                border: 2px solid #253631;
+              "
+            />
+          </div>
+
+          <!-- NOME -->
+          <div
+            style="
+              font-size: 14px;
+              letter-spacing: 1px;
+              margin-bottom: 10px;
+              color: #32aa86;
+              text-align: center;
+            "
+          >
+            Riley Shepard
+          </div>
+
+          <!-- INFO -->
+          <table style="width: 100%; font-size: 11px">
+            <tr>
+              <td>raça:</td>
+              <td style="text-align: right">vampira</td>
+            </tr>
+            <tr>
+              <td>clã:</td>
+              <td style="text-align: right">tremere</td>
+            </tr>
+            <tr>
+              <td>facção:</td>
+              <td style="text-align: right">lupora</td>
+            </tr>
+            <tr>
+              <td>nível:</td>
+              <td style="text-align: right">01</td>
+            </tr>
+            <tr>
+              <td>idade aparente:</td>
+              <td style="text-align: right">15</td>
+            </tr>
+            <tr>
+              <td>idade real:</td>
+              <td style="text-align: right">18</td>
+            </tr>
+            <tr>
+              <td>hp:</td>
+              <td style="text-align: right">-</td>
+            </tr>
+          </table>
+
+          <!-- CONTATO -->
+          <div
+            style="
+              margin-top: 10px;
+              border-top: 1px solid #253631;
+              padding-top: 8px;
+              font-size: 10px;
+              color: #94b3aa;
+              text-align: center;
+            "
+          >
+            @lilamontenegro
+          </div>
+
+          <!-- FRASE -->
+          <div
+            style="
+              margin-top: 10px;
+              padding: 6px;
+              background-color: #111f1b;
+              border: 1px solid #253631;
+              font-size: 10px;
+              text-transform: none;
+              color: #a8b6c7;
+              font-style: italic;
+              text-align: center;
+            "
+          >
+            "I've heard of a love that comes once in a lifetime. And I'm pretty
+            sure that you are that love of mine"
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</center>
+`;
+
 const getCharHTML = (char) => {
   if (char == "elodie") return { html: elodieHTML, color: "#9ab973" };
   else if (char == "aspen-twh") return { html: aspenTwhHTML, color: "#779ECB" };
@@ -2727,6 +2901,7 @@ const getCharHTML = (char) => {
   else if (char == "ryan") return { html: ryanHTML, color: "#5aa7ff" };
   else if (char == "anna") return { html: annaHTML, color: "#349367" };
   else if (char == "maya") return { html: mayaHTML, color: "#349367" };
+  else if (char == "riley") return { html: rileyHTML, color: "#32aa86" };
 };
 
 function getTextReady(char, color) {
