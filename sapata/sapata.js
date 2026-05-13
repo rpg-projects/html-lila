@@ -177,7 +177,7 @@ const odessaHTML = `<center>
 
 const getCharHTML = (char) => {
   if (char == "juno") return { html: junoHTML, color: "#cb9698" };
-  else if (char == "odessa") return { html: emmaHTML, color: "#703e8d" };
+  else if (char == "odessa") return { html: odessaHTML, color: "#703e8d" };
 };
 
 function getTextReady(char, color) {
